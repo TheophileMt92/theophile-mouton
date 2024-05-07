@@ -56,7 +56,7 @@ menu:
     url:               /about/
   - title:             PUBLICATIONS
     url:               /about/
-    - title:           CONTACT
+  - title:             CONTACT
     url:               /about/
 
 # Add links to the footer.
