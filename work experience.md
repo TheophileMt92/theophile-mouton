@@ -1,15 +1,25 @@
 ## Work Experience
-**Postdoctoral researcher @ International Union for the Conservation of Nature Species Survivial Commission Shark Specialist Group, Montpellier - France (remote) (_2023 - 2024_)**
+<h3>International Union for the Conservation of Nature Species Survivial Commission Shark Specialist Group, Montpellier - France (remote)</h3>
+
+**Postdoctoral researcher**
+
+_2023 - 2024_
+
 - Coordinated over 60 scientists for the submission of Important Shark and Ray Areas across the Mediterranean and Black Seas and the Western Indian Ocean Region. 
 - Lead research on shortfalls in the protection of Important Shark and Ray Areas in the Central and South American Pacific, paper submitted in Marine Policy with over 40 co-authors. 
   
-**Research scientist @ Foundation for research on biodiversity, Montpellier - France (_2021 - 2022_)**
+<h3>Foundation for research on biodiversity, Montpellier - France</h3>
+
+**Research scientist**
+
+_2021 - 2022_
+
 - Analysed data on human population growth within and near protected areas over the last two centuries in the USA.
 - Led research on human disturbance impacts on freshwater biodiversity in New Zealand over three decades.
 -	Presented research findings orally within a large international research group (PARSEC).
 
 <img align="left" width="160" height="80" src="assets/img/logos/Ifremer_logo.png" alt="Ifremer logo">
-<h3> Institut of Research for the Exploitation of the Sea, Sète - France<h3>
+<h3> Institut of Research for the Exploitation of the Sea, Sète - France</h3>
 
 **Research scientist**
 
@@ -19,7 +29,7 @@
 - Led research and analyses with R on the effects of human disturbances on marine coastal biodiversity 
 
 <img align="left" width="140" height="80" src="assets/img/logos/NIWA_logo.png" alt="NIWA logo">
-<h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand <h3>
+<h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand </h3>
 
 **Research assistant**
 
