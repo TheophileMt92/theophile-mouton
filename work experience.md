@@ -12,7 +12,7 @@
 - Led and conducted a fieldwork programm to sample benthic biodiversity in Mediterranean coastal environments.
 - Led research and analyses with R on the effects of human disturbances on marine coastal biodiversity 
 
-<img align="left" width="80" height="80" src="https://github.com/TheophileMt92/hydejack-starter-kit/blob/gh-pages/assets/img/logos/NIWA_logo.png" alt="NIWA logo">
+<img align="left" width="80" height="80" src="assets/img/logos/NIWA_logo.png" alt="NIWA logo">
 <h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand <h3>
 
 **Research assistant**
