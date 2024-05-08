@@ -12,6 +12,8 @@
 - Led and conducted a fieldwork programm to sample benthic biodiversity in Mediterranean coastal environments.
 - Led research and analyses with R on the effects of human disturbances on marine coastal biodiversity 
 
+<img align="left" width="80" height="80" src="https://raw.githubusercontent.com/akarsh/akarsh-seggemu-resume/master/akarsh%20seggemu%20resume/Assets/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60%403x.png" alt="iOS resume application project app icon">
+
 **Research assistant @ National Institute for Water and Atmospheric Research, Hamilton - New Zealand (_2017 - 2019_)**
 - Assisted research projects with statistical modelling and GIS tasks 
 - Led research on human disturbance impacts on freshwater biodiversity in Waikato Region Streams. 
