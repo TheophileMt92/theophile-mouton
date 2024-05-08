@@ -41,8 +41,8 @@ logo:                  /assets/img/DSCF7388_cropped.jpg
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <Théophile L.> <Mouton>
-  email:               <theophile.mouton92@gmail.com>
+  name:                Théophile L. Mouton
+  email:               theophile.mouton92@gmail.com
   # # Used by `jekyll-seo-tag`:
   twitter:             Theophile_Mt
 
