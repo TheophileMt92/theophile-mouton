@@ -49,7 +49,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             ABOUT
-    url:               /example/
+    url:               /about_me/
   - title:             WORK EXPERIENCE 
     url:               /work experience/
   - title:             RESEARCH
