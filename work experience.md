@@ -18,7 +18,7 @@ _2021 - 2022_
 - Led research on human disturbance impacts on freshwater biodiversity in New Zealand over three decades.
 -	Presented research findings orally within a large international research group (PARSEC).
 
-<img align="left" width="160" height="80" src="assets/img/logos/Ifremer_logo.png" alt="Ifremer logo">
+<img align="top" width="160" height="80" src="assets/img/logos/Ifremer_logo.png" alt="Ifremer logo">
 <h3> Institut of Research for the Exploitation of the Sea, Sète - France</h3>
 
 **Research scientist**
@@ -28,7 +28,7 @@ _2021 - 2022_
 - Led and conducted a fieldwork programm to sample benthic biodiversity in Mediterranean coastal environments.
 - Led research and analyses with R on the effects of human disturbances on marine coastal biodiversity 
 
-<img align="left" width="140" height="80" src="assets/img/logos/NIWA_logo.png" alt="NIWA logo">
+<img align="top" width="140" height="80" src="assets/img/logos/NIWA_logo.PNG" alt="NIWA logo">
 <h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand </h3>
 
 **Research assistant**
