@@ -1,4 +1,6 @@
 ## Work Experience
+
+<img align="top" width="180" height="110" src="assets/img/logos/SSG_logo.jpg" alt="SSG logo"> 
 <h3>International Union for the Conservation of Nature Species Survivial Commission Shark Specialist Group, Montpellier - France (remote)</h3>
 
 **Postdoctoral researcher**
@@ -7,7 +9,8 @@ _2023 - 2024_
 
 - Coordinated over 60 scientists for the submission of Important Shark and Ray Areas across the Mediterranean and Black Seas and the Western Indian Ocean Region. 
 - Lead research on shortfalls in the protection of Important Shark and Ray Areas in the Central and South American Pacific, paper submitted in Marine Policy with over 40 co-authors. 
-  
+
+ <img align="top" width="180" height="80" src="assets/img/logos/CESAB_logo.jpeg" alt="CESAB logo"> 
 <h3>Foundation for research on biodiversity, Montpellier - France</h3>
 
 **Research scientist**
