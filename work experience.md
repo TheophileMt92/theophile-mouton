@@ -18,6 +18,7 @@
 **Research assistant**
 
 **2017-2019**
+
 - Assisted research projects with statistical modelling and GIS tasks 
 - Led research on human disturbance impacts on freshwater biodiversity in Waikato Region Streams. 
 - Conducted fieldwork in a remote New Caledonia atoll and in New Zealand streams.
