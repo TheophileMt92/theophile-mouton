@@ -10,7 +10,7 @@ _2023 - 2024_
 - Coordinated over 60 scientists for the submission of Important Shark and Ray Areas across the Mediterranean and Black Seas and the Western Indian Ocean Region. 
 - Lead research on shortfalls in the protection of Important Shark and Ray Areas in the Central and South American Pacific, paper submitted in Marine Policy with over 40 co-authors. 
 
- <img align="top" width="180" height="80" src="assets/img/logos/CESAB_logo.jpeg" alt="CESAB logo"> 
+ <img align="top" width="180" height="80" src="/assets/img/logos/CESAB_logo.jpeg" alt="CESAB logo"> 
 <h3>Foundation for research on biodiversity, Montpellier - France</h3>
 
 **Research scientist**
@@ -21,7 +21,7 @@ _2021 - 2022_
 - Led research on human disturbance impacts on freshwater biodiversity in New Zealand over three decades.
 -	Presented research findings orally within a large international research group (PARSEC).
 
-<img align="top" width="160" height="80" src="assets/img/logos/Ifremer_logo.png" alt="Ifremer logo">
+<img align="top" width="160" height="80" src="/assets/img/logos/Ifremer_logo.png" alt="Ifremer logo">
 <h3> Institut of Research for the Exploitation of the Sea, Sète - France</h3>
 
 **Research scientist**
@@ -31,7 +31,7 @@ _2021 - 2022_
 - Led and conducted a fieldwork programm to sample benthic biodiversity in Mediterranean coastal environments.
 - Led research and analyses with R on the effects of human disturbances on marine coastal biodiversity 
 
-<img align="top" width="140" height="80" src="assets/img/logos/NIWA_logo.PNG" alt="NIWA logo">
+<img align="top" width="140" height="80" src="/assets/img/logos/NIWA_logo.PNG" alt="NIWA logo">
 <h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand </h3>
 
 **Research assistant**
