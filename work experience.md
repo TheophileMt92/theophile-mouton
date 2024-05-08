@@ -1,6 +1,6 @@
 ## Work Experience
 
-<img align="top" width="180" height="110" src="assets/img/logos/SSG_logo.jpg" alt="SSG logo"> 
+<img align="top" width="180" height="110" src="/assets/img/logos/SSG_logo.jpg" alt="SSG logo"> 
 <h3>International Union for the Conservation of Nature Species Survivial Commission Shark Specialist Group, Montpellier - France (remote)</h3>
 
 **Postdoctoral researcher**
@@ -31,7 +31,7 @@ _2021 - 2022_
 - Led and conducted a fieldwork programm to sample benthic biodiversity in Mediterranean coastal environments.
 - Led research and analyses with R on the effects of human disturbances on marine coastal biodiversity 
 
-<img align="top" width="140" height="80" src="/assets/img/logos/NIWA_logo.PNG" alt="NIWA logo">
+<img align="top" width="140" height="80" src="/assets/img/logos/NIWA_logo.png" alt="NIWA logo">
 <h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand </h3>
 
 **Research assistant**
