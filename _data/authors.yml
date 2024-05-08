@@ -27,8 +27,8 @@ author1:
   # Rearrange to change the order in which they appear
   social:
     twitter:         Theophile_Mt
-    github:          <TheophileMt92>
-    email:           <theophile.mouton92@gmail.com>
+    github:          TheophileMt92
+    email:           theophile.mouton92@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
@@ -57,7 +57,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:        <www.linkedin.com/in/théophile-l-mouton-2b25822a3>
+    linkedin:        www.linkedin.com/in/théophile-l-mouton-2b25822a3
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>
