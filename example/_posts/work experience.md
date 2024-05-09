@@ -1,3 +1,11 @@
+---
+layout: post
+title: Work experience 
+description: >
+  A page describing my work experience 
+sitemap: false
+---
+
 ## Work Experience
 
 <h2><img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo"> </h2>

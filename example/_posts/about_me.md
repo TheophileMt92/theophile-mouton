@@ -1,3 +1,12 @@
+---
+layout: post
+title: About me
+description: >
+  This is a text describing me
+sitemap: false
+hide_last_modified: true
+---
+
 <h1>About me </h1>
 
 Hi, I’m Theo! I am data analyst and researcher with a PhD in (macro)ecology from the University Claude Bernard Lyon I, France.  
