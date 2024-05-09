@@ -39,8 +39,8 @@ keywords:              [Ecologist, Ecology, Conservation Science, R stats, Data 
 logo:                  /assets/img/DSCF7388_cropped.jpg
 
 # The favicon of the site (I've added this myself as indicated in config.md)
-favicon: /assets/icons/favicon.ico
-apple_touch_icon: /assets/icons/apple-touch-icon.png
+#favicon: /assets/icons/favicon.ico
+#apple_touch_icon: /assets/icons/apple-touch-icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
