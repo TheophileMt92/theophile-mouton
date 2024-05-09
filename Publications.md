@@ -1,3 +1,11 @@
+---
+layout: page
+title: Publications 
+description: >
+  A list of al my scientific publications with doi links
+hide_description: true
+---
+
 # Journal Articles 
 10. **Mouton T.L.**, Gonzalez-Pestana A., Rohner C.A., Charles R., García-Rodríguez E., Kyne P.M., Batlle-Morera A., Notarbartolo di Sciara G., Armstrong A.O. et al. (2024). “Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific.” Submitted to: Marine Policy. (_Major revisions_)
 9. **Mouton T.L.**, A. Boyé, M. Mclean, J.D. Tonkin, S. Dolédec, N. Bonada, M. Floury, P. Verburg, N. Mouquet, D. Mouillot, F. Leprieur (2024). “Climate change reverses the latitudinal species and trait richness gradients of river invertebrates.” Submitted to: Proceedings of the Royal Society B: Biological Sciences. (_Major revisions_)
