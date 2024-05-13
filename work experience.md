@@ -1,5 +1,11 @@
 ## Work Experience
 
+<div style="display: flex; align-items: center;">
+  <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo.jpeg" alt="First logo">
+  <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo">
+  <h3 style="margin-left: 10px;">International Union for the Conservation of Nature Species Survival Commission Shark Specialist Group, Montpellier - France (remote)</h3>
+</div>
+
 <h2><img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo"> </h2>
 <h3>International Union for the Conservation of Nature Species Survivial Commission Shark Specialist Group, Montpellier - France (remote)</h3>
 
