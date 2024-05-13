@@ -6,16 +6,12 @@ description: >
 hide_description: true
 ---
 
-My research tackles issues in biodiversity conservation to inform and improve policy outcomes. It mostly involves statistical and GIS analyses of large biodiversity databases. This relates to the fields of community ecology, conservation sciences and biogeography. 
+My research tackles fundamental questions in biodiversity conservation to improve our understanding on the distribution and sensitivity of species to environmental changes, and inform policy outcomes. It mostly involves statistical and GIS analyses of large biodiversity databases. This relates to the fields of community ecology, conservation sciences and biogeography. 
 
 <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/OceanImageBank_HannesKlostermann_55.jpg" style="width: 100%; height: 200;" />
 
 ***
-<div style="overflow: hidden;">
-  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 40%; height: 140; float: right; margin-left: 10px;" />
-  <p>
-
-  <h3>Temporal changes in biodiversity</h3>
+  <h3>Temporal changes in biodiversity facing global change</h3>
 
   <ul>
     <h4>Example publications</h4>
@@ -23,16 +19,13 @@ My research tackles issues in biodiversity conservation to inform and improve po
     <li><strong>Mouton T.L.</strong> et al. 2020. “Increasing climate-driven taxonomic homogenization but functional differentiation among river macroinvertebrate assemblages.” <em>Global Change Biology</em>. 00:1–12. <a href="https://doi.org/10.1111/gcb.15389">https://doi.org/10.1111/gcb.15389</a></li>
   </ul>
 
-  </p>
-</div>
-
 ***
 
 <div style="position: relative;">
   <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/cetacean_frenzy.jpeg" style="width: 40%; height: auto; float: left; margin-right: 30px;" />
   <p>
 
-  <h3>Biogeography and protection of marine megafauna</h3>
+  <h3>Biogeography and protection of marine fauna</h3>
 
   <ul>
     <h4>Example publications</h4>
