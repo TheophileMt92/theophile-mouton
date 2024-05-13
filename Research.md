@@ -17,11 +17,11 @@ My research tackles issues in biodiversity conservation to inform and improve po
 
   <h3>Temporal changes in biodiversity</h3>
 
-  <p>
-    <strong>Example publications</strong><br>
-    - <strong>Mouton T. L.</strong> et al. 2022. "Climate and land‐use driven reorganisation of structure and function in river macroinvertebrate communities." <em>Ecography</em> 2022(3): e06148. <a href="https://doi.org/10.1111/ecog.06148">https://doi.org/10.1111/ecog.06148</a><br>
-    - <strong>Mouton T.L.</strong> et al. 2020. “Increasing climate-driven taxonomic homogenization but functional differentiation among river macroinvertebrate assemblages.” <em>Global Change Biology</em>. 00:1–12. <a href="https://doi.org/10.1111/gcb.15389">https://doi.org/10.1111/gcb.15389</a>
-  </p>
+  <ul>
+    <li><strong>Example publications</strong></li>
+    <li><strong>Mouton T. L.</strong> et al. 2022. "Climate and land‐use driven reorganisation of structure and function in river macroinvertebrate communities." <em>Ecography</em> 2022(3): e06148. <a href="https://doi.org/10.1111/ecog.06148">https://doi.org/10.1111/ecog.06148</a></li>
+    <li><strong>Mouton T.L.</strong> et al. 2020. “Increasing climate-driven taxonomic homogenization but functional differentiation among river macroinvertebrate assemblages.” <em>Global Change Biology</em>. 00:1–12. <a href="https://doi.org/10.1111/gcb.15389">https://doi.org/10.1111/gcb.15389</a></li>
+  </ul>
 
   </p>
 </div>
