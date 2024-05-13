@@ -12,7 +12,7 @@ My research tackles issues in biodiversity conservation to inform and improve po
 
 ***
 <div style="overflow: hidden;">
-  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 40%; height: 120; float: right; margin-left: 10px;" />
+  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 40%; height: 140; float: right; margin-left: 10px;" />
   <p>
 
   <h3>Temporal changes in biodiversity</h3>
