@@ -12,7 +12,7 @@ My research tackles issues in biodiversity conservation to inform and improve po
 
 ***
 <div style="overflow: hidden;">
-  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 30%; height: auto; float: right; margin-left: 10px;" />
+  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 40%; height: auto; float: right; margin-left: 10px;" />
   <p>
 
   <h3>Temporal changes in biodiversity</h3>
@@ -35,7 +35,7 @@ My research tackles issues in biodiversity conservation to inform and improve po
   <h3>Biogeography and protection of marine megafauna</h3>
 
   <ul>
-    <strong>Example publications</strong>
+    <h4>Example publications</h4>
     <li>Pimiento et al. 2023. "Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide." <em>Nature Communications</em> 14(1): 7691. <a href="https://doi.org/10.1038/s41467-023-43212-3">https://doi.org/10.1038/s41467-023-43212-3</a></li>
     <li><strong>Mouton T. L.</strong> et al. 2022. "Spatial mismatch in diversity facets reveals contrasting protection for New Zealand's cetacean biodiversity." <em>Biological Conservation</em> 267: 109484. <a href="https://doi.org/10.1016/j.biocon.2022.109484">https://doi.org/10.1016/j.biocon.2022.109484</a></li>
   </ul>
@@ -52,7 +52,7 @@ My research tackles issues in biodiversity conservation to inform and improve po
   <h3>Conservation planning at national scales</h3>
 
   <ul>
-    <strong>Example publications</strong>
+    <h4>Example publications</h4>
     <li>Stephenson et al. 2022. "Development of a Seafloor Community Classification for the New Zealand Region Using a Gradient Forest Approach." <em>Frontiers in Marine Science</em> 8(792712). <a href="https://doi.org/10.3389/fmars.2021.792712">https://doi.org/10.3389/fmars.2021.792712</a></li>
     <li>Stephenson et al. 2021. “Cetacean conservation planning in a global diversity hotspot: dealing with uncertainty and data deficiencies”. <em>Ecosphere</em> 12(7) <a href="https://doi.org/10.1002/ecs2.3633">https://doi.org/10.1002/ecs2.3633</a></li>
     <li>Stephenson et al. 2020. "Modelling the spatial distribution of cetaceans in New Zealand waters." <em>Diversity and Distributions</em> 26(4): 495-516. <a href="https://doi.org/10.1111/ddi.13035">https://doi.org/10.1111/ddi.13035</a></li>
