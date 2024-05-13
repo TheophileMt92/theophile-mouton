@@ -8,7 +8,13 @@ hide_description: true
 
 My research tackles issues in biodiversity conservation both in the marine and freshwater realms. It mostly involves statistical modeling and GIS analyses of large biodiversity databases. This relates to the fields of community ecology, conservation sciences and biogeography. 
 
+<img src="assets/img/pictures/OceanImageBank_HannesKlostermann_55.jpg" style="width: 100%; height: auto;" />
+
 ***
+<div style="position: relative;">
+  <img src="/assets/img/pictures/NZ_wairau.jpeg" style="width: 100px; height: 100px; position: absolute; top: 0; right: 0; margin-right: 10px; margin-top: -10px;" />
+  <p>Your paragraph text goes here.</p>
+</div>
 ### Temporal changes in biodiversity 
 
 __Example publications__
