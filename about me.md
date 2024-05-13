@@ -6,7 +6,7 @@ description: >
 hide_description: true
 ---
 
-Hi, I’m Theo! I am data analyst and researcher with a PhD in (macro)ecology from the University Claude Bernard Lyon I, France.  
+Hi, I’m Theo! I am a data analyst and researcher with a PhD in (macro)ecology from the University Claude Bernard Lyon I, France.  
 
 I have 7 years of work experience in the ecological research industry. My journey has taken me through crown institutes, universities, and international organisations. My research portfolio includes (1) unraveling the responses of biodiversity to global change factors and (2) contributing to pioneering marine spatial planning initiatives.
 
