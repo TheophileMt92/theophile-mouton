@@ -2,7 +2,7 @@
 
 <div>
   <div style="display: flex; align-items: center;">
-    <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo.jpeg" alt="First logo">
+    <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo_2.png" alt="IUCN logo">
     <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo">
   </div>
   <h3 style="margin-left: 0px;">International Union for the Conservation of Nature Species Survival Commission Shark Specialist Group, Montpellier - France (remote)</h3>
