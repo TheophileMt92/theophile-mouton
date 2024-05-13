@@ -4,6 +4,7 @@ title: Research interests
 description: >
   A description of my research interests
 hide_description: true
+cover: true
 ---
 
 My research tackles fundamental questions in biodiversity conservation to improve our understanding on the distribution and sensitivity of species to environmental changes, and inform policy outcomes. It mostly involves statistical and GIS analyses of large biodiversity databases. This relates to the fields of community ecology, conservation sciences and biogeography. 
