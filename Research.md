@@ -11,17 +11,19 @@ My research tackles issues in biodiversity conservation to inform and improve po
 <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/OceanImageBank_HannesKlostermann_55.jpg" style="width: 100%; height: 200;" />
 
 ***
-  <div style="overflow: hidden;">
-  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 40%; height: 100%; float: right; margin-left: 10px;" />
+<div style="overflow: hidden;">
+  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/NZ_wairau.jpeg" style="width: 30%; height: auto; float: right; margin-left: 10px;" />
   <p>
 
-  ### Temporal changes in biodiversity 
+  <h3>Temporal changes in biodiversity</h3>
 
-__Example publications__
-- **Mouton T. L.** et al. 2022. "Climate and land‐use driven reorganisation of structure and function in river macroinvertebrate communities." _Ecography_ 2022(3): e06148. [https://doi.org/10.1111/ecog.06148](https://doi.org/10.1111/ecog.06148)
-- **Mouton T.L.** et al. 2020. “Increasing climate-driven taxonomic homogenization but functional differentiation among river macroinvertebrate assemblages.” _Global Change Biology_. 00:1–12. [https://doi.org/10.1111/gcb.15389](https://doi.org/10.1111/gcb.15389)
+  <p>
+    <strong>Example publications</strong><br>
+    - <strong>Mouton T. L.</strong> et al. 2022. "Climate and land‐use driven reorganisation of structure and function in river macroinvertebrate communities." <em>Ecography</em> 2022(3): e06148. <a href="https://doi.org/10.1111/ecog.06148">https://doi.org/10.1111/ecog.06148</a><br>
+    - <strong>Mouton T.L.</strong> et al. 2020. “Increasing climate-driven taxonomic homogenization but functional differentiation among river macroinvertebrate assemblages.” <em>Global Change Biology</em>. 00:1–12. <a href="https://doi.org/10.1111/gcb.15389">https://doi.org/10.1111/gcb.15389</a>
+  </p>
 
- </p>
+  </p>
 </div>
 
 ***
