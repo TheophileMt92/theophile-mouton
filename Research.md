@@ -29,7 +29,7 @@ My research tackles issues in biodiversity conservation to inform and improve po
 ***
 
 <div style="position: relative;">
-  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/cetacean_frenzy.jpeg" style="width: 40%; height: auto; float: left; margin-right: 20px;" />
+  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/cetacean_frenzy.jpeg" style="width: 40%; height: auto; float: left; margin-right: 30px;" />
   <p>
 
   <h3>Biogeography and protection of marine megafauna</h3>
