@@ -21,9 +21,6 @@ __Example publications__
 - **Mouton T. L.** et al. 2022. "Climate and land‐use driven reorganisation of structure and function in river macroinvertebrate communities." _Ecography_ 2022(3): e06148. [https://doi.org/10.1111/ecog.06148](https://doi.org/10.1111/ecog.06148)
 - **Mouton T.L.** et al. 2020. “Increasing climate-driven taxonomic homogenization but functional differentiation among river macroinvertebrate assemblages.” _Global Change Biology_. 00:1–12. [https://doi.org/10.1111/gcb.15389](https://doi.org/10.1111/gcb.15389)
 
-</p>
-</div>
-
 ***
 
 <div style="position: relative;">
