@@ -7,7 +7,7 @@ hide_description: true
 ---
 
 <h2>Journal Articles</h2>
-<ol start="10">
+<ol start="10" reversed>
   <li><strong>Mouton T.L.</strong>, Gonzalez-Pestana A., Rohner C.A., Charles R., García-Rodríguez E., Kyne P.M., Batlle-Morera A., Notarbartolo di Sciara G., Armstrong A.O. et al. (2024). “Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific.” Submitted to: Marine Policy. (<em>Major revisions</em>)</li>
   <li><strong>Mouton T.L.</strong>, A. Boyé, M. Mclean, J.D. Tonkin, S. Dolédec, N. Bonada, M. Floury, P. Verburg, N. Mouquet, D. Mouillot, F. Leprieur (2024). “Climate change reverses the latitudinal species and trait richness gradients of river invertebrates.” Submitted to: Proceedings of the Royal Society B: Biological Sciences. (<em>Major revisions</em>)</li>
   <li>Pimiento C., C. Albouy, D. Silvestro, <strong>T. L. Mouton</strong>, L. Velez, D. Mouillot, A. B. Judah, J. N. Griffin and F. Leprieur (2023). "Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide." <em>Nature Communications</em> 14(1): 7691. <a href="https://doi.org/10.1038/s41467-023-43212-3">https://doi.org/10.1038/s41467-023-43212-3</a></li>
