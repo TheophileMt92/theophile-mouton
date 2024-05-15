@@ -2,7 +2,7 @@
 layout: page
 title: Publications 
 description: >
-  A list of al my scientific publications with doi links
+  A list of all my scientific publications with doi links
 hide_description: true
 ---
 

@@ -7,7 +7,7 @@ hide_description: true
 cover: true
 ---
 
-My research tackles fundamental questions in biodiversity conservation to improve our understanding on the distribution and sensitivity of species to environmental changes, and inform policy outcomes. It mostly involves statistical and GIS analyses of large biodiversity databases. This relates to the fields of community ecology, conservation sciences and biogeography. 
+My research tackles fundamental questions in biodiversity conservation to improve our understanding on the distribution and sensitivity of species to environmental changes. The objective is to make conservation more effective by improving evaluations of conservation policy and practice. My work mostly involves statistical and GIS analyses of large biodiversity databases, and occasional field surveys. This research is within the disciplines of community ecology, conservation sciences and biogeography. 
 
 <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/OceanImageBank_HannesKlostermann_55.jpg" style="width: 100%; height: 200;" />
 
