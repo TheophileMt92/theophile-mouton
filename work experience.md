@@ -22,7 +22,7 @@ _2023 - 2024_
  <h2> <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/MARBEC_logo.jpeg" alt="MARBEC logo"> </h2>
 <h3>Marine Biodiversity Exploitation and Conservation (Joint Research Unit), Montpellier - France</h3>
 
-[MARBEC's website](https://umr-marbec.fr/en/)
+[https://umr-marbec.fr/en/](https://umr-marbec.fr/en/)
 
 **PhD student**
 
@@ -51,7 +51,7 @@ _2021 - 2022_
 <h2> <img align="top" width="160" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Ifremer_logo.png" alt="Ifremer logo"></h2>
 <h3> Institut of Research for the Exploitation of the Sea, Sète - France</h3>
 
-[https://www.ifremer.fr/fr](https://www.ifremer.fr/fr)
+[https://www.ifremer.fr/en](https://www.ifremer.fr/en)
 
 **Research scientist**
 
