@@ -36,7 +36,7 @@ _2019 - 2023_
 
 
  <h2> <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/CESAB_logo.jpeg" alt="CESAB logo"> </h2>
-<h3>Foundation for research on biodiversity, Montpellier - France</h3>
+<h3>Foundation for Research on Biodiversity (Center for the Synthesis and Analysis of Biodiversity), Montpellier - France</h3>
 
 [The CESAB website](https://www.fondationbiodiversite.fr/en/the-frb-in-action/programs-and-projects/le-cesab/)
 
