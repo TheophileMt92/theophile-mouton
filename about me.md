@@ -14,3 +14,9 @@ hide_description: true
     My focus extends beyond research – I'm deeply committed to biodiversity protection, tackling IUU fishing, and addressing labor abuses at sea. I'm enthusiastic about connecting with like-minded professionals and organizations to make a meaningful impact on the world's ecological and social challenges. Let's collaborate for a sustainable and resilient future!
  </p>
 </div>
+
+<h2> Education </h2> 
+<li>Ph.D., Ecology | Université Claude Bernard Lyon I, France (_2023_)</li> 
+<li>M.S., Ecology | Université de Pau et des Pays de l'Adour, France (_2016_)</li> 
+<li>B.S., Ecology | Université de Montpellier 2, France (_2014_)</li>
+</div>
