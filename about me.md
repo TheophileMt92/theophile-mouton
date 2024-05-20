@@ -16,7 +16,6 @@ hide_description: true
 </div>
 
 <h2> Education </h2> 
-<li>Ph.D., Ecology | Université Claude Bernard Lyon I, France (_2023_)</li> 
-<li>M.S., Ecology | Université de Pau et des Pays de l'Adour, France (_2016_)</li> 
-<li>B.S., Ecology | Université de Montpellier 2, France (_2014_)</li>
-</div>
+<li>Ph.D., Ecology | University Claude Bernard Lyon I, France (<strong>2023</strong>)</li> 
+<li>M.S., Ecology | University of Pau and Pays de l'Adour, France (<strong>2016</strong>)</li> 
+<li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
