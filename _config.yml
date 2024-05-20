@@ -68,8 +68,8 @@ menu:
 legal:
   - title:             LICENSE
     url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
+#  - title:             NOTICE
+#    url:               /NOTICE/
 #  - title:             CHANGELOG
 #    url:               /CHANGELOG/
 
