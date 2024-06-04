@@ -26,13 +26,13 @@ _2023 - 2024_
 
 **PhD student**
 
-_2019 - 2023_
+_2020 - 2023_
 
-- Led the design of a four year research project in macroecology.
+- Led the design of a three year research project in macroecology.
 - Created a dynamic international team of experts.  
 - Compiled national datasets of biodiversity, climate, land-use and habitat monitoring over three decades. 
 - Analysed three decades of change in biodiversity and relationships with global environmental changes. 
-- Published 4 scientific manuscripts in Rank A journals see [my research](https://www.theophile-mouton.com/Research/) and [my publications](https://www.theophile-mouton.com/Publications/). 
+- Published 3 scientific manuscripts in Rank A journals see [my research](https://www.theophile-mouton.com/Research/) and [my publications](https://www.theophile-mouton.com/Publications/). 
 
 
  <h2> <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/CESAB_logo.jpeg" alt="CESAB logo"> </h2>
