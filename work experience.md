@@ -14,7 +14,7 @@
 
 _2023 - 2024_
 
-- Coordinated over 60 scientists cross diverse institutions and four regions of the world to design, write, review and publish Important Shark and Ray Areas factsheets in the Mediterranean and Black Seas and the Western Indian Ocean Regions.
+- Coordinated over 60 scientists across diverse institutions to design, write, review and publish Important Shark and Ray Areas factsheets in the Mediterranean and Black Seas and the Western Indian Ocean Regions.
 - Successfully led research on shortfalls in the protection of Important Shark and Ray Areas by marine protected areas in the Central and South American Pacific utilising text mining, generalised linear mixed effects models and overlaps analyses. 
 - Contributed to developing a webmap for workshops as part of the project's outreach efforts using QGIS and ArcGIS Pro.
 
@@ -72,6 +72,6 @@ _2021 - 2022_
 - Collaborated on research projects, providing assistance with statistical programming.
 - Processed and cleaned large databases to ensure data integrity and usability.
 - Created data visualizations to effectively communicate complex information.
-- Conducted multivariate statistical analyses to uncover patterns and insights
-- Utilized machine learning models for predictions and classification tasks
-- Led the development and writing of scientific manuscripts, contributing to peer-reviewed publications
+- Conducted multivariate statistical analyses to uncover patterns and trends.
+- Utilized machine learning models for predictions and classification tasks.
+- Led the development and writing of scientific manuscripts, contributing to peer-reviewed publications.
