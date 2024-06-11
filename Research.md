@@ -40,7 +40,7 @@ My research tackles fundamental questions in biodiversity conservation to improv
 
 ***
 <div style="position: relative;">
-  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/maui_dolphin.jpeg" style="width: 40%; height: auto; float: right; margin-left: 10px;" />
+  <img src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/pictures/maui_dolphin.jpeg" style="width: 40%; height: auto; float: right; margin-left: 10px; margin-top: 25px" />
   <p>
 
   <h3>Conservation planning at national scales</h3>
