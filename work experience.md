@@ -75,3 +75,4 @@ _2021 - 2022_
 - Conducted multivariate statistical analyses to uncover patterns and trends.
 - Utilized machine learning models for predictions and classification tasks.
 - Led the development and writing of scientific manuscripts, contributing to peer-reviewed publications.
+- Co-supervised an MSc student on assessing the vulnerability of Marine Protected Areas to land-based impacts. 
