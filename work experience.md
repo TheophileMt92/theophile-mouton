@@ -10,7 +10,7 @@
 
 [https://sharkrayareas.org](https://sharkrayareas.org)
 
-**Postdoctoral researcher**
+**Scientific coordinator**
 
 _2023 - 2024_
 
