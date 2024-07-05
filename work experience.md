@@ -58,7 +58,7 @@ _2021 - 2022_
 - Supported the production of a coastal ecological health monitoring network with data cleaning, analysis and reporting.
 - Managed the ecological health monitoring network fieldwork campaigns and laboratory work. 
 - Successfully managed a mixed-method research project, including analyses of benthic biodiversity data, the creation of an ecological trait database, multivariate statistical analyses and inferential generalised models.
-- Let the development of a research project with weekly reporting to a team of experts, the hiring and supervision of an MSc student.
+- Led the development of a research project with weekly reporting to a team of experts, the hiring and supervision of an MSc student.
 
 <h2> <img align="top" width="140" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/NIWA_logo.png" alt="NIWA logo"></h2>
 <h3> National Institute for Water and Atmospheric Research, Hamilton - New Zealand </h3>
