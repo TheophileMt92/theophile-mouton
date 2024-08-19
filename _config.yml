@@ -284,10 +284,11 @@ hydejack:
     icon:              true
     
     #Added custom scripts for testimonial slider 
+    styles:
+    - href: https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css
     scripts:
-    - /_sass/js/testimonial-slider.js
-    style:
-    - /_sass/my-style.scss
+    - src: https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js
+    - src: /assets/js/testimonial-slider.js
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------

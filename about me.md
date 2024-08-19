@@ -21,6 +21,3 @@ hide_description: true
 <li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
 
 {% include testimonial-slider.html %}
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script src="/assets/js/testimonial-slider.js"></script>
