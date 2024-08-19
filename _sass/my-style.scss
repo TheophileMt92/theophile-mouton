@@ -89,6 +89,48 @@
         }
       }
     }
+
+    // Swiper specific styles
+    .swiper-container {
+      overflow: hidden;
+      position: relative;
+    }
+
+    .swiper-wrapper {
+      display: flex;
+      transition-property: transform;
+    }
+
+    .swiper-slide {
+      flex-shrink: 0;
+      width: 100%;
+      height: auto;
+    }
+
+    .swiper-pagination {
+      position: static;
+      margin-top: 20px;
+    }
+
+    .swiper-pagination-bullet {
+      width: 10px;
+      height: 10px;
+      background: #ccc;
+      opacity: 1;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #333;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      color: #333;
+      
+      &:after {
+        font-size: 24px;
+      }
+    }
   }
 }
 
@@ -129,6 +171,11 @@
         .rating {
           font-size: 16px;
         }
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
       }
     }
   }

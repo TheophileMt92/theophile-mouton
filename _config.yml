@@ -282,7 +282,10 @@ hydejack:
 
     # Set to `true` to allow visitors to switch between light and dark mode.
     icon:              true
-  
+    
+    #Added custom scripts for testimonial slider 
+    scripts:
+    - /_sass/js/testimonial-slider.js
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
