@@ -12,3 +12,122 @@
     margin: 1rem 0;
   }
 }
+
+// Testimonial Slider Styles
+
+.testimonials {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+
+    .title {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+  }
+
+  .testimonials-content {
+    .testimonials-slider {
+      .testimonials-item {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        
+        .info {
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+          }
+
+          .text-box {
+            .name {
+              font-size: 18px;
+              font-weight: bold;
+              margin: 0;
+            }
+
+            .job {
+              font-size: 14px;
+              color: #666;
+            }
+          }
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 1.6;
+          color: #555;
+          margin-bottom: 20px;
+        }
+
+        .rating {
+          color: #ffc107;
+          font-size: 18px;
+
+          .fa-star {
+            margin-right: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .testimonials {
+    .section-header {
+      .title {
+        font-size: 28px;
+      }
+    }
+
+    .testimonials-content {
+      .testimonials-item {
+        padding: 20px;
+
+        .info {
+          img {
+            width: 50px;
+            height: 50px;
+          }
+
+          .text-box {
+            .name {
+              font-size: 16px;
+            }
+
+            .job {
+              font-size: 12px;
+            }
+          }
+        }
+
+        p {
+          font-size: 14px;
+        }
+
+        .rating {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
