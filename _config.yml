@@ -84,6 +84,7 @@ paginate:              10
 paginate_path:         /:num/
 
 
+
 # Theme
 # ---------------------------------------------------------------------------------------
 
@@ -405,7 +406,11 @@ compress_html:
     envs:              [development]
 
 sass:
-  style:               compressed
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
 
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
