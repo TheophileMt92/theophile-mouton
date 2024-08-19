@@ -19,7 +19,8 @@
 
 .testimonials {
   padding: 60px 0;
-  background-color: transparent;
+  background-color: transparent !important;
+  box-shadow: none !important;
 
   .container {
     max-width: 1200px;
