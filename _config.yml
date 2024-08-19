@@ -286,6 +286,8 @@ hydejack:
     #Added custom scripts for testimonial slider 
     scripts:
     - /_sass/js/testimonial-slider.js
+    style:
+    - /_sass/my-style.scss
 
   # ⚡️ DANGER ZONE ⚡️
   # ----------------
