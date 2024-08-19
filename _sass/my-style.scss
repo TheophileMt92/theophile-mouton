@@ -26,6 +26,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    background-color: transparent !important;
   }
 
   .section-header {
@@ -40,12 +41,15 @@
   }
 
   .testimonials-content {
+    background-color: transparent !important;
+
     .testimonials-slider {
       .testimonials-item {
         background-color: #fff;
         border-radius: 8px;
         padding: 30px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
         
         .info {
           display: flex;
