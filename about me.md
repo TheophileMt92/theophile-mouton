@@ -21,3 +21,32 @@ hide_description: true
 <li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
 
 {% include testimonial-slider.html %}
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    initSwiper();
+  });
+
+  function initSwiper() {
+    console.log("Initializing Swiper");
+    try {
+      const swiper = new Swiper('.js-testimonials-slider', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+      console.log("Swiper initialized:", swiper);
+    } catch (error) {
+      console.error('Error initializing Swiper:', error);
+    }
+  }
+</script>
