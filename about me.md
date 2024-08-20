@@ -44,7 +44,7 @@ function initSwiper() {
         prevEl: '.swiper-button-prev',
       },
       autoplay: {
-        delay: 4000,
+        delay: 6000,
         disableOnInteraction: false
       }
     });
