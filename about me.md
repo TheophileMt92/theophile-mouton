@@ -20,6 +20,7 @@ hide_description: true
 <li>M.S., Ecology | University of Pau and Pays de l'Adour, France (<strong>2016</strong>)</li> 
 <li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
 
+<h2> Testimonials </h2>
 {% include testimonial-slider.html %}
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
