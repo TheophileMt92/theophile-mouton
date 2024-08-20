@@ -43,13 +43,16 @@ function initSwiper() {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      // Add autoplay configuration here
-      autoplay: {
-        delay: 2000, // Delay between transitions (in ms)
-        disableOnInteraction: false, // Continue autoplay after user interaction
-      },
     });
     console.log("Swiper initialized:", swiper);
+
+    // Add autoplay after initialization
+    swiper.autoplay.start();
+    swiper.params.autoplay = {
+      delay: 2000,
+      disableOnInteraction: false
+    };
+
   } catch (error) {
     console.error('Error initializing Swiper:', error);
   }
