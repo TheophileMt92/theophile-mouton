@@ -27,7 +27,6 @@ hide_description: true
 document.addEventListener('DOMContentLoaded', function() {
   initSwiper();
 });
-
 function initSwiper() {
   console.log("Initializing Swiper");
   try {
@@ -43,16 +42,12 @@ function initSwiper() {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+      autoplay: {
+        delay: 2000,
+        disableOnInteraction: false
+      }
     });
     console.log("Swiper initialized:", swiper);
-
-    // Add autoplay after initialization
-    swiper.autoplay.start();
-    swiper.params.autoplay = {
-      delay: 2000,
-      disableOnInteraction: false
-    };
-
   } catch (error) {
     console.error('Error initializing Swiper:', error);
   }
