@@ -7,8 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function initSwiper() {
+  console.log("Initializing Swiper");
   try {
-    new Swiper('.js-testimonials-slider', {
+    const swiper = new Swiper('.js-testimonials-slider', {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
@@ -21,6 +22,7 @@ function initSwiper() {
         prevEl: '.swiper-button-prev',
       },
     });
+    console.log("Swiper initialized:", swiper);
   } catch (error) {
     console.error('Error initializing Swiper:', error);
   }
