@@ -28,28 +28,22 @@ hide_description: true
     initSwiper();
   });
 
-document.addEventListener('DOMContentLoaded', function() {
-  const swiper = new Swiper('.testimonials-slider', {
-    // Your existing Swiper options here
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    
-    // Add autoplay configuration
-    autoplay: {
-      delay: 2000, // Delay between transitions (in ms)
-      disableOnInteraction: false, // Continue autoplay after user interaction
-    },
-  });
-});
+  function initSwiper() {
+    console.log("Initializing Swiper");
+    try {
+      const swiper = new Swiper('.js-testimonials-slider', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
       console.log("Swiper initialized:", swiper);
     } catch (error) {
       console.error('Error initializing Swiper:', error);
