@@ -1,14 +1,14 @@
 // Load Swiper library
 document.addEventListener('DOMContentLoaded', function() {
-    var script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js';
-    script.onload = initSwiper;
-    document.head.appendChild(script);
-  });
-  
-  // Initialize Swiper
-  function initSwiper() {
-    new Swiper('.swiper-container', {
+  var script = document.createElement('script');
+  script.src = 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js';
+  script.onload = initSwiper;
+  document.head.appendChild(script);
+});
+
+function initSwiper() {
+  try {
+    new Swiper('.js-testimonials-slider', {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
@@ -21,4 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         prevEl: '.swiper-button-prev',
       },
     });
+  } catch (error) {
+    console.error('Error initializing Swiper:', error);
   }
+}
