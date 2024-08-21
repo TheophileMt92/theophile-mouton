@@ -19,38 +19,3 @@ hide_description: true
 <li>Ph.D., Ecology | University Claude Bernard Lyon I, France (<strong>2023</strong>)</li> 
 <li>M.S., Ecology | University of Pau and Pays de l'Adour, France (<strong>2016</strong>)</li> 
 <li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
-
-<h2> Testimonials </h2>
-{% include testimonial-slider.html %}
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  initSwiper();
-});
-function initSwiper() {
-  console.log("Initializing Swiper");
-  try {
-    const swiper = new Swiper('.js-testimonials-slider', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 6000,
-        disableOnInteraction: false
-      }
-    });
-    console.log("Swiper initialized:", swiper);
-  } catch (error) {
-    console.error('Error initializing Swiper:', error);
-  }
-}
-</script>
