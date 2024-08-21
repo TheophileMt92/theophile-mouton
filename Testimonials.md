@@ -10,9 +10,9 @@ hide_description: true
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  initSwiper();
-});
+window.onload = function() {
+  setTimeout(initSwiper, 100);
+};
 function initSwiper() {
   console.log("Initializing Swiper");
   try {
@@ -34,8 +34,13 @@ function initSwiper() {
       }
     });
     console.log("Swiper initialized:", swiper);
+    
+    // Add this line to update the Swiper after a short delay
+    setTimeout(() => swiper.update(), 500);
   } catch (error) {
     console.error('Error initializing Swiper:', error);
   }
 }
+// Add this to reinitialize on window resize
+window.addEventListener('resize', initSwiper)
 </script>
