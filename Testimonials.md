@@ -83,5 +83,5 @@ window.addEventListener('load', () => {
 window.addEventListener('resize', () => {
   console.log("Window resized, reinitializing Swiper");
   initSwiper();
-});
+})
 </script>
