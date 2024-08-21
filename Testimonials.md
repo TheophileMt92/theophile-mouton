@@ -10,13 +10,19 @@ hide_description: true
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-window.onload = function() {
-  setTimeout(initSwiper, 100);
-};
+document.addEventListener('DOMContentLoaded', function() {
+  console.log("DOM fully loaded and parsed");
+  initSwiper();
+});
 function initSwiper() {
   console.log("Initializing Swiper");
+  var swiperElement = document.querySelector('.js-testimonials-slider');
+  if (!swiperElement) {
+    console.error("Swiper element not found");
+    return;
+  }
   try {
-    const swiper = new Swiper('.js-testimonials-slider', {
+    var swiper = new Swiper('.js-testimonials-slider', {
       slidesPerView: 1,
       spaceBetween: 30,
       loop: true,
@@ -34,14 +40,13 @@ function initSwiper() {
       }
     });
     console.log("Swiper initialized:", swiper);
-    // Add this line to update the Swiper after a short delay
-    setTimeout(function() {
-      swiper.update();
-    }, 500);
+    if (swiper.autoplay && swiper.autoplay.running) {
+      console.log("Autoplay is running");
+    } else {
+      console.log("Autoplay is not running");
+    }
   } catch (error) {
     console.error('Error initializing Swiper:', error);
   }
 }
-// Add this to reinitialize on window resize
-window.addEventListener('resize', initSwiper);
 </script>
