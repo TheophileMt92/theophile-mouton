@@ -10,43 +10,41 @@ hide_description: true
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  console.log("DOM fully loaded and parsed");
-  initSwiper();
-});
+let swiper;
 function initSwiper() {
   console.log("Initializing Swiper");
-  var swiperElement = document.querySelector('.js-testimonials-slider');
-  if (!swiperElement) {
-    console.error("Swiper element not found");
-    return;
+  if (swiper) {
+    swiper.destroy(true, true);
   }
-  try {
-    var swiper = new Swiper('.js-testimonials-slider', {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      loop: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      autoplay: {
-        delay: 6000,
-        disableOnInteraction: false
-      }
-    });
-    console.log("Swiper initialized:", swiper);
-    if (swiper.autoplay && swiper.autoplay.running) {
-      console.log("Autoplay is running");
-    } else {
-      console.log("Autoplay is not running");
+  swiper = new Swiper('.js-testimonials-slider', {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 6000,
+      disableOnInteraction: false
     }
-  } catch (error) {
-    console.error('Error initializing Swiper:', error);
+  });
+  console.log("Swiper initialized:", swiper);
+}
+function tryInitSwiper() {
+  if (document.readyState === 'complete') {
+    initSwiper();
+  } else {
+    window.addEventListener('load', initSwiper);
   }
 }
+document.addEventListener('DOMContentLoaded', tryInitSwiper);
+// Reinitialize on window resize
+window.addEventListener('resize', initSwiper);
+// Fallback initialization
+setTimeout(initSwiper, 2000);
 </script>
