@@ -34,13 +34,14 @@ function initSwiper() {
       }
     });
     console.log("Swiper initialized:", swiper);
-    
     // Add this line to update the Swiper after a short delay
-    setTimeout(() => swiper.update(), 500);
+    setTimeout(function() {
+      swiper.update();
+    }, 500);
   } catch (error) {
     console.error('Error initializing Swiper:', error);
   }
 }
 // Add this to reinitialize on window resize
-window.addEventListener('resize', initSwiper)
+window.addEventListener('resize', initSwiper);
 </script>
