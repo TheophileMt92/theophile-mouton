@@ -7,11 +7,10 @@ hide_description: true
 ---
 <style>
   .about-me-container {
-    display: flex;
-    align-items: flex-start;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    position: relative;
   }
 
   .profile-picture {
@@ -19,23 +18,45 @@ hide_description: true
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
-    margin-right: 30px;
-    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border: 4px solid white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 
   .about-me-text {
-    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .about-me-text p {
+    width: calc(50% - 110px);
+    margin: 10px 0;
+  }
+
+  .about-me-text p:nth-child(odd) {
+    padding-right: 110px;
+  }
+
+  .about-me-text p:nth-child(even) {
+    padding-left: 110px;
   }
 
   @media (max-width: 600px) {
-    .about-me-container {
-      flex-direction: column;
-      align-items: center;
+    .profile-picture {
+      position: static;
+      transform: none;
+      margin: 0 auto 20px;
+      display: block;
     }
 
-    .profile-picture {
-      margin-right: 0;
-      margin-bottom: 20px;
+    .about-me-text p {
+      width: 100%;
+      padding: 0 !important;
     }
   }
 </style>
