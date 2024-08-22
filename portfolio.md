@@ -9,7 +9,7 @@ permalink: /portfolio/
 <div id="portfolio-tabs">
   <div class="tab-container">
     <div class="tab" data-tab="project1">
-      <img src="/assets/img/portfolio/Stephenson et al. 2020.png.jpg" alt="Project 1">
+      <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
       <div class="tab-overlay">
         <span>Project 1 Name</span>
       </div>
