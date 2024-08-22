@@ -3,13 +3,14 @@ layout: page
 title: Portfolio
 permalink: /portfolio/
 ---
+### This page currently under developpement 
 
 <div id="portfolio-tabs">
   <div class="tab-container">
     <div class="tab" data-tab="project1">
       <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
       <div class="tab-overlay">
-        <span>Project 1 Name</span>
+        <span>Cetacean conservation</span>
       </div>
     </div>
     <div class="tab" data-tab="project2">
@@ -35,14 +36,16 @@ permalink: /portfolio/
   <div id="project1" class="tab-content">
     <div class="project-container">
       <div class="project-image">
-        <img src="{{ site.baseurl }}/assets/images/project1-full.jpg" alt="Project 1">
+        <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
       </div>
       <div class="project-description">
-        <h2>Project 1 Title</h2>
+        <h2>New Zealand's Cetacean Biodiversity</h2>
         <p>Description of Project 1. This is where you can provide details about the project, its objectives, and outcomes.</p>
         <p>
-          <a href="https://github.com/yourusername/project1" target="_blank">GitHub Repository</a> |
-          <a href="https://example.com/publication1" target="_blank">Publication</a>
+          <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">Stephenson et al. 2020</a>
+          <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">Stephenson et al. 2021</a>
+          <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">Mouton et al. 2022</a>
+
         </p>
       </div>
     </div>
