@@ -9,9 +9,8 @@ hide_description: true
   .about-me-container {
     display: flex;
     align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 100%;
+    padding: 20px 0;
   }
 
   .about-me-text {
@@ -19,11 +18,16 @@ hide_description: true
     padding-right: 30px;
   }
 
+  .about-me-text p {
+    margin: 0 0 15px 0;
+  }
+
   .profile-picture-container {
     flex-shrink: 0;
     width: 200px;
     height: 200px;
     position: relative;
+    margin-right: 30px;
   }
 
   .profile-picture {
@@ -38,6 +42,7 @@ hide_description: true
   @media (max-width: 600px) {
     .about-me-container {
       flex-direction: column-reverse;
+      padding: 20px;
     }
 
     .about-me-text {
@@ -48,6 +53,7 @@ hide_description: true
     .profile-picture-container {
       width: 150px;
       height: 150px;
+      margin-right: 0;
     }
 
     .profile-picture {
