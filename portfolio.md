@@ -9,16 +9,28 @@ permalink: /portfolio/
 <div id="portfolio-tabs">
   <div class="tab-container">
     <div class="tab" data-tab="project1">
-      <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
+      <img src="/assets/img/portfolio/Stephenson et al. 2020.png.jpg" alt="Project 1">
+      <div class="tab-overlay">
+        <span>Project 1 Name</span>
+      </div>
     </div>
     <div class="tab" data-tab="project2">
       <img src="{{ site.baseurl }}/assets/images/project2-thumbnail.jpg" alt="Project 2">
+      <div class="tab-overlay">
+        <span>Project 2 Name</span>
+      </div>
     </div>
     <div class="tab" data-tab="project3">
       <img src="{{ site.baseurl }}/assets/images/project3-thumbnail.jpg" alt="Project 3">
+      <div class="tab-overlay">
+        <span>Project 3 Name</span>
+      </div>
     </div>
     <div class="tab" data-tab="project4">
       <img src="{{ site.baseurl }}/assets/images/project4-thumbnail.jpg" alt="Project 4">
+      <div class="tab-overlay">
+        <span>Project 4 Name</span>
+      </div>
     </div>
   </div>
 
@@ -97,23 +109,51 @@ permalink: /portfolio/
 
   .tab {
     width: calc(25% - 15px);
-    height: 315px; /* Reduced by 30% from 450px */
+    height: 315px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
   }
 
   .tab img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: all 0.3s ease;
   }
 
-  .tab:hover {
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  .tab-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .tab-overlay span {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .tab:hover .tab-overlay {
+    opacity: 1;
+  }
+
+  .tab:hover img {
+    transform: scale(1.1);
   }
 
   .tab-content {
@@ -155,14 +195,14 @@ permalink: /portfolio/
   @media (max-width: 900px) {
     .tab {
       width: calc(50% - 10px);
-      height: 280px; /* Reduced by 30% from 400px */
+      height: 280px;
     }
   }
 
   @media (max-width: 600px) {
     .tab {
       width: 100%;
-      height: 245px; /* Reduced by 30% from 350px */
+      height: 245px;
     }
 
     .project-container {
