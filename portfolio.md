@@ -7,16 +7,29 @@ permalink: /portfolio/
 # My Portfolio
 
 <div id="portfolio-tabs">
-  <ul class="tab-list">
-    <li class="tab active" data-tab="project1">Project 1</li>
-    <li class="tab" data-tab="project2">Project 2</li>
-    <li class="tab" data-tab="project3">Project 3</li>
-  </ul>
+  <div class="tab-container">
+    <div class="tab" data-tab="project1">
+      <img src="{{ site.baseurl }}/assets/images/project1-thumbnail.jpg" alt="Project 1">
+      <h3>Project 1</h3>
+    </div>
+    <div class="tab" data-tab="project2">
+      <img src="{{ site.baseurl }}/assets/images/project2-thumbnail.jpg" alt="Project 2">
+      <h3>Project 2</h3>
+    </div>
+    <div class="tab" data-tab="project3">
+      <img src="{{ site.baseurl }}/assets/images/project3-thumbnail.jpg" alt="Project 3">
+      <h3>Project 3</h3>
+    </div>
+    <div class="tab" data-tab="project4">
+      <img src="{{ site.baseurl }}/assets/images/project4-thumbnail.jpg" alt="Project 4">
+      <h3>Project 4</h3>
+    </div>
+  </div>
 
-  <div id="project1" class="tab-content active">
+  <div id="project1" class="tab-content">
     <div class="project-container">
       <div class="project-image">
-        <img src="{{ site.baseurl }}/assets/images/project1-chart.png" alt="Project 1 Chart">
+        <img src="{{ site.baseurl }}/assets/images/project1-full.jpg" alt="Project 1">
       </div>
       <div class="project-description">
         <h2>Project 1 Title</h2>
@@ -32,7 +45,7 @@ permalink: /portfolio/
   <div id="project2" class="tab-content">
     <div class="project-container">
       <div class="project-image">
-        <img src="{{ site.baseurl }}/assets/images/project2-chart.png" alt="Project 2 Chart">
+        <img src="{{ site.baseurl }}/assets/images/project2-full.jpg" alt="Project 2">
       </div>
       <div class="project-description">
         <h2>Project 2 Title</h2>
@@ -48,7 +61,7 @@ permalink: /portfolio/
   <div id="project3" class="tab-content">
     <div class="project-container">
       <div class="project-image">
-        <img src="{{ site.baseurl }}/assets/images/project3-chart.png" alt="Project 3 Chart">
+        <img src="{{ site.baseurl }}/assets/images/project3-full.jpg" alt="Project 3">
       </div>
       <div class="project-description">
         <h2>Project 3 Title</h2>
@@ -60,40 +73,65 @@ permalink: /portfolio/
       </div>
     </div>
   </div>
+
+  <div id="project4" class="tab-content">
+    <div class="project-container">
+      <div class="project-image">
+        <img src="{{ site.baseurl }}/assets/images/project4-full.jpg" alt="Project 4">
+      </div>
+      <div class="project-description">
+        <h2>Project 4 Title</h2>
+        <p>Description of Project 4. Provide an overview of the project's goals and accomplishments here.</p>
+        <p>
+          <a href="https://github.com/yourusername/project4" target="_blank">GitHub Repository</a> |
+          <a href="https://example.com/publication4" target="_blank">Publication</a>
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style>
-  .tab-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  .tab-container {
     display: flex;
-    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
 
   .tab {
-    padding: 10px 20px;
-    cursor: pointer;
-    background-color: #f1f1f1;
+    width: calc(25% - 15px);
+    margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-bottom: none;
-    margin-right: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
 
-  .tab.active {
-    background-color: #fff;
-    border-bottom: 1px solid #fff;
+  .tab img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+
+  .tab h3 {
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .tab:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
   }
 
   .tab-content {
     display: none;
     padding: 20px;
     border: 1px solid #ccc;
-    border-top: none;
-  }
-
-  .tab-content.active {
-    display: block;
+    border-radius: 5px;
+    margin-top: 20px;
   }
 
   .project-container {
@@ -118,7 +156,17 @@ permalink: /portfolio/
     min-width: 300px;
   }
 
+  @media (max-width: 1024px) {
+    .tab {
+      width: calc(33.33% - 10px);
+    }
+  }
+
   @media (max-width: 768px) {
+    .tab {
+      width: calc(50% - 10px);
+    }
+
     .project-container {
       flex-direction: column;
     }
@@ -126,6 +174,12 @@ permalink: /portfolio/
     .project-image {
       margin-right: 0;
       margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .tab {
+      width: 100%;
     }
   }
 </style>
@@ -138,12 +192,15 @@ permalink: /portfolio/
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
         const tabId = tab.getAttribute('data-tab');
+        const content = document.getElementById(tabId);
 
-        tabs.forEach(t => t.classList.remove('active'));
-        tabContents.forEach(content => content.classList.remove('active'));
-
-        tab.classList.add('active');
-        document.getElementById(tabId).classList.add('active');
+        if (content.style.display === 'block') {
+          content.style.display = 'none';
+        } else {
+          tabContents.forEach(tc => tc.style.display = 'none');
+          content.style.display = 'block';
+          content.scrollIntoView({behavior: 'smooth'});
+        }
       });
     });
   });
