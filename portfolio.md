@@ -4,8 +4,6 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-# My Portfolio
-
 <div id="portfolio-tabs">
   <div class="tab-container">
     <div class="tab" data-tab="project1">
