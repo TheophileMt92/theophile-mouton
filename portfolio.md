@@ -9,7 +9,7 @@ permalink: /portfolio/
 <div id="portfolio-tabs">
   <div class="tab-container">
     <div class="tab" data-tab="project1">
-      <img src="{{ site.baseurl }}/assets/images/project1-thumbnail.jpg" alt="Project 1">
+      <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
       <h3>Project 1</h3>
     </div>
     <div class="tab" data-tab="project2">
@@ -101,22 +101,26 @@ permalink: /portfolio/
 
   .tab {
     width: calc(25% - 15px);
+    height: 450px; /* Increased height */
     margin-bottom: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
   }
 
   .tab img {
     width: 100%;
-    height: 150px;
+    height: 375px; /* Increased height */
     object-fit: cover;
+    flex-grow: 1;
   }
 
   .tab h3 {
-    padding: 10px;
+    padding: 15px;
     margin: 0;
     text-align: center;
     background-color: #f1f1f1;
@@ -156,15 +160,31 @@ permalink: /portfolio/
     min-width: 300px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .tab {
       width: calc(33.33% - 10px);
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .tab {
       width: calc(50% - 10px);
+      height: 400px;
+    }
+
+    .tab img {
+      height: 325px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .tab {
+      width: 100%;
+      height: 350px;
+    }
+
+    .tab img {
+      height: 275px;
     }
 
     .project-container {
@@ -174,12 +194,6 @@ permalink: /portfolio/
     .project-image {
       margin-right: 0;
       margin-bottom: 20px;
-    }
-  }
-
-  @media (max-width: 480px) {
-    .tab {
-      width: 100%;
     }
   }
 </style>
