@@ -243,12 +243,6 @@ permalink: /portfolio/
         </div>
     </div>
 </template>
-                <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
-                <a href="https://www.nature.com/articles/s41467-023-43212-3" target="_blank">Pimiento et al. 2024 (Nature communications)</a>
-            </p>
-        </div>
-    </div>
-    </template>
     <template id="project3-template">
         <div class="project-container">
             <div class="project-image">
