@@ -226,12 +226,11 @@ permalink: /portfolio/
 <template id="project2-template">
     <div class="project-container">
         <div class="project-description">
-            <h2>Functional diversity of sharks and rays</h2>
             <p>A group of researchers led by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> and <a href="https://fableprieur.weebly.com/" target="_blank">Prof. Fabien Leprieur</a> investigated the functional diversity of sharks and rays in the world.</p>
             <p>The group created a trait dataset of > 1000 species to assess elasmobranch functional diversity and compare it against previously studied facets (taxonomic and phylogenetic), to identify species- and spatial- conservation priorities.</p>
         </div>
         <div class="project-image">
-            <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
+            <img src="/assets/img/portfolio/Pimiento et al. 2024_6maps.png" alt="Project 2">
         </div>
         <div class="project-description">
             <p>The spatial analyses showed that elasmobranch functional richness is concentrated along continental shelves and around oceanic islands, with 18 distinguishable hotspots. These hotspots only marginally overlap with those of other biodiversity facets, reflecting a distinct spatial fingerprint of functional diversity. Elasmobranch biodiversity facets converge with fishing pressure along the coast of China, which emerged as a critical frontier in conservation. Meanwhile, several components of elasmobranch functional diversity fall in high seas and/or outside the global network of marine protected areas.</p>
