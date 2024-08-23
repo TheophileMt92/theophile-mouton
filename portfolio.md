@@ -239,11 +239,9 @@ permalink: /portfolio/
                 <img src="{{ site.baseurl }}/assets/images/project3-full.jpg" alt="Project 3">
             </div>
             <div class="project-description">
-                <h2>Project 3 Title</h2>
                 <p>Description of Project 3. Highlight the main aspects and achievements of your project in this section.</p>
                 <p>
-                    <a href="https://github.com/yourusername/project3" target="_blank">GitHub Repository</a> |
-                    <a href="https://example.com/publication3" target="_blank">Publication</a>
+                    <a href="https://github.com/TheophileMt92/Hierarchal-Edge-Bundling" target="_blank">GitHub Repository</a> |
                 </p>
             </div>
         </div>
