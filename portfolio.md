@@ -275,16 +275,16 @@ permalink: /portfolio/
                     description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
                 },
                 project2: {
-                    title: "Project 2 Title",
-                    description: "Brief description of Project 2 and its significance in the field of study."
+                    title: "Functional diversity of sharks and rays",
+                    description: "Macroecological analyses of shark biodiversity, overlaps with industrial fishing pressure and with marine protected areas."
                 },
                 project3: {
-                    title: "Project 3 Title",
-                    description: "Overview of Project 3, highlighting its unique aspects and contributions to the research area."
+                    title: "Hierarchical Edge Bundling",
+                    description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
                 },
                 project4: {
-                    title: "Project 4 Title ",
-                    description: "This project constituted the core of my PhD project. "
+                    title: "Temporal changes in biodiversity",
+                    description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
                 }
             };
             tabs.forEach(tab => {
