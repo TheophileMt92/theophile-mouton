@@ -166,19 +166,19 @@ permalink: /portfolio/
                 </div>
             </div>
             <div class="tab" data-tab="project2">
-                <img src="{{ site.baseurl }}/assets/images/project2-thumbnail.jpg" alt="Project 2">
+                <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
                 <div class="tab-overlay">
-                    <span class="short-title">Project 2 Name</span>
+                    <span class="short-title">Global shark biodiversity</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Detailed description of Project 2</span>
+                    <span class="long-title">Assessing elasmobranch function diversity at the global scale</span>
                 </div>
             </div>
             <div class="tab" data-tab="project3">
-                <img src="{{ site.baseurl }}/assets/images/project3-thumbnail.jpg" alt="Project 3">
+                <img src="/assets/img/portfolio/HEB_2G_males_clusters.pdf" alt="Project 3">
                 <div class="tab-overlay">
-                    <span class="short-title">Project 3 Name</span>
+                    <span class="short-title">Hierarchical Edge Bundling</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Detailed description of Project 3</span>
+                    <span class="long-title">Analyses of cardiometabolic biomarkers</span>
                 </div>
             </div>
             <div class="tab" data-tab="project4">
