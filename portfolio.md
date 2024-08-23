@@ -5,7 +5,6 @@ permalink: /portfolio/
 ---
 ### This page is currently under developpement 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,7 +31,7 @@ permalink: /portfolio/
             transition: transform 0.3s ease;
             background-color: white;
             aspect-ratio: 16 / 9; /* Maintain a consistent aspect ratio */
-            border: 2px solid #444; /* Add a dark grey border */
+            border: 2px solid #D3D3D3; /* Add a dark grey border */
             box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
         }
         .tab:hover {
