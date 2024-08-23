@@ -254,8 +254,8 @@ permalink: /portfolio/
                 <img src="/assets/img/portfolio/Mouton et al. 2022 Fig. 3.jpg" alt="Project 4">
             </div>
             <div class="project-description">
-                <h2>Project 4 Title</h2>
-                <p>Description of Project 4. Provide an overview of the project's goals and accomplishments here.</p>
+                <h2>Macroecological analyses of biodiversity change in New Zealand Rivers.</h2>
+                <p>This project constituted the core of my PhD project.</p>
                 <p>
                     <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">Mouton et al. 2020</a> |
                     <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.06148" target="_blank">Mouton et al. 2022</a>
@@ -285,7 +285,7 @@ permalink: /portfolio/
                     description: "Overview of Project 3, highlighting its unique aspects and contributions to the research area."
                 },
                 project4: {
-                    title: "Macroecological analyses of biodiversity change in New Zealand Rivers. ",
+                    title: "Project 4 Title ",
                     description: "This project constituted the core of my PhD project. "
                 }
             };
