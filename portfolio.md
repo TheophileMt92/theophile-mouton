@@ -217,7 +217,7 @@ permalink: /portfolio/
                 </p>
             </div>
         </div>
-<template id="project2-template">
+    <template id="project2-template">
     <div class="project-container">
         <div class="project-description">
             <h2>Functional diversity of sharks and rays</h2>
@@ -234,7 +234,7 @@ permalink: /portfolio/
             </p>
         </div>
     </div>
-</template>
+    </template>
     <template id="project3-template">
         <div class="project-container">
             <div class="project-image">
