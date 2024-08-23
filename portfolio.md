@@ -170,7 +170,7 @@ permalink: /portfolio/
                 <div class="tab-overlay">
                     <span class="short-title">Global shark biodiversity</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Assessing elasmobranch function diversity at the global scale</span>
+                    <span class="long-title">Assessing elasmobranch functional diversity at the global scale</span>
                 </div>
             </div>
             <div class="tab" data-tab="project3">
@@ -219,14 +219,14 @@ permalink: /portfolio/
     <template id="project2-template">
         <div class="project-container">
             <div class="project-image">
-                <img src="{{ site.baseurl }}/assets/images/project2-full.jpg" alt="Project 2">
+                <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
             </div>
             <div class="project-description">
-                <h2>Project 2 Title</h2>
+                <h2>Elasmobranch functional diversity</h2>
                 <p>Description of Project 2. Explain the key features and results of your project here.</p>
                 <p>
-                    <a href="https://github.com/yourusername/project2" target="_blank">GitHub Repository</a> |
-                    <a href="https://example.com/publication2" target="_blank">Publication</a>
+                    <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
+                    <a href="https://www.nature.com/articles/s41467-023-43212-3" target="_blank">Pimiento et al. 2024</a>
                 </p>
             </div>
         </div>
