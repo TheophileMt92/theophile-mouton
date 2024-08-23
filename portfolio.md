@@ -99,15 +99,6 @@ permalink: /portfolio/
         margin-bottom: 10px;
         padding-right: 30px;
     }
-    .modal-title h2 {
-        margin-bottom: 10px;
-    }
-    .modal-title h3 {
-        font-weight: normal;
-        color: #666;
-        margin-top: 0;
-        margin-bottom: 15px;
-    }
     .modal-divider {
         border: 0;
         height: 1px;
@@ -279,58 +270,58 @@ permalink: /portfolio/
             </div>
         </div>
     </template>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const tabs = document.querySelectorAll('.tab');
-        const modalOverlay = document.getElementById('modal-overlay');
-        const modalTitle = document.querySelector('.modal-title');
-        const modalDescription = document.querySelector('.modal-description');
-        const modalBody = document.getElementById('modal-body');
-        const closeBtn = document.querySelector('.close-btn');
-        const projectInfo = {
-            project1: {
-                title: "Cetacean Biodiversity Modelling",
-                description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
-            },
-            project2: {
-                title: "Functional diversity of sharks and rays",
-                description: "Macroecological analyses of shark biodiversity, overlaps with industrial fishing pressure and with marine protected areas."
-            },
-            project3: {
-                title: "Hierarchical Edge Bundling",
-                description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
-            },
-            project4: {
-                title: "Temporal changes in biodiversity",
-                description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
-            }
-        };
-        tabs.forEach(tab => {
-            tab.addEventListener('click', () => {
-                const tabId = tab.getAttribute('data-tab');
-                const template = document.getElementById(`${tabId}-template`);
-                if (template) {
-                    modalTitle.innerHTML = `
-                        <h2>${projectInfo[tabId].title}</h2>
-                        <h3>${projectInfo[tabId].description}</h3>
-                        <hr class="modal-divider">
-                    `;
-                    modalDescription.textContent = ''; // Clear the description as it's now part of the title
-                    modalBody.innerHTML = '';
-                    modalBody.appendChild(template.content.cloneNode(true));
-                    modalOverlay.style.display = 'block';
-                }
-            });
-        });
-        closeBtn.addEventListener('click', () => {
-            modalOverlay.style.display = 'none';
-        });
-        window.addEventListener('click', (event) => {
-            if (event.target == modalOverlay) {
-                modalOverlay.style.display = 'none';
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('.tab');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalTitle = document.querySelector('.modal-title');
+    const modalDescription = document.querySelector('.modal-description');
+    const modalBody = document.getElementById('modal-body');
+    const closeBtn = document.querySelector('.close-btn');
+    const projectInfo = {
+        project1: {
+            title: "Cetacean Biodiversity Modelling",
+            description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
+        },
+        project2: {
+            title: "Functional diversity of sharks and rays",
+            description: "Macroecological analyses of shark biodiversity, overlaps with industrial fishing pressure and with marine protected areas."
+        },
+        project3: {
+            title: "Hierarchical Edge Bundling",
+            description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
+        },
+        project4: {
+            title: "Temporal changes in biodiversity",
+            description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
+        }
+    };
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const tabId = tab.getAttribute('data-tab');
+            const template = document.getElementById(`${tabId}-template`);
+            if (template) {
+                modalTitle.innerHTML = `
+                    <h2>${projectInfo[tabId].title}</h2>
+                    <h3>${projectInfo[tabId].description}</h3>
+                    <hr class="modal-divider">
+                `;
+                modalDescription.textContent = ''; // Clear the description as it's now part of the title
+                modalBody.innerHTML = '';
+                modalBody.appendChild(template.content.cloneNode(true));
+                modalOverlay.style.display = 'block';
             }
         });
     });
+    closeBtn.addEventListener('click', () => {
+        modalOverlay.style.display = 'none';
+    });
+    window.addEventListener('click', (event) => {
+        if (event.target == modalOverlay) {
+            modalOverlay.style.display = 'none';
+        }
+    });
+});
 </script>
 </body>
 </html>
