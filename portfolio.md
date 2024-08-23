@@ -31,7 +31,7 @@ permalink: /portfolio/
             transition: transform 0.3s ease;
             background-color: white;
             aspect-ratio: 16 / 9; /* Maintain a consistent aspect ratio */
-            border: 2px solid #D3D3D3; /* Add a dark grey border */
+            border: 2px solid #D3D3D3; /* Add a colored border */
             box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
         }
         .tab:hover {
@@ -184,11 +184,11 @@ permalink: /portfolio/
                 </div>
             </div>
             <div class="tab" data-tab="project4">
-                <img src="{{ site.baseurl }}/assets/images/project4-thumbnail.jpg" alt="Project 4">
+                <img src="/assets/img/portfolio/Mouton et al. 2020 map.png" alt="Project 4">
                 <div class="tab-overlay">
-                    <span class="short-title">Project 4 Name</span>
+                    <span class="short-title">Climate change and river biodiversity</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Detailed description of Project 4</span>
+                    <span class="long-title">Time series analyses of biodiversity change in New Zealand's rivers</span>
                 </div>
             </div>
         </div>
