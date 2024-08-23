@@ -32,6 +32,8 @@ permalink: /portfolio/
             transition: transform 0.3s ease;
             background-color: white;
             aspect-ratio: 16 / 9; /* Maintain a consistent aspect ratio */
+            border: 2px solid #444; /* Add a dark grey border */
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
         }
         .tab:hover {
             transform: scale(1.05);
@@ -175,7 +177,7 @@ permalink: /portfolio/
                 </div>
             </div>
             <div class="tab" data-tab="project3">
-                <img src="/assets/img/portfolio/HEB_2G_males_clusters.pdf" alt="Project 3">
+                <img src="/assets/img/portfolio/HEB_2G_males_clusters.png" alt="Project 3">
                 <div class="tab-overlay">
                     <span class="short-title">Hierarchical Edge Bundling</span>
                     <hr class="tab-divider">
