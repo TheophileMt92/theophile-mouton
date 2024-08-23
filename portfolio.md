@@ -5,6 +5,7 @@ permalink: /portfolio/
 ---
 ### This page is currently under developpement 
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -28,26 +29,23 @@ permalink: /portfolio/
             cursor: pointer;
             overflow: hidden;
             transition: transform 0.3s ease;
-            height: 0;
-            padding-bottom: 25%; /* This makes the tab half as tall as the previous version */
+            background-color: white;
+            aspect-ratio: 16 / 9; /* Maintain a consistent aspect ratio */
         }
         .tab:hover {
             transform: scale(1.05);
         }
         .tab img {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain; /* This ensures the entire image is visible */
         }
         .tab-overlay {
             position: absolute;
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(0, 128, 0, 0.7); /* Green shade */
+            background-color: rgba(6, 79, 141, 0.8); /* Blue shade */
             color: white;
             padding: 10px;
             text-align: center;
@@ -147,13 +145,11 @@ permalink: /portfolio/
         @media (max-width: 767px) {
             .tab {
                 flex-basis: calc(50% - 20px);
-                padding-bottom: 50%; /* Adjust for smaller screens */
             }
         }
         @media (max-width: 480px) {
             .tab {
                 flex-basis: 100%;
-                padding-bottom: 100%; /* Adjust for very small screens */
             }
         }
     </style>
