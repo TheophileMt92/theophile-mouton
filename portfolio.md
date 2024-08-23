@@ -18,25 +18,33 @@ permalink: /portfolio/
             <div class="tab" data-tab="project1">
                 <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
                 <div class="tab-overlay">
-                    <span>Cetacean biodiversity modelling</span>
+                    <span class="short-title">Cetacean biodiversity modelling</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Modelling cetacean biodiversity in New Zealand waters</span>
                 </div>
             </div>
             <div class="tab" data-tab="project2">
                 <img src="{{ site.baseurl }}/assets/images/project2-thumbnail.jpg" alt="Project 2">
                 <div class="tab-overlay">
-                    <span>Project 2 Name</span>
+                    <span class="short-title">Project 2 Name</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Detailed description of Project 2</span>
                 </div>
             </div>
             <div class="tab" data-tab="project3">
                 <img src="{{ site.baseurl }}/assets/images/project3-thumbnail.jpg" alt="Project 3">
                 <div class="tab-overlay">
-                    <span>Project 3 Name</span>
+                    <span class="short-title">Project 3 Name</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Detailed description of Project 3</span>
                 </div>
             </div>
             <div class="tab" data-tab="project4">
                 <img src="{{ site.baseurl }}/assets/images/project4-thumbnail.jpg" alt="Project 4">
                 <div class="tab-overlay">
-                    <span>Project 4 Name</span>
+                    <span class="short-title">Project 4 Name</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Detailed description of Project 4</span>
                 </div>
             </div>
         </div>
@@ -143,10 +151,31 @@ permalink: /portfolio/
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 128, 0, 0.7); /* Green shade */
             color: white;
             padding: 10px;
             text-align: center;
+            transform: translateY(100%);
+            transition: transform 0.3s ease;
+        }
+        .tab:hover .tab-overlay {
+            transform: translateY(0);
+        }
+        .short-title {
+            font-size: 16px;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .tab-divider {
+            border: 0;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 5px 0;
+        }
+        .long-title {
+            font-size: 14px;
+            display: block;
         }
         .modal-overlay {
             display: none;
