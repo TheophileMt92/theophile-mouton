@@ -24,6 +24,7 @@ permalink: /portfolio/
             gap: 20px;
         }
         .tab {
+            height: 200px; /* Set a fixed height */
             flex-basis: calc(25% - 20px);
             position: relative;
             cursor: pointer;
