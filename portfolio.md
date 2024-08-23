@@ -10,7 +10,7 @@ permalink: /portfolio/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Tabs</title>
-    <style>
+   <style>
     #portfolio-tabs {
         max-width: 1200px;
         margin: 0 auto;
@@ -128,6 +128,8 @@ permalink: /portfolio/
         flex-direction: column;
         align-items: center;
         width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
     }
     .project-description {
         width: 100%;
@@ -145,8 +147,14 @@ permalink: /portfolio/
         margin: 20px auto;
     }
     @media (min-width: 768px) {
-        .project-description {
-            max-width: 80%;
+        .project-container {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .project-description,
+        .project-image {
+            width: 48%;
         }
     }
     @media (max-width: 767px) {
