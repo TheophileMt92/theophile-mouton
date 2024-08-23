@@ -228,13 +228,13 @@ permalink: /portfolio/
         <div class="project-description">
             <h2>Functional diversity of sharks and rays</h2>
             <p>Description of Project 2. Explain the key features and results of your project here.</p>
+            <div class="project-image">
+            <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
+        </div>
             <p>
                 <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
                 <a href="https://www.nature.com/articles/s41467-023-43212-3" target="_blank">Pimiento et al. 2024 (Nature communications)</a>
             </p>
-        </div>
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
         </div>
     </div>
     </template>
