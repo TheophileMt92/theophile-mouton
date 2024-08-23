@@ -137,7 +137,7 @@ permalink: /portfolio/
         margin-bottom: 20px;
     }
     .project-image {
-        width: 100%;
+        width: 75%; /* Reduced from 100% to 75% */
         text-align: center;
     }
     .project-image img {
@@ -152,9 +152,11 @@ permalink: /portfolio/
             flex-wrap: wrap;
             justify-content: space-between;
         }
-        .project-description,
-        .project-image {
+        .project-description {
             width: 48%;
+        }
+        .project-image {
+            width: 36%; /* 48% * 0.75 to maintain the 25% reduction */
         }
     }
     @media (max-width: 767px) {
@@ -201,7 +203,7 @@ permalink: /portfolio/
                 <div class="tab-overlay">
                     <span class="short-title">Climate change and river biodiversity</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Time series analyses of biodiversity change in New Zealand's rivers</span>
+                    <span class="long-title">Time series analyses of biodiversity change</span>
                 </div>
             </div>
         </div>
