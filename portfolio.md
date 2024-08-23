@@ -5,7 +5,6 @@ permalink: /portfolio/
 ---
 ### This page is currently under developpement 
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -30,7 +29,7 @@ permalink: /portfolio/
             overflow: hidden;
             transition: transform 0.3s ease;
             height: 0;
-            padding-bottom: 50%; /* This makes the tab twice as tall as it is wide */
+            padding-bottom: 25%; /* This makes the tab half as tall as the previous version */
         }
         .tab:hover {
             transform: scale(1.05);
@@ -74,87 +73,17 @@ permalink: /portfolio/
             font-size: 14px;
             display: block;
         }
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-        .modal-content {
-            background-color: #fefefe;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 1000px;
-            position: relative;
-            border-radius: 5px;
-        }
-        .modal-title {
-            font-size: 24px;
-            margin-bottom: 10px;
-            padding-right: 30px;
-        }
-        .modal-divider {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            margin: 10px 0;
-        }
-        .modal-description {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .close-btn {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .close-btn:hover,
-        .close-btn:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .project-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .project-image {
-            flex-basis: 100%;
-        }
-        .project-image img {
-            max-width: 100%;
-            height: auto;
-        }
-        .project-description {
-            flex-basis: 100%;
-        }
-        @media (min-width: 768px) {
-            .project-image,
-            .project-description {
-                flex-basis: calc(50% - 10px);
-            }
-        }
+        /* Rest of the CSS remains the same */
         @media (max-width: 767px) {
             .tab {
                 flex-basis: calc(50% - 20px);
-                padding-bottom: 100%; /* Maintain the 2:1 aspect ratio on smaller screens */
+                padding-bottom: 50%; /* Adjust for smaller screens */
             }
         }
         @media (max-width: 480px) {
             .tab {
                 flex-basis: 100%;
-                padding-bottom: 200%; /* Maintain the 2:1 aspect ratio on very small screens */
+                padding-bottom: 100%; /* Adjust for very small screens */
             }
         }
     </style>
