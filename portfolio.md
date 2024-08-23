@@ -11,150 +11,155 @@ permalink: /portfolio/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Tabs</title>
     <style>
-        #portfolio-tabs {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .tab-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            gap: 20px;
-        }
-        .tab {
-            height: 200px; /* Set a fixed height */
-            flex-basis: calc(25% - 20px);
-            position: relative;
-            cursor: pointer;
-            overflow: hidden;
-            transition: transform 0.3s ease;
-            background-color: white;
-            aspect-ratio: 16 / 9; /* Maintain a consistent aspect ratio */
-            border: 2px solid #D3D3D3; /* Add a colored border */
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow */
-        }
-        .tab:hover {
-            transform: scale(1.05);
-        }
-        .tab img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain; /* This ensures the entire image is visible */
-        }
-        .tab-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgba(6, 79, 141, 0.8); /* Blue shade */
-            color: white;
-            padding: 10px;
-            text-align: center;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-        .tab:hover .tab-overlay {
-            transform: translateY(0);
-        }
-        .short-title {
-            font-size: 16px;
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-        }
-        .tab-divider {
-            border: 0;
-            height: 1px;
-            background-color: rgba(255, 255, 255, 0.5);
-            margin: 5px 0;
-        }
-        .long-title {
-            font-size: 14px;
-            display: block;
-        }
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-        .modal-content {
-            background-color: #fefefe;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 1000px;
-            position: relative;
-            border-radius: 5px;
-        }
-        .modal-title {
-            font-size: 24px;
-            margin-bottom: 10px;
-            padding-right: 30px;
-        }
-        .modal-divider {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            margin: 10px 0;
-        }
-        .modal-description {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .close-btn {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .close-btn:hover,
-        .close-btn:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .project-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .project-image {
-            flex-basis: 100%;
-        }
-        .project-image img {
-            max-width: 100%;
-            height: auto;
-        }
+    #portfolio-tabs {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .tab-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .tab {
+        height: 200px;
+        flex-basis: calc(25% - 20px);
+        position: relative;
+        cursor: pointer;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        background-color: white;
+        aspect-ratio: 16 / 9;
+        border: 2px solid #D3D3D3;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .tab:hover {
+        transform: scale(1.05);
+    }
+    .tab img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .tab-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(6, 79, 141, 0.8);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        transform: translateY(100%);
+        transition: transform 0.3s ease;
+    }
+    .tab:hover .tab-overlay {
+        transform: translateY(0);
+    }
+    .short-title {
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+    }
+    .tab-divider {
+        border: 0;
+        height: 1px;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin: 5px 0;
+    }
+    .long-title {
+        font-size: 14px;
+        display: block;
+    }
+    .modal-overlay {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%;
+        max-width: 1000px;
+        position: relative;
+        border-radius: 5px;
+    }
+    .modal-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+        padding-right: 30px;
+    }
+    .modal-divider {
+        border: 0;
+        height: 1px;
+        background-color: #ccc;
+        margin: 10px 0;
+    }
+    .modal-description {
+        font-size: 16px;
+        color: #666;
+        margin-bottom: 20px;
+    }
+    .close-btn {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .close-btn:hover,
+    .close-btn:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .project-description {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .project-image {
+        width: 100%;
+        text-align: center;
+    }
+    .project-image img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+    @media (min-width: 768px) {
         .project-description {
+            max-width: 80%;
+        }
+    }
+    @media (max-width: 767px) {
+        .tab {
+            flex-basis: calc(50% - 20px);
+        }
+    }
+    @media (max-width: 480px) {
+        .tab {
             flex-basis: 100%;
         }
-        @media (min-width: 768px) {
-            .project-image,
-            .project-description {
-                flex-basis: calc(50% - 10px);
-            }
-        }
-        @media (max-width: 767px) {
-            .tab {
-                flex-basis: calc(50% - 20px);
-            }
-        }
-        @media (max-width: 480px) {
-            .tab {
-                flex-basis: 100%;
-            }
-        }
-    </style>
+    }
+</style>
 </head>
 <body>
     <div id="portfolio-tabs">
@@ -219,19 +224,19 @@ permalink: /portfolio/
         </div>
     </template>
     <template id="project2-template">
-        <div class="project-container">
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
-            </div>
-            <div class="project-description">
-                <h2>Functional diversity of sharks and rays</h2>
-                <p>Does it work now? Description of Project 2. Explain the key features and results of your project here.</p>
-                <p>
-                    <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
-                    <a href="https://www.nature.com/articles/s41467-023-43212-3" target="_blank">Pimiento et al. 2024 (Nature communications)</a>
-                </p>
-            </div>
+    <div class="project-container">
+        <div class="project-description">
+            <h2>Functional diversity of sharks and rays</h2>
+            <p>Description of Project 2. Explain the key features and results of your project here.</p>
+            <p>
+                <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
+                <a href="https://www.nature.com/articles/s41467-023-43212-3" target="_blank">Pimiento et al. 2024 (Nature communications)</a>
+            </p>
         </div>
+        <div class="project-image">
+            <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 2">
+        </div>
+    </div>
     </template>
     <template id="project3-template">
         <div class="project-container">
