@@ -47,7 +47,7 @@ permalink: /portfolio/
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: rgba(0, 128, 0, 0.7); /* Green shade */
+            background-color: rgba(6, 79, 141, 0.8); /* Blue shade */
             color: white;
             padding: 10px;
             text-align: center;
