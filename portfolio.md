@@ -207,8 +207,7 @@ permalink: /portfolio/
     <template id="project1-template">
     <div class="project-container">
         <div class="project-description">
-            <p>A group of researchers led by <a href="https://www.ncl.ac.uk/nuact/fellows/profile/fabricestephenson.html" target="_blank">Dr. Fabrice Stephenson</a> and myself, and involving internationally renowned cetacean ecologists, such <a href="https://mmi.oregonstate.edu/people/leigh-g-torres">Leigh G. Torres</a> investigated the spatial distribution of cetacean biodiversity in New Zealand waters.</p>
-            <p>This project led to three research papers published in Rank A journals.</p>
+            <p>A group of researchers led by <a href="https://www.ncl.ac.uk/nuact/fellows/profile/fabricestephenson.html" target="_blank">Dr. Fabrice Stephenson</a> and myself, and involving internationally renowned cetacean ecologists, such as <a href="https://mmi.oregonstate.edu/people/leigh-g-torres">Leigh G. Torres</a> and <a href="https://usys.ethz.ch/en/people/profile.MjIyODg5.TGlzdC82MzcsMzIwMTk3MjIy.html">Camille Albouy</a> investigated the spatial distribution of cetacean biodiversity in New Zealand waters. This project led to three research papers published in Rank A journals.</p>
             <p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">The first publication</a> involved modelling the spatial distribution of cetaceans in New Zealand. For this, we curated a national databases of cetacean sightings at sea (>7000 sightings) and Boosted Regression Tree and Relative Environmental Suitability modelling to predict the distribution of 30 species and species richness within New Zealand's EES.</p>
         </div>  
         <div class="project-image">
@@ -226,13 +225,7 @@ permalink: /portfolio/
         <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Project 1">
         </div>
-        <div class="project-description">
-            <p>
-                <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">Stephenson et al. 2020</a>
-                <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">Stephenson et al. 2021</a>
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">Mouton et al. 2022</a>
-            </p>
-        </div>
+        <p><a href="https://docs.niwa.co.nz/library/public/NZAEBR-240.pdf" target="_blank">A report</a> was also published and prepared for Fisheries New Zealand (Ministry for Primary Industries). </p> 
     </div>
 </template>
 <template id="project2-template">
