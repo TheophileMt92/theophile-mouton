@@ -275,12 +275,6 @@ permalink: /portfolio/
             <div class="project-image">
                 <img src="/assets/img/portfolio/Mouton et al. 2022 Fig. 3 cut.png" alt="Project 4">
             </div>
-            
-                <p>
-                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">Mouton et al. 2020</a> |
-                    <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.06148" target="_blank">Mouton et al. 2022</a>
-                </p>
-            </div>
         </div>
     </template>
     <script>
