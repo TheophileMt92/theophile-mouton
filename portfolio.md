@@ -359,8 +359,8 @@ permalink: /portfolio/
                     description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
                 },
                 project6: {
-                    title: "Ecosystem Modeling",
-                    description: "Developing and applying complex models to simulate marine ecosystem dynamics under various environmental scenarios."
+                    title: "Functional diversity response to habitat disturbances",
+                    description: "Analysing native and non-native stream macrophyte assemblage response to habitat disturbances in an agricultural landscape."
                 }
             };
             tabs.forEach(tab => {
