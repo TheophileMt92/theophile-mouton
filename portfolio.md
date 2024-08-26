@@ -263,8 +263,19 @@ permalink: /portfolio/
                 <img src="/assets/img/portfolio/Mouton et al. 2022 Fig. 3.jpg" alt="Project 4">
             </div>
             <div class="project-description">
-                <h2>Macroecological analyses of biodiversity change in New Zealand Rivers.</h2>
-                <p>This project constituted the core of my PhD project.</p>
+                <p>This project constituted the core of my PhD project. I designed and led studies on temporal changes in biodiversity under climte and land-use change using databases from New Zealand's national network monitoring programs.</p>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Mouton et al. 2020 map.png" alt="Project 4">
+            </div>
+                <p>In <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">the first publication</a>. I assessed temporal changes in taxonomic and functional spatial beta-diversity of river macroinvertebrates and possible drivers of these changes using Hierarchical Generalised Additive Modelling. We observed long-term, mostly climate-induced, temporal trends towards taxonomic homogenization but functional differentiation among macroinvertebrate assemblages.</p>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Mouton et al. 2020 GCB Fig 1.png" alt="Project 4">
+            </div> 
+                <p>In <a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148" target="_blank">the second publication</a>. I examined changes in population size and range shifts of species pools, and related these to taxonomy and functional traits. We found poleward species colonisations and increasing extirpations over time in northern locations. Increases in population and species range size were more prevalent than decreases in population and range size. Species shifted their ranges towards higher latitudes on average by 50 km per decade. Despite little to no relationship with taxonomy, we uncovered distinct relationships between functional traits and population trends and latitudinal species range shifts.</p>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Mouton et al. 2022 Fig. 3 cut.png" alt="Project 4">
+            </div>
+            
                 <p>
                     <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">Mouton et al. 2020</a> |
                     <a href="https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.06148" target="_blank">Mouton et al. 2022</a>
@@ -294,7 +305,7 @@ permalink: /portfolio/
                     description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
                 },
                 project4: {
-                    title: "Temporal changes in biodiversity",
+                    title: "Macroecological analyses of biodiversity change",
                     description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
                 }
             };
