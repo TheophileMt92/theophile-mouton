@@ -219,24 +219,23 @@ permalink: /portfolio/
             </div>
         </div>
     </div>
-   <template id="project1-template">
+<template id="project1-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I was a postdoctoral researcher and scientific coordinator for the IUCN SSC Shark Specialist Group during a year, working on the <a href="https://sharkrayareas.org/" target="_blank">Important Shark and Ray Areas project</a>. </p>
-            <p>As I started the job, we tackled the Mediterranean and Black Seas Region and I was responsible for coordinating research in France, Monaco and Italy.</a>. The project resulted in the publication of 65 ISRAs, read the report <a href="https://sharkrayareas.org/resources/workshop-reports/#" target="_blank">here</a>. A vide of the workshop help in Thessaloniki, Gree </p>
+            <p>I was a postdoctoral researcher and scientific coordinator for the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a> during a year, working on the <a href="https://sharkrayareas.org/" target="_blank">Important Shark and Ray Areas project</a>. </p>
+            <p>As I started the job, we tackled the Mediterranean and Black Seas Region and I was responsible for coordinating research in France, Monaco and Italy. The project resulted in the publication of 65 ISRAs, read the report <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Thessaloniki, Greece is accessible below.</p>
         </div>
         <div class="project-video">
-        <a href="https://www.youtube.com/watch?v=vghKtCjsP-g" target="_blank">
-               <img src="https://img.youtube.com/vi/vghKtCjsP-g/0.jpg" alt="YouTube video thumbnail">
+            <a href="https://www.youtube.com/watch?v=vghKtCjsP-g" target="_blank">
+                <img src="https://img.youtube.com/vi/vghKtCjsP-g/0.jpg" alt="ISRA MED Workshop video">
             </a>
         </div>
         <div class="project-description">
-            <p>The model was trained on a dataset of over 10,000 species occurrences and validated using cross-validation techniques. It achieved an accuracy of 85% in predicting species presence in previously unsurveyed areas. This work has significant implications for conservation planning and biodiversity management.</p>
+            <p>Later on, we tackled the Western Indian Ocean Region and I was responsible for coordinating research in Seychelles, the Chagos Archipelago, La Reunion, Mauritius and the United Arab Emirates. The project resulted in the publication of 125 ISRAs, read the report <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Durban, South Africa is accessible below.</p>
         </div>
         <div class="project-video">
             <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
                 <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="ISRA WIO Workshop video">
-                
             </a>
         </div>
     </div>
