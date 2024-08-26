@@ -222,16 +222,22 @@ permalink: /portfolio/
    <template id="project1-template">
     <div class="project-container">
         <div class="project-description">
-            <p>In this project, I developed a machine learning model to predict species distributions based on environmental variables. The model uses a combination of random forests and gradient boosting techniques to achieve high accuracy in predicting the presence or absence of target species across different habitats.</p>
+            <p>I was a postdoctoral researcher and scientific coordinator for the IUCN SSC Shark Specialist Group during a year, working on the <a href="https://sharkrayareas.org/" target="_blank">Important Shark and Ray Areas project</a>. </p>
+            <p>As I started the job, we tackled the Mediterranean and Black Seas Region and I was responsible for coordinating research in France, Monaco and Italy.</a>. The project resulted in the publication of 65 ISRAs, read the report <a href="https://sharkrayareas.org/resources/workshop-reports/#" target="_blank">here</a>. A vide of the workshop help in Thessaloniki, Gree </p>
         </div>
         <div class="project-video">
-            <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
-                <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="Species Distribution Modeling Video">
-                <span> </span>
+        <a href="https://www.youtube.com/watch?v=vghKtCjsP-g" target="_blank">
+               <img src="https://img.youtube.com/vi/vghKtCjsP-g/0.jpg" alt="YouTube video thumbnail">
             </a>
         </div>
         <div class="project-description">
             <p>The model was trained on a dataset of over 10,000 species occurrences and validated using cross-validation techniques. It achieved an accuracy of 85% in predicting species presence in previously unsurveyed areas. This work has significant implications for conservation planning and biodiversity management.</p>
+        </div>
+        <div class="project-video">
+            <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
+                <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="ISRA WIO Workshop video">
+                
+            </a>
         </div>
     </div>
 </template>
@@ -342,8 +348,8 @@ permalink: /portfolio/
             const closeBtn = document.querySelector('.close-btn');
             const projectInfo = {
                 project1: {
-                    title: "Machine Learning for Species Distribution",
-                    description: "Developing predictive models for species distributions using advanced machine learning techniques."
+                    title: "Important Shark and Ray Areas",
+                    description: "Mapping critical habitat of Sharks, Rays and Chimaeras accross the globe."
                 },
                 project2: {
                     title: "Hierarchical Edge Bundling",
