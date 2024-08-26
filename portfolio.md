@@ -161,7 +161,7 @@ permalink: /portfolio/
     <div id="portfolio-tabs">
         <div class="tab-container">
             <div class="tab" data-tab="project1">
-                <img src="/assets/img/portfolio/project1_image.png" alt="Project 1">
+                <img src="/assets/img/portfolio/ISRAs e-atlas.png" alt="Project 1">
                 <div class="tab-overlay">
                     <span class="short-title">Important Shark and Ray Areas</span>
                     <hr class="tab-divider">
@@ -313,7 +313,7 @@ permalink: /portfolio/
     <template id="project6-template">
         <div class="project-container">
             <div class="project-description">
-                <p>This project led to my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">first scientific publication</a>. I compiled a database of native and non-native macrophyte abundance in Waikato Region (New Zealand) streams, a matrix of 11 functional traits and associated natural and human-driven processes.</p>
+                <p>This project led to my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">first scientific publication</a>. I compiled a database of native and non-native macrophyte abundance in Waikato Region (New Zealand) streams, a matrix of 11 functional traits and data on associated natural and human-driven processes.</p>
             </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Project 5" style="width: 40%; height: auto;">
