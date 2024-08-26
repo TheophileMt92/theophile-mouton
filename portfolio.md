@@ -249,14 +249,11 @@ permalink: /portfolio/
 </template>
     <template id="project3-template">
         <div class="project-container">
-            <div class="project-image">
-                <img src="{{ site.baseurl }}/assets/images/project3-full.jpg" alt="Project 3">
-            </div>
             <div class="project-description">
-                <p>Description of Project 3. Highlight the main aspects and achievements of your project in this section.</p>
-                <p>
-                    <a href="https://github.com/TheophileMt92/Hierarchal-Edge-Bundling" target="_blank">GitHub Repository</a> |
-                </p>
+                <p>I was hired by Prof. María Paulina Correa Burrows from the Universidad de Chile to apply Hierchical Edge Bundling (HEB) to cardiometabolic health markers for a study on the effects of obesity on the health of teenagers. I produced ten different HEBs, a quarto document and publication ready charts for this consultancy. The project is publicly accessible on my <a href="https://github.com/TheophileMt92/Hierarchal-Edge-Bundling" target="_blank">GitHub Repository</a> </p>
+                <div class="project-image">
+                <img src="/assets/img/portfolio/HEB_2G_males_clusters.png" alt="Project 3">
+            </div>
             </div>
         </div>
     </template>
