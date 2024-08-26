@@ -225,7 +225,10 @@ permalink: /portfolio/
             <p>In this project, I developed a machine learning model to predict species distributions based on environmental variables. The model uses a combination of random forests and gradient boosting techniques to achieve high accuracy in predicting the presence or absence of target species across different habitats.</p>
         </div>
         <div class="project-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/T5jFvc3bX4E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
+                <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="Species Distribution Modeling Video">
+                <span>Watch Video on YouTube</span>
+            </a>
         </div>
         <div class="project-description">
             <p>The model was trained on a dataset of over 10,000 species occurrences and validated using cross-validation techniques. It achieved an accuracy of 85% in predicting species presence in previously unsurveyed areas. This work has significant implications for conservation planning and biodiversity management.</p>
