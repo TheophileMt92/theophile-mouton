@@ -231,7 +231,8 @@ permalink: /portfolio/
             </a>
         </div>
         <div class="project-description">
-            <p>Later on, we tackled the Western Indian Ocean Region and I was responsible for coordinating research in Seychelles, the Chagos Archipelago, La Reunion, Mauritius and the United Arab Emirates. The project resulted in the publication of 125 ISRAs, read the report <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Durban, South Africa is accessible below.</p>
+             <p></p>
+            <p>We later tackled the Western Indian Ocean Region and I was responsible for coordinating research in Seychelles, the Chagos Archipelago, La Réunion, Mauritius and the United Arab Emirates. The project resulted in the publication of 125 ISRAs, read the report <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Durban, South Africa is accessible below.</p>
         </div>
         <div class="project-video">
             <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
