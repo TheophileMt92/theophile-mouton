@@ -205,34 +205,36 @@ permalink: /portfolio/
         </div>
     </div>
     <template id="project1-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>A group of researchers led by <a href="https://www.ncl.ac.uk/nuact/fellows/profile/fabricestephenson.html" target="_blank">Dr. Fabrice Stephenson</a> and myself, and involving internationally renowned cetacean ecologists, such <a href="https://mmi.oregonstate.edu/people/leigh-g-torres">Leigh G. Torres</a> investigated the spatial distribution of cetacean biodiversity in New Zealand waters.</p>
-                <p> This project led to three research papers published in Rank A journals. </p>
-                <p> <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">The first publication</a> involved modelling the spatial distribution of cetaceans in New Zealand. For this, we curated a national databases of cetacean sightings at sea (>7000 sightings) and Boosted Regression Tree and Relative Environmental Suitability modelling to predict the distribution of 30 species and species richness within New Zealand's EES.
-                </div>  
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
-            </div>
-            <div class="project-description">
-            <p> <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">The second publication</a> used the prioritisation software Zonation to identify cetacean richness hotspots for conservation management. We investigated how varying levels of uncertainty in predictions of the taxa’ occurrence layers would affect our interpretation of cetacean hotspots. All uncertainty scenarios, highlighted six distinct deep offshore regions as important habitat. Identification of cetacean hotspots with varying levels of uncertainty provides a robust and efficient step toward prioritizing areas for conservation management in a participatory process. </p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Project 1">
-            </div>
-            <div class="project-description">
-            <p> In <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">the third publication</a> we modelled spatial patterns of taxonomic, functional, and phylogenetic diversity of cetaceans. We examined areas of congruence among hotspots of richness and uniqueness components of biodiversity and measured the contribution of species to biodiversity. We find that cetacean taxonomic and phylogenetic diversity are spatially mismatched with MPAs, but this is less true for functional diversity. Hotspots of congruence among richness indices are located on the continental shelf break, whereas hotspots of uniqueness indices are located closer to shore on the continental shelf. The blue whale is the only species being evolutionarily distinct, functionally unique, specialised and globally endangered.</p>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Project 1">
-            </div>
-                <p>
-                    <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">Stephenson et al. 2020</a>
-                    <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">Stephenson et al. 2021</a>
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">Mouton et al. 2022</a>
-                </p>
-            </div>
+    <div class="project-container">
+        <div class="project-description">
+            <p>A group of researchers led by <a href="https://www.ncl.ac.uk/nuact/fellows/profile/fabricestephenson.html" target="_blank">Dr. Fabrice Stephenson</a> and myself, and involving internationally renowned cetacean ecologists, such <a href="https://mmi.oregonstate.edu/people/leigh-g-torres">Leigh G. Torres</a> investigated the spatial distribution of cetacean biodiversity in New Zealand waters.</p>
+            <p>This project led to three research papers published in Rank A journals.</p>
+            <p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">The first publication</a> involved modelling the spatial distribution of cetaceans in New Zealand. For this, we curated a national databases of cetacean sightings at sea (>7000 sightings) and Boosted Regression Tree and Relative Environmental Suitability modelling to predict the distribution of 30 species and species richness within New Zealand's EES.</p>
+        </div>  
+        <div class="project-image">
+            <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 1">
         </div>
-    </template>
+        <div class="project-description">
+            <p><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">The second publication</a> used the prioritisation software Zonation to identify cetacean richness hotspots for conservation management. We investigated how varying levels of uncertainty in predictions of the taxa' occurrence layers would affect our interpretation of cetacean hotspots. All uncertainty scenarios, highlighted six distinct deep offshore regions as important habitat. Identification of cetacean hotspots with varying levels of uncertainty provides a robust and efficient step toward prioritizing areas for conservation management in a participatory process.</p>
+        </div>
+        <div class="project-image">
+            <img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Project 1">
+        </div>
+        <div class="project-description">
+            <p>In <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">the third publication</a> we modelled spatial patterns of taxonomic, functional, and phylogenetic diversity of cetaceans. We examined areas of congruence among hotspots of richness and uniqueness components of biodiversity and measured the contribution of species to biodiversity. We find that cetacean taxonomic and phylogenetic diversity are spatially mismatched with MPAs, but this is less true for functional diversity. Hotspots of congruence among richness indices are located on the continental shelf break, whereas hotspots of uniqueness indices are located closer to shore on the continental shelf. The blue whale is the only species being evolutionarily distinct, functionally unique, specialised and globally endangered.</p>
+        </div>
+        <div class="project-image">
+            <img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Project 1">
+        </div>
+        <div class="project-description">
+            <p>
+                <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">Stephenson et al. 2020</a>
+                <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">Stephenson et al. 2021</a>
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">Mouton et al. 2022</a>
+            </p>
+        </div>
+    </div>
+</template>
 <template id="project2-template">
     <div class="project-container">
         <div class="project-description">
