@@ -227,7 +227,7 @@ permalink: /portfolio/
         <div class="project-video">
             <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
                 <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="Species Distribution Modeling Video">
-                <span>Watch Video on YouTube</span>
+                <span> </span>
             </a>
         </div>
         <div class="project-description">
