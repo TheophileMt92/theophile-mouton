@@ -237,7 +237,8 @@ permalink: /portfolio/
             <img src="/assets/img/portfolio/Pimiento et al. 2024_2maps.png" alt="Project 2">
         </div>
         <div class="project-description">
-            <p>The spatial analyses showed that elasmobranch functional richness is concentrated along continental shelves and around oceanic islands, with 18 distinguishable hotspots. These hotspots only marginally overlap with those of other biodiversity facets, reflecting a distinct spatial fingerprint of functional diversity. Elasmobranch biodiversity facets converge with fishing pressure along the coast of China, which emerged as a critical frontier in conservation. Meanwhile, several components of elasmobranch functional diversity fall in high seas and/or outside the global network of marine protected areas.</p>
+            <p>The spatial analyses showed that elasmobranch functional richness is concentrated along continental shelves and around oceanic islands, with 18 distinguishable hotspots. These hotspots only marginally overlap with those of other biodiversity facets, reflecting a distinct spatial fingerprint of functional diversity. </p> 
+            <p> Elasmobranch biodiversity facets converge with fishing pressure along the coast of China, which emerged as a critical frontier in conservation. Meanwhile, several components of elasmobranch functional diversity fall in high seas and/or outside the global network of marine protected areas.</p>
             <p>These results highlight acute vulnerability of the world's elasmobranchs' functional diversity and reveal global priorities for elasmobranch functional biodiversity previously overlooked.</p>
             <p>
                 <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
@@ -284,7 +285,7 @@ permalink: /portfolio/
             const closeBtn = document.querySelector('.close-btn');
             const projectInfo = {
                 project1: {
-                    title: "Cetacean Biodiversity Modelling",
+                    title: "Cetacean Biodiversity Modelling in New Zealand Waters",
                     description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
                 },
                 project2: {
