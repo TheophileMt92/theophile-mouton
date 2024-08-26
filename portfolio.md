@@ -260,22 +260,25 @@ permalink: /portfolio/
     <template id="project4-template">
     <div class="project-container">
         <div class="project-description">
-            <p>This project constituted the core of my PhD project. I designed and led studies on temporal changes in biodiversity under climate and land-use change using databases from New Zealand's national network monitoring programs. I collaborated with many scientists during this research, mostly <a href="https://tonkinlab.org/" target="_blank">Assoc. Prof. Jonathan Tonkin</a> and <a href="https://glowabio.org/authors/mathieu-floury/" target="_blank">Dr. Mathieu Floury</a> </p>
+            <p>This project constituted the core of my PhD project. I designed and led studies on temporal changes in biodiversity under climate and land-use change using databases from New Zealand's national network monitoring programs. I collaborated with scientists during this research, mostly <a href="https://tonkinlab.org/" target="_blank">Assoc. Prof. Jonathan Tonkin</a> and <a href="https://glowabio.org/authors/mathieu-floury/" target="_blank">Dr. Mathieu Floury</a>. </p>
         </div>
         <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2020 map.png" alt="Project 4">
         </div>
         <div class="project-description">
-            <p>In <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">the first publication</a>. I assessed temporal changes in taxonomic and functional spatial beta-diversity of river macroinvertebrates and possible drivers of these changes using Hierarchical Generalised Additive Modelling. We observed long-term, mostly climate-induced, temporal trends towards taxonomic homogenization but functional differentiation among macroinvertebrate assemblages.</p>
+            <p>In <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">the first publication</a>, I assessed temporal changes in taxonomic and functional spatial beta-diversity of river macroinvertebrates and possible drivers of these changes using Hierarchical Generalised Additive Modelling. We observed long-term, mostly climate-induced, temporal trends towards taxonomic homogenization but functional differentiation among macroinvertebrate assemblages.</p>
         </div>
         <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2020 GCB Fig 1.png" alt="Project 4">
         </div> 
         <div class="project-description">
-            <p>In <a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148" target="_blank">the second publication</a>. I examined changes in population size and range shifts of species pools, and related these to taxonomy and functional traits. We found poleward species colonisations and increasing extirpations over time in northern locations. Increases in population and species range size were more prevalent than decreases in population and range size. Species shifted their ranges towards higher latitudes on average by 50 km per decade. Despite little to no relationship with taxonomy, we uncovered distinct relationships between functional traits and population trends and latitudinal species range shifts.</p>
+            <p>In <a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148" target="_blank">the second publication</a> I examined changes in population size and range shifts of species pools, and related these to taxonomy and functional traits. We found that increases in population and species range size were more prevalent than decreases in population and range size. Species shifted their ranges towards higher latitudes on average by 50 km per decade. Despite little to no relationship with taxonomy, we uncovered distinct relationships between functional traits and population trends and latitudinal species range shifts.</p>
         </div>
         <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2022 FD spaces.jpg" alt="Project 4">
+        </div>
+        <div class="project-description">
+            <p>This work was also showcased in <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve" target="_blank">Issue 12</a> of the science magasine NatureVolve, page 32.</p>
         </div>
     </div>
 </template>
