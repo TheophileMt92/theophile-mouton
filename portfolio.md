@@ -163,9 +163,9 @@ permalink: /portfolio/
             <div class="tab" data-tab="project1">
                 <img src="/assets/img/portfolio/project1_image.png" alt="Project 1">
                 <div class="tab-overlay">
-                    <span class="short-title">Machine Learning</span>
+                    <span class="short-title">Important Shark and Ray Areas</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Predicting Species Distributions</span>
+                    <span class="long-title">Mapping critical shark habitat accross the world</span>
                 </div>
             </div>
             <div class="tab" data-tab="project2">
@@ -201,11 +201,11 @@ permalink: /portfolio/
                 </div>
             </div>
             <div class="tab" data-tab="project6">
-                <img src="/assets/img/portfolio/project6_image.png" alt="Project 6">
+                <img src="/assets/img/portfolio/Mouton et al. 2018 GAbs.png" alt="Project 6">
                 <div class="tab-overlay">
-                    <span class="short-title">Ecosystem Modeling</span>
+                    <span class="short-title">Functional diversity of stream macrophytes</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Simulating Marine Ecosystem Dynamics</span>
+                    <span class="long-title">Evaluating macrophyte functional responses to anthropogenic disturbances</span>
                 </div>
             </div>
         </div>
@@ -313,13 +313,19 @@ permalink: /portfolio/
     <template id="project6-template">
         <div class="project-container">
             <div class="project-description">
-                <p>In this project, I developed an ecosystem model to simulate the dynamics of a marine ecosystem under various environmental scenarios. The model incorporates multiple trophic levels, from plankton to top predators, and accounts for key ecological processes such as predation, competition, and nutrient cycling.</p>
+                <p>This project led to my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">first scientific publication</a>. I compiled a database of native and non-native macrophyte abundance in Waikato Region (New Zealand) streams, a matrix of 11 functional traits and associated natural and human-driven processes.</p>
             </div>
             <div class="project-image">
-                <img src="/assets/img/portfolio/project6_image.png" alt="Project 6">
+                <img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Project 5" style="width: 40%; height: auto;">
             </div>
             <div class="project-description">
-                <p>The model was calibrated using long-term ecological data from a well-studied marine ecosystem and validated against independent datasets. It successfully reproduced observed patterns of species abundance and community composition. The model is now being used to forecast potential impacts of climate change and fishing pressure on marine ecosystem structure and function.</p>
+                <p>I used a three-way ordination technic (RLQ analysis), multidimentional functional diversity indices and a model-averaging procedure to determine the functional response of macrophytes to anthrpogenic disturbances. This demonstrated that stream reach-scale habitat disturbances were associated to a dominance of more productive species, equating to a greater abundance of non-native species. </p>
+                </div>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Mouton et al. 2018 diverging barplot.png" alt="Project 5" style="width: 60%; height: auto;">
+            </div>
+            <div class="project-description">
+                <p>These results suggests that the conservation and restoration of riparian vegetation that provides substantial shading and hydromorphologically diverse in-stream habitat, would have beneficial direct and indirect effects on ecosystem functioning, and contribute to the mitigation of land-use impacts.</p>
             </div>
         </div>
     </template>
