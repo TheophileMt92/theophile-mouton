@@ -250,7 +250,7 @@ permalink: /portfolio/
     <template id="project3-template">
         <div class="project-container">
             <div class="project-description">
-                <p>I was hired by Prof. María Paulina Correa Burrows from the Universidad de Chile to apply Hierchical Edge Bundling (HEB) to cardiometabolic health markers for a study on the effects of obesity on the health of teenagers. I produced ten different HEBs, a quarto document and publication ready charts for this consultancy. The project is publicly accessible on my <a href="https://github.com/TheophileMt92/Hierarchal-Edge-Bundling" target="_blank">GitHub Repository</a> </p>
+                <p>I was hired by <a href="https://uchile.cl/portafolio-academico/portafolio-academico/academico/49064" target="_blank">Prof. María Paulina Correa Burrows</a> from the Universidad de Chile to apply Hierchical Edge Bundling (HEB) to cardiometabolic health markers for a study on the effects of obesity on the health of teenagers. I produced ten different HEBs, a quarto document and publication ready charts for this consultancy. The project is publicly accessible on my <a href="https://github.com/TheophileMt92/Hierarchal-Edge-Bundling" target="_blank">GitHub Repository</a> </p>
                 <div class="project-image">
                 <img src="/assets/img/portfolio/HEB_2G_males_clusters.png" alt="Project 3">
             </div>
