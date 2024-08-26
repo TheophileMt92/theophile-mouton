@@ -259,9 +259,6 @@ permalink: /portfolio/
     </template>
     <template id="project4-template">
     <div class="project-container">
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2022 Fig. 3.jpg" alt="Project 4">
-        </div>
         <div class="project-description">
             <p>This project constituted the core of my PhD project. I designed and led studies on temporal changes in biodiversity under climate and land-use change using databases from New Zealand's national network monitoring programs.</p>
         </div>
