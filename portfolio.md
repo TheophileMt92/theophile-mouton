@@ -340,60 +340,61 @@ permalink: /portfolio/
     </template>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const tabs = document.querySelectorAll('.tab');
-            const modalOverlay = document.getElementById('modal-overlay');
-            const modalTitle = document.querySelector('.modal-title');
-            const modalDescription = document.querySelector('.modal-description');
-            const modalBody = document.getElementById('modal-body');
-            const closeBtn = document.querySelector('.close-btn');
-            const projectInfo = {
-                project1: {
-                    title: "Important Shark and Ray Areas",
-                    description: "Mapping critical habitat of Sharks, Rays and Chimaeras accross the globe."
-                },
-                project2: {
-                    title: "Hierarchical Edge Bundling",
-                    description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
-                },
-                project3: {
-                    title: "Functional diversity of sharks and rays",
-                    description: "Macroecological analyses of shark biodiversity, overlaps with industrial fishing pressure and with marine protected areas."
-                },
-                project4: {
-                    title: "Cetacean Biodiversity Modelling in New Zealand Waters",
-                    description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
-                },
-                project5: {
-                    title: "Macroecological analyses of biodiversity change",
-                    description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
-                },
-                project6: {
-                    title: "Functional diversity response to habitat disturbances",
-                    description: "Analysing native and non-native stream macrophyte assemblage response to habitat disturbances in an agricultural landscape."
-                }
-            };
-            tabs.forEach(tab => {
-                tab.addEventListener('click', () => {
-                    const tabId = tab.getAttribute('data-tab');
-                    const template = document.getElementById(`${tabId}-template`);
-                    if (template) {
-                        modalTitle.textContent = projectInfo[tabId].title;
-                        modalDescription.textContent = projectInfo[tabId].description;
-                        modalBody.innerHTML = '';
-                        modalBody.appendChild(template.content.cloneNode(true));
-                        modalOverlay.style.display = 'block';
-                    }
-                });
-            });
-            closeBtn.addEventListener('click', () => {
-                modalOverlay.style.display = 'none';
-            });
-            window.addEventListener('click', (event) => {
-                if (event.target == modalOverlay) {
-                    modalOverlay.style.display = 'none';
-                }
-            });
-        });
+    const tabContainer = document.querySelector('.tab-container');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const modalTitle = document.querySelector('.modal-title');
+    const modalDescription = document.querySelector('.modal-description');
+    const modalBody = document.getElementById('modal-body');
+    const closeBtn = document.querySelector('.close-btn');
+    const projectInfo = {
+        project1: {
+            title: "Important Shark and Ray Areas",
+            description: "Mapping critical habitat of Sharks, Rays and Chimaeras across the globe."
+        },
+        project2: {
+            title: "Hierarchical Edge Bundling",
+            description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
+        },
+        project3: {
+            title: "Functional diversity of sharks and rays",
+            description: "Macroecological analyses of shark biodiversity, overlaps with industrial fishing pressure and with marine protected areas."
+        },
+        project4: {
+            title: "Cetacean Biodiversity Modelling in New Zealand Waters",
+            description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
+        },
+        project5: {
+            title: "Macroecological analyses of biodiversity change",
+            description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
+        },
+        project6: {
+            title: "Functional diversity response to habitat disturbances",
+            description: "Analysing native and non-native stream macrophyte assemblage response to habitat disturbances in an agricultural landscape."
+        }
+    };
+    tabContainer.addEventListener('click', function(event) {
+        const tab = event.target.closest('.tab');
+        if (tab) {
+            const tabId = tab.getAttribute('data-tab');
+            const template = document.getElementById(`${tabId}-template`);
+            if (template) {
+                modalTitle.textContent = projectInfo[tabId].title;
+                modalDescription.textContent = projectInfo[tabId].description;
+                modalBody.innerHTML = '';
+                modalBody.appendChild(template.content.cloneNode(true));
+                modalOverlay.style.display = 'block';
+            }
+        }
+    });
+    closeBtn.addEventListener('click', () => {
+        modalOverlay.style.display = 'none';
+    });
+    window.addEventListener('click', (event) => {
+        if (event.target == modalOverlay) {
+            modalOverlay.style.display = 'none';
+        }
+    });
+});
     </script>
 </body>
 </html>
