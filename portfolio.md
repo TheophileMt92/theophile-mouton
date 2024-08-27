@@ -322,7 +322,7 @@ permalink: /portfolio/
     <template id="project6-template">
         <div class="project-container">
             <div class="project-description">
-                <p>This project led to my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">first scientific publication</a>. I compiled a database of native and non-native macrophyte abundance in Waikato Region (New Zealand) streams, a matrix of 11 functional traits and data on associated natural and human-driven processes.</p>
+                <p>This was my first project while working at the <a href="https://niwa.co.nz/" target="_blank">National Institute for Water and Atmospheric Reseach</a>. It led to my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">first scientific publication</a>. I compiled a database of native and non-native macrophyte abundance in Waikato Region (New Zealand) streams, a matrix of 11 functional traits and data on associated natural and human-driven processes.</p>
             </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Project 5" style="width: 40%; height: auto;">
@@ -334,7 +334,7 @@ permalink: /portfolio/
                 <img src="/assets/img/portfolio/Mouton et al. 2018 diverging barplot.png" alt="Project 5" style="width: 60%; height: auto;">
             </div>
             <div class="project-description">
-                <p>These results suggests that the conservation and restoration of riparian vegetation that provides substantial shading and hydromorphologically diverse in-stream habitat, would have beneficial direct and indirect effects on ecosystem functioning, and contribute to the mitigation of land-use impacts.</p>
+                <p>These results suggest that the conservation and restoration of riparian vegetation that provides substantial shading and hydromorphologically diverse in-stream habitat, would have beneficial direct and indirect effects on ecosystem functioning, and contribute to the mitigation of land-use impacts.</p>
             </div>
         </div>
     </template>
