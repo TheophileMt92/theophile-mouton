@@ -328,7 +328,7 @@ permalink: /portfolio/
                 <img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Project 5" style="width: 40%; height: auto;">
             </div>
             <div class="project-description">
-                <p>I used a three-way ordination technic (RLQ analysis), multidimentional functional diversity indices and a model-averaging procedure to determine the functional response of macrophytes to anthrpogenic disturbances. This demonstrated that stream reach-scale habitat disturbances were associated to a dominance of more productive species, equating to a greater abundance of non-native species. </p>
+                <p>I used a three-way ordination technic (RLQ analysis), multidimentional functional diversity indices and a model-averaging procedure to determine the functional response of macrophytes to anthropogenic disturbances. This demonstrated that stream reach-scale habitat disturbances were associated to a dominance of more productive species, equating to a greater abundance of non-native species. </p>
                 </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Mouton et al. 2018 diverging barplot.png" alt="Project 5" style="width: 60%; height: auto;">
