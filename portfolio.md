@@ -230,24 +230,12 @@ permalink: /portfolio/
     <template id="project7-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors titled: Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific. </p>
-            <p>As I started the job, we tackled the Mediterranean and Black Seas Region and I was responsible for coordinating research in France, Monaco and Italy. The project resulted in the publication of 65 ISRAs, read the report <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Thessaloniki, Greece is accessible below.</p>
+            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors titled: "Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific". </p>
+            <div class="project-image">
+            <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2 cropped.png" alt="Fig. 2 cropped">
+            </div>
+            </div>
         </div>
-        <div class="project-video">
-            <a href="https://www.youtube.com/watch?v=vghKtCjsP-g" target="_blank">
-                <img src="https://img.youtube.com/vi/vghKtCjsP-g/0.jpg" alt="ISRA MED Workshop video">
-            </a>
-        </div>
-        <div class="project-description">
-             <p></p>
-            <p>We later tackled the Western Indian Ocean Region and I was responsible for coordinating research in Seychelles, the Chagos Archipelago, La Réunion, Mauritius and the United Arab Emirates. The project resulted in the publication of 125 ISRAs, read the report <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Durban, South Africa is accessible below.</p>
-        </div>
-        <div class="project-video">
-            <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
-                <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="ISRA WIO Workshop video">
-            </a>
-        </div>
-    </div>
 </template>
 <template id="project6-template">
     <div class="project-container">
@@ -378,8 +366,8 @@ permalink: /portfolio/
     const closeBtn = document.querySelector('.close-btn');
     const projectInfo = {
          project7: {
-            title: "Important Shark and Ray Areas",
-            description: "Mapping critical habitat of Sharks, Rays and Chimaeras across the globe."
+            title: "Protection of Sharks and Rays",
+            description: "Evaluating the governance and protection of sharks and rays in the Central and South American Pacific."
         },
         project6: {
             title: "Important Shark and Ray Areas",
