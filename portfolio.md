@@ -230,9 +230,10 @@ permalink: /portfolio/
     <template id="project7-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors titled: "Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific". </p>
+            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors from Academia, Governments and NGOs. The article is titled: <i>"Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific"</i>. </p>
+            <p> </p>
             <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2 cropped.png" alt="Fig. 2 cropped">
+            <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2.png" alt="Fig. 2">
             </div>
             </div>
         </div>
