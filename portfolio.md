@@ -161,7 +161,7 @@ permalink: /portfolio/
     <div id="portfolio-tabs">
         <div class="tab-container">
         <div class="tab" data-tab="project7">
-                <img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png.png" alt="Project 7">
+                <img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png" alt="Project 7">
                 <div class="tab-overlay">
                     <span class="short-title">Protection of Shark and Ray Areas</span>
                     <hr class="tab-divider">
@@ -230,7 +230,7 @@ permalink: /portfolio/
     <template id="project7-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I was a postdoctoral researcher and scientific coordinator for the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a> during a year, working on the <a href="https://sharkrayareas.org/" target="_blank">Important Shark and Ray Areas project</a>. </p>
+            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors titled: Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific. </p>
             <p>As I started the job, we tackled the Mediterranean and Black Seas Region and I was responsible for coordinating research in France, Monaco and Italy. The project resulted in the publication of 65 ISRAs, read the report <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Thessaloniki, Greece is accessible below.</p>
         </div>
         <div class="project-video">
