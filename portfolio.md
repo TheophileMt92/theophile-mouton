@@ -161,11 +161,11 @@ permalink: /portfolio/
     <div id="portfolio-tabs">
         <div class="tab-container">
         <div class="tab" data-tab="project7">
-                <img src="/assets/img/portfolio/ISRAs e-atlas.png" alt="Project 7">
+                <img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png.png" alt="Project 7">
                 <div class="tab-overlay">
-                    <span class="short-title">Important Shark and Ray Areas</span>
+                    <span class="short-title">Protection of Shark and Ray Areas</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Mapping critical shark habitat accross the world</span>
+                    <span class="long-title">Evaluating the governance and protection of sharks and rays</span>
                 </div>
             </div>
             <div class="tab" data-tab="project6">
