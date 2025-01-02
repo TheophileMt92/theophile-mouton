@@ -230,7 +230,7 @@ permalink: /portfolio/
     <template id="project7-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors from Academia, Governments and NGOs. The article is titled: <i>"Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific"</i>. </p>
+            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors from Academia, Governments and NGOs under the supervision of <a href="https://www.linkedin.com/in/rima-jabado-93656a6b/?originalSubdomain=ae" target="_blank">Dr. Rima Jabado</a> the Chair of the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a>. The article is titled: <i>"Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific"</i>. </p>
             </div>
             <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 1.jpeg" alt="Fig. 1">
@@ -252,6 +252,10 @@ permalink: /portfolio/
         <div class="project-description">
              <p></p>
             <p> As countries mobilise to meet the 30×30 target, we propose considering ISRAs as a key component of spatial planning when designing new MPAs, designating existing partially protected areas as no-take zones, or reshaping the boundaries of existing MPAs.</p>
+            <p>
+                    <a href="https://github.com/TheophileMt92/ISRA_R12_MPA_overlaps" target="_blank">GitHub Repository</a> |
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">Mouton et al. 2024 (Marine Policy)</a>
+                </p>
         </div>
         </div>
 </template>
