@@ -230,7 +230,7 @@ permalink: /portfolio/
     <template id="project7-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors from Academia, Governments and NGOs under the supervision of <a href="https://www.linkedin.com/in/rima-jabado-93656a6b/?originalSubdomain=ae" target="_blank">Dr. Rima Jabado</a> the Chair of the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a>. The article is titled: <i>"Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific"</i>. </p>
+            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors from Academia, Governments and NGOs under the supervision of <a href="https://www.linkedin.com/in/rima-jabado-93656a6b/?originalSubdomain=ae" target="_blank">Dr. Rima Jabado</a>, the Chair of the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a>. The article is titled: <i>"Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific"</i>. </p>
             </div>
             <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 1.jpeg" alt="Fig. 1">
