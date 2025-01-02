@@ -240,7 +240,6 @@ permalink: /portfolio/
             <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2.jpeg" alt="Fig. 2">
             </div>
-        </div>
         <div class="project-description">
              <p></p>
             <p> There has been a recent rapid increase in the establishment of MPAs with 90 % of current MPAs designated since 2010. Yet, El Salvador, Guatemala, Peru, and Honduras still protect less than 10 % of their waters. We find that ISRAs overlap with all MPAs by only 15.6 % and with no-take MPAs by 7.3 %. Of 182 MPAs identified, 41.8 % do not have a management plan, comprising 39.8 % of the total marine area protected. Mexico, Costa Rica, and Colombia have relatively strong governance frameworks in place and, along with Panama, Honduras, and Ecuador, represent the highest overlap between MPAs and ISRAs. However, the contribution of the remaining six countries to shark protection via MPAs is low based on limited spatial overlap with ISRAs (less than 2 % each).</p>
@@ -248,6 +247,7 @@ permalink: /portfolio/
         <div class="project-description">
              <p></p>
             <p> As countries mobilise to meet the 30×30 target, we propose considering ISRAs as a key component of spatial planning when designing new MPAs, designating existing partially protected areas as no-take zones, or reshaping the boundaries of existing MPAs.</p>
+        </div>
         </div>
 </template>
 <template id="project6-template">
