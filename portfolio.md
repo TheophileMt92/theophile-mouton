@@ -237,7 +237,7 @@ permalink: /portfolio/
             </div>
             <div class="project-description">
              <p></p>
-            <p> The project consisted of (i) assessing trends in Marine Protected Area (MPA) expansion and extent across the 12 nations of the region; (ii) quantifying the spatial overlap between MPAs and Important Shark and Ray Areas (ISRAs); and (iii) evaluating the effectiveness of the current MPA governance structure at protecting sharks and their critical habitat. We did this by utilising a combination of statistical modelling approaches (GLMM, PCA, Clustering) and GIS tools (sf, ArcGis).</p>
+            <p> The project consisted of (i) assessing trends in Marine Protected Area (MPA) expansion and extent across the 12 nations of the region; (ii) quantifying the spatial overlap between MPAs and Important Shark and Ray Areas (ISRAs); and (iii) evaluating the effectiveness of the current MPA governance structure at protecting sharks and their critical habitat. We did this by utilising a combination of text analyses, statistical modelling (GLMM, PCA, Clustering) and GIS tools (sf, ArcGis).</p>
         </div>
             <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2.jpeg" alt="Fig. 2">
@@ -294,8 +294,8 @@ permalink: /portfolio/
     <template id="project4-template">
         <div class="project-container">
             <div class="project-description">
-                <p>A group of researchers led by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> and <a href="https://fableprieur.weebly.com/" target="_blank">Prof. Fabien Leprieur</a> investigated the functional diversity of sharks and rays in the world.</p>
-                <p>The group created a trait dataset of > 1000 species to assess elasmobranch functional diversity and compare it against previously studied facets (taxonomic and phylogenetic), to identify species- and spatial- conservation priorities.</p>
+                <p>A group of researchers led by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> and <a href="https://fableprieur.weebly.com/" target="_blank">Prof. Fabien Leprieur</a>, and including myself, investigated the functional diversity of sharks and rays in the world.</p>
+                <p>The group created a trait dataset of > 1000 species to assess elasmobranch functional diversity and compare it against previously studied facets (taxonomic and phylogenetic), to identify species- and spatial- conservation priorities. This consisted of using global spatial datasets of shark and ray distributions and macroecological statistical analyses (generalised modelling, ordination methods, spatial mapping methods etc.). </p>
             </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Pimiento et al. 2024_2maps.png" alt="Project 3">
@@ -321,7 +321,7 @@ permalink: /portfolio/
                 <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 4">
             </div>
             <div class="project-description">
-                <p><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">The second publication</a> used the prioritisation software Zonation to identify cetacean richness hotspots for conservation management. We investigated how varying levels of uncertainty in predictions of the taxa' occurrence layers would affect our interpretation of cetacean hotspots.</p>
+                <p><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">The second publication</a> used the prioritisation software <a href="https://zonationteam.github.io/Zonation5/" target="_blank">Zonation</a> to identify cetacean richness hotspots for conservation management. We investigated how varying levels of uncertainty in predictions of the taxa' occurrence layers would affect our interpretation of cetacean hotspots.</p>
             </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Project 4">
@@ -332,6 +332,11 @@ permalink: /portfolio/
             <div class="project-image">
                 <img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Project 4">
             </div>
+            <p>
+                    <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">Stephenson et al. 2020 (Diversity and Distributions)</a> |
+                    <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">Stephenson et al. 2021 (Ecosphere)</a> |
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">Mouton et al. 2022 (Biological Conservation)</a> 
+                </p>
         </div>
     </template>
     <template id="project2-template">
