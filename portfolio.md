@@ -362,6 +362,11 @@ permalink: /portfolio/
         <div class="project-description">
             <p>This work was also showcased in <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve" target="_blank">Issue 12</a> of the science magasine NatureVolve, page 32.</p>
         </div>
+        <p>
+                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">Mouton et al. 2020 (Global Change Biology)</a> |
+                    <a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148" target="_blank">Mouton et al. 2022 (Ecography)</a> |
+                    <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve" target="_blank">NatureVolve (Issue 12)</a> 
+                </p>
     </div>
 </template>
     <template id="project1-template">
@@ -381,6 +386,9 @@ permalink: /portfolio/
             <div class="project-description">
                 <p>These results suggest that the conservation and restoration of riparian vegetation that provides substantial shading and hydromorphologically diverse in-stream habitat, would have beneficial direct and indirect effects on ecosystem functioning, and contribute to the mitigation of land-use impacts.</p>
             </div>
+            <p>
+                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">Mouton et al. 2019 (Science of the Total Environment)</a> 
+                </p>
         </div>
     </template>
     <script>
