@@ -237,14 +237,14 @@ permalink: /portfolio/
             </div>
             <div class="project-description">
              <p></p>
-            <p> The project consisted of (i) assessing trends in Marine Protected Area (MPA) expansion and extent across the 12 nations of the region; (ii) quantifying the spatial overlap between MPAs and Important Shark and Ray Areas (ISRAs); and (iii) evaluating the effectiveness of the current MPA governance structure at protecting sharks and their critical habitat.</p>
+            <p> The project consisted of (i) assessing trends in Marine Protected Area (MPA) expansion and extent across the 12 nations of the region; (ii) quantifying the spatial overlap between MPAs and Important Shark and Ray Areas (ISRAs); and (iii) evaluating the effectiveness of the current MPA governance structure at protecting sharks and their critical habitat. We did this by utilising a combination of statistical modelling approaches (GLMM, PCA, Clustering) and GIS tools (sf, ArcGis).</p>
         </div>
             <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2.jpeg" alt="Fig. 2">
             </div>
         <div class="project-description">
              <p></p>
-            <p> There has been a recent rapid increase in the establishment of MPAs with 90 % of current MPAs designated since 2010. Yet, El Salvador, Guatemala, Peru, and Honduras still protect less than 10 % of their waters. We find that ISRAs overlap with all MPAs by only 15.6 % and with no-take MPAs by 7.3 %. Of 182 MPAs identified, 41.8 % do not have a management plan, comprising 39.8 % of the total marine area protected. Mexico, Costa Rica, and Colombia have relatively strong governance frameworks in place and, along with Panama, Honduras, and Ecuador, represent the highest overlap between MPAs and ISRAs. However, the contribution of the remaining six countries to shark protection via MPAs is low based on limited spatial overlap with ISRAs (less than 2 % each).</p>
+            <p> There has been a recent rapid increase in the establishment of MPAs with 90 % of current MPAs in the region designated since 2010. Yet, El Salvador, Guatemala, Peru, and Honduras still protect less than 10 % of their waters. We find that ISRAs overlap with all MPAs by only 15.6 % and with no-take MPAs by 7.3 %. Of 182 MPAs identified, 41.8 % do not have a management plan, comprising 39.8 % of the total MPA extent. Mexico, Costa Rica, and Colombia have relatively strong governance frameworks in place and, along with Panama, Honduras, and Ecuador, represent the highest overlap between MPAs and ISRAs. However, the contribution of the remaining six countries to shark protection via MPAs is low based on limited spatial overlap with ISRAs (less than 2 % each).</p>
         </div>
         <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 5.jpeg" alt="Fig. 5">
