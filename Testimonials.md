@@ -10,6 +10,13 @@ hide_description: true
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
+// Add this function for auto-refresh
+window.onload = function() {
+  if(!window.location.hash) {
+    window.location = window.location + '#loaded';
+    window.location.reload();
+  }
+}
 document.addEventListener('DOMContentLoaded', function() {
   console.log("DOM loaded, initializing Swiper");
   var swiper = new Swiper('.js-testimonials-slider', {
