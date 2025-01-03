@@ -10,15 +10,7 @@ hide_description: true
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-// Add this function for auto-refresh
-window.onload = function() {
-  if(!window.location.hash) {
-    window.location = window.location + '#loaded';
-    window.location.reload();
-  }
-}
-document.addEventListener('DOMContentLoaded', function() {
-  console.log("DOM loaded, initializing Swiper");
+function initSwiper() {
   var swiper = new Swiper('.js-testimonials-slider', {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -36,6 +28,17 @@ document.addEventListener('DOMContentLoaded', function() {
       disableOnInteraction: false
     }
   });
-  console.log("Swiper initialized:", swiper);
+  return swiper;
+}
+document.addEventListener('DOMContentLoaded', function() {
+  console.log("DOM loaded, initializing Swiper");
+  let swiper = initSwiper();
+  // If Swiper doesn't initialize properly, try again after a short delay
+  setTimeout(function() {
+    if (!swiper.initialized) {
+      console.log("Reinitializing Swiper");
+      swiper = initSwiper();
+    }
+  }, 500);
 });
 </script>
