@@ -8,37 +8,35 @@ hide_description: true
 
 {% include testimonial-slider.html %}
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-function initSwiper() {
-  var swiper = new Swiper('.js-testimonials-slider', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    autoplay: {
-      delay: 4000,
-      disableOnInteraction: false
-    }
-  });
-  return swiper;
-}
-document.addEventListener('DOMContentLoaded', function() {
-  console.log("DOM loaded, initializing Swiper");
-  let swiper = initSwiper();
-  // If Swiper doesn't initialize properly, try again after a short delay
+// Wait for both DOM and Swiper script to be fully loaded
+window.addEventListener('load', function() {
   setTimeout(function() {
-    if (!swiper.initialized) {
-      console.log("Reinitializing Swiper");
-      swiper = initSwiper();
+    try {
+      console.log("Initializing Swiper");
+      const swiper = new Swiper('.js-testimonials-slider', {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false
+        }
+      });
+      console.log("Swiper initialized:", swiper);
+    } catch (error) {
+      console.error("Error initializing Swiper:", error);
     }
-  }, 500);
+  }, 100); // Small delay to ensure everything is loaded
 });
 </script>
