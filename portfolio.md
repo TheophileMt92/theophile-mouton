@@ -42,20 +42,15 @@ permalink: /portfolio/
     object-fit: contain;
 }
 /* New styles for project8 */
-.tab[data-tab="project8"] {
-    overflow: hidden;
-}
 .tab[data-tab="project8"] img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Changed from contain to cover for better zoom effect */
-    transition: transform 0.3s ease-in-out;
-}
-.tab[data-tab="project8"]:hover {
-    transform: none; /* Disable the general hover transform for this specific tab */
-}
-.tab[data-tab="project8"]:hover img {
-    transform: scale(2);
+    width: 150%; /* Make the image larger than the container */
+    height: 150%; /* Make the image larger than the container */
+    object-fit: cover;
+    /* Center the enlarged image */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 /* Rest of your existing styles */
 .tab-overlay {
