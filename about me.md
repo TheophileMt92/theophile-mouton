@@ -39,6 +39,34 @@ hide_description: true
     top: 20px;
   }
 
+  .services-container {
+    margin-top: 2rem;
+  }
+
+  .service-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.2s;
+  }
+
+  .service-card:hover {
+    transform: translateY(-3px);
+  }
+
+  .service-title {
+    color: #2c3e50;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+
+  .service-description {
+    color: #495057;
+    line-height: 1.6;
+  }
+
   @media (max-width: 600px) {
     .about-me-container {
       flex-direction: column-reverse;
@@ -82,7 +110,59 @@ hide_description: true
   </div>
 </div>
 
-<h2> Education </h2> 
+<h2>Education</h2> 
 <li>Ph.D., Ecology | University Claude Bernard Lyon I, France (<strong>2023</strong>)</li> 
 <li>M.S., Ecology | University of Pau and Pays de l'Adour, France (<strong>2016</strong>)</li> 
 <li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
+
+<h2>Consulting Services</h2>
+<div class="services-container">
+  <div class="service-card">
+    <div class="service-title">Data Analysis and Visualization</div>
+    <div class="service-description">
+      Transforming complex datasets into actionable insights and creating clear, publication-ready visualizations using tools like R, ggplot2, and Quarto.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Geospatial Analysis</div>
+    <div class="service-description">
+      Performing advanced geographic information system (GIS) analyses, including spatial modeling, mapping, and large-scale data integration, using tools such as ArcGIS, QGIS, R, and Python.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Dynamic and Interactive Dashboards</div>
+    <div class="service-description">
+      Designing and developing interactive tools and dashboards, such as Shiny apps, to make data exploration and insights accessible in real time.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Big Data Modeling and Statistical Analysis</div>
+    <div class="service-description">
+      Applying a wide range of statistical approaches—including regression models, machine learning algorithms, and Bayesian methods—to uncover patterns and generate predictions from complex datasets. My expertise also includes handling large-scale data processing, optimization, and model evaluation.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Ecological and Biodiversity Research</div>
+    <div class="service-description">
+      Conducting and supporting research in conservation and ecology, from experimental design to manuscript development, with a focus on biodiversity, sustainability, and species prioritization.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Website Design and Development</div>
+    <div class="service-description">
+      Building and customizing websites using platforms like GitHub Pages and tools such as VS Code, Jekyll themes, HTML, CSS, and JavaScript. I can create sleek, responsive, and functional websites tailored to your needs.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Custom Analytical Solutions</div>
+    <div class="service-description">
+      Developing tailored workflows for data cleaning, formatting, and analysis to meet specific client needs, using Python, R, and other advanced tools.
+    </div>
+  </div>
+</div>
