@@ -163,9 +163,9 @@ permalink: /portfolio/
         <div class="tab" data-tab="project8">
                 <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Project 8">
                 <div class="tab-overlay">
-                    <span class="short-title">Global fishing effort</span>
+                    <span class="short-title">Global Fishing Effort</span>
                     <hr class="tab-divider">
-                    <span class="long-title">Big data modelling and visualisation</span>
+                    <span class="long-title">Machine Learning for Fishing Estimates</span>
                 </div>
             </div>
         <div class="tab" data-tab="project7">
@@ -238,7 +238,7 @@ permalink: /portfolio/
         <template id="project8-template">
     <div class="project-container">
         <div class="project-description">
-            <p>I was hired by Dr. Catalina Pimiento from the University of Zurich to compile and analyze global fishing effort datasets for a research project.</p>
+            <p>I was hired by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> from the University of Zurich to compile and analyze global fishing effort datasets for a research project.</p>
             </div>
             <div class="project-description">
              <p> For this, I used Global Fishing Watch’s latest datasets of fishing hours from Automatic Identification System (AIS) detections and fishing vessel detections from Sentinel-1 Synthetic Aperture Radar (SAR) imagery processing. These databases include dozens to hundreds of millions of records and are the best datasets for estimating fishing effort globally.</p>
