@@ -73,8 +73,8 @@ permalink: /portfolio/
     transform: translate(-50%, -50%);
 }
 .tab[data-tab="project3"] img {
-    width: 110%; /* Make the image larger than the container */
-    height: 110%; /* Make the image larger than the container */
+    width: 105%; /* Make the image larger than the container */
+    height: 105%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
