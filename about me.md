@@ -117,6 +117,10 @@ hide_description: true
 
 <h2>Consulting Services</h2>
 <div class="services-container">
+  <p class="services-intro" style="margin-bottom: 2rem; line-height: 1.6;">
+    As a consultant, I provide a wide range of analytical solutions and technical services tailored to the needs of my clients. My expertise includes:
+  </p>
+  
   <div class="service-card">
     <div class="service-title">Data Analysis and Visualization</div>
     <div class="service-description">
@@ -148,16 +152,10 @@ hide_description: true
   <div class="service-card">
     <div class="service-title">Ecological and Biodiversity Research</div>
     <div class="service-description">
-      Conducting and supporting research in conservation and ecology, from experimental design to manuscript development, with a focus on biodiversity, sustainability, and species prioritization.
+      Conducting and supporting research in conservation and ecology, from experimental design to manuscript development, with a focus on biodiversity conservation.
     </div>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Website Design and Development</div>
-    <div class="service-description">
-      Building and customizing websites using platforms like GitHub Pages and tools such as VS Code, Jekyll themes, HTML, CSS, and JavaScript. I can create sleek, responsive, and functional websites tailored to your needs.
-    </div>
-  </div>
 
   <div class="service-card">
     <div class="service-title">Custom Analytical Solutions</div>
