@@ -10,151 +10,168 @@ permalink: /portfolio/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Tabs</title>
    <style>
-        #portfolio-tabs {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .tab-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            gap: 20px;
-        }
-        .tab {
-            height: 200px;
-            flex-basis: calc(25% - 20px);
-            position: relative;
-            cursor: pointer;
-            overflow: hidden;
-            transition: transform 0.3s ease;
-            background-color: white;
-            aspect-ratio: 16 / 9;
-            border: 2px solid #D3D3D3;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        .tab:hover {
-            transform: scale(1.05);
-        }
-        .tab img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-        }
-        .tab-overlay {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background-color: rgba(6, 79, 141, 0.8);
-            color: white;
-            padding: 10px;
-            text-align: center;
-            transform: translateY(100%);
-            transition: transform 0.3s ease;
-        }
-        .tab:hover .tab-overlay {
-            transform: translateY(0);
-        }
-        .short-title {
-            font-size: 16px;
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-        }
-        .tab-divider {
-            border: 0;
-            height: 1px;
-            background-color: rgba(255, 255, 255, 0.5);
-            margin: 5px 0;
-        }
-        .long-title {
-            font-size: 14px;
-            display: block;
-        }
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.7);
-        }
-        .modal-content {
-            background-color: #fefefe;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 1000px;
-            position: relative;
-            border-radius: 5px;
-        }
-        .modal-title {
-            font-size: 24px;
-            margin-bottom: 10px;
-            padding-right: 30px;
-        }
-        .modal-divider {
-            border: 0;
-            height: 1px;
-            background-color: #ccc;
-            margin: 10px 0;
-        }
-        .modal-description {
-            font-size: 16px;
-            color: #666;
-            margin-bottom: 20px;
-        }
-        .close-btn {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-        .close-btn:hover,
-        .close-btn:focus {
-            color: #000;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .project-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        .project-description {
-            width: 100%;
-            text-align: left;
-            margin-bottom: 20px;
-        }
-        .project-image {
-            width: 100%;
-            text-align: center;
-        }
-        .project-image img {
-            max-width: 75%;
-            height: auto;
-            display: block;
-            margin: 20px auto;
-        }
-        @media (max-width: 767px) {
-            .tab {
-                flex-basis: calc(50% - 20px);
-            }
-        }
-        @media (max-width: 480px) {
-            .tab {
-                flex-basis: 100%;
-            }
-        }
+       #portfolio-tabs {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.tab-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.tab {
+    height: 200px;
+    flex-basis: calc(25% - 20px);
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: white;
+    aspect-ratio: 16 / 9;
+    border: 2px solid #D3D3D3;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.tab:hover {
+    transform: scale(1.05);
+}
+.tab img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+/* New styles for project8 */
+.tab[data-tab="project8"] {
+    overflow: hidden;
+}
+.tab[data-tab="project8"] img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Changed from contain to cover for better zoom effect */
+    transition: transform 0.3s ease-in-out;
+}
+.tab[data-tab="project8"]:hover {
+    transform: none; /* Disable the general hover transform for this specific tab */
+}
+.tab[data-tab="project8"]:hover img {
+    transform: scale(1.1);
+}
+/* Rest of your existing styles */
+.tab-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(6, 79, 141, 0.8);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+.tab:hover .tab-overlay {
+    transform: translateY(0);
+}
+.short-title {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+.tab-divider {
+    border: 0;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 5px 0;
+}
+.long-title {
+    font-size: 14px;
+    display: block;
+}
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 1000px;
+    position: relative;
+    border-radius: 5px;
+}
+.modal-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+.modal-divider {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+.modal-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close-btn:hover,
+.close-btn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.project-description {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.project-image {
+    width: 100%;
+    text-align: center;
+}
+.project-image img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+@media (max-width: 767px) {
+    .tab {
+        flex-basis: calc(50% - 20px);
+    }
+}
+@media (max-width: 480px) {
+    .tab {
+        flex-basis: 100%;
+    }
+}
     </style>
 </head>
 <body>
@@ -266,7 +283,7 @@ permalink: /portfolio/
         <div class="project-description">
              <p></p>
             <p>
-                    <a href="https://github.com/TheophileMt92/GFW-Global-fishing-hours" target="_blank">GitHub Repository</a> |
+                    <a href="https://github.com/TheophileMt92/GFW-Global-fishing-hours" target="_blank">GitHub Repository</a> 
                 </p>
         </div>
         </div>
