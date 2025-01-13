@@ -52,9 +52,19 @@ permalink: /portfolio/
     top: 50%;
     transform: translate(-50%, -50%);
 }
+.tab[data-tab="project6"] img {
+    width: 125%; /* Make the image larger than the container */
+    height: 125%; /* Make the image larger than the container */
+    object-fit: cover;
+    /* Center the enlarged image */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 .tab[data-tab="project4"] img {
-    width: 120%; /* Make the image larger than the container */
-    height: 120%; /* Make the image larger than the container */
+    width: 125%; /* Make the image larger than the container */
+    height: 125%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
@@ -63,8 +73,8 @@ permalink: /portfolio/
     transform: translate(-50%, -50%);
 }
 .tab[data-tab="project3"] img {
-    width: 120%; /* Make the image larger than the container */
-    height: 120%; /* Make the image larger than the container */
+    width: 110%; /* Make the image larger than the container */
+    height: 110%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
