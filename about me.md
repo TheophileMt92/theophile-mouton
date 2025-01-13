@@ -93,16 +93,16 @@ hide_description: true
 <div class="about-me-container">
   <div class="about-me-text">
     <p>
-      Hi, I'm Theo! I am a freelance data scientist and researcher with a PhD in macroecology.
+      Hi, I'm Theo! I am a <strong>freelance data scientist</strong> and researcher with a <strong>PhD in macroecology</strong>.
     </p>
     <p>
-      My journey has taken me through crown institutes, universities, and international organisations. 
+      My journey has taken me through <strong>crown institutes</strong>, <strong>universities</strong>, and <strong>international organisations</strong>. 
     </p>
     <p>
-      Adept in scientific writing and utilizing advanced programming and computer modelling tools, I've consistently transformed data or ideas, into impactful research findings. 
+      Adept in <strong>scientific writing</strong> and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've consistently transformed data or ideas, into impactful research findings. 
     </p>
     <p>
-      I'm currently accepting new consulting projects and would love to help transform your data challenges into opportunities. Reach out to discuss how we can work together to achieve your organization's objectives.
+      I'm <strong>currently accepting new consulting projects</strong> and would love to help transform your data challenges into opportunities. Reach out to discuss how we can work together to achieve your organization's objectives.
     </p>
   </div>
   <div class="profile-picture-container">
@@ -119,21 +119,21 @@ hide_description: true
   <div class="service-card">
     <div class="service-title">Data Analysis and Visualization</div>
     <div class="service-description">
-      Transforming complex datasets into actionable insights and creating clear, publication-ready visualizations using tools like R, ggplot2, and Quarto.
+      Transforming complex datasets into actionable insights and creating clear, publication-ready visualizations using tools like <strong>R</strong>, <strong>ggplot2</strong>, and <strong>Quarto</strong>.
     </div>
   </div>
 
   <div class="service-card">
     <div class="service-title">Geospatial Analysis</div>
     <div class="service-description">
-      Performing advanced geographic information system (GIS) analyses, including spatial modeling, mapping, and large-scale data integration, using tools such as ArcGIS, QGIS, R, and Python.
+      Performing advanced geographic information system (GIS) analyses, including spatial modeling, mapping, and large-scale data integration, using tools such as <strong>ArcGIS</strong>, <strong>QGIS</strong>, <strong>R</strong>, and <strong>Python</strong>.
     </div>
   </div>
 
   <div class="service-card">
     <div class="service-title">Dynamic and Interactive Dashboards</div>
     <div class="service-description">
-      Designing and developing interactive tools and dashboards, such as Shiny apps, to make data exploration and insights accessible in real time.
+      Designing and developing interactive tools and dashboards, such as <strong>Shiny</strong> apps, to make data exploration and insights accessible in real time.
     </div>
   </div>
 
@@ -154,7 +154,7 @@ hide_description: true
   <div class="service-card">
     <div class="service-title">Custom Analytical Solutions</div>
     <div class="service-description">
-      Developing tailored workflows for data cleaning, formatting, and analysis to meet specific client needs, using Python, R, and other advanced tools.
+      Developing tailored workflows for data cleaning, formatting, and analysis to meet specific client needs, using <strong>Python</strong>, <strong>R</strong>, and other advanced tools.
     </div>
   </div>
 </div>
