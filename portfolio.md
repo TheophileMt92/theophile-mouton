@@ -53,8 +53,8 @@ permalink: /portfolio/
     transform: translate(-50%, -50%);
 }
 .tab[data-tab="project4"] img {
-    width: 150%; /* Make the image larger than the container */
-    height: 150%; /* Make the image larger than the container */
+    width: 125%; /* Make the image larger than the container */
+    height: 125%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
@@ -63,8 +63,8 @@ permalink: /portfolio/
     transform: translate(-50%, -50%);
 }
 .tab[data-tab="project3"] img {
-    width: 150%; /* Make the image larger than the container */
-    height: 150%; /* Make the image larger than the container */
+    width: 125%; /* Make the image larger than the container */
+    height: 125%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
