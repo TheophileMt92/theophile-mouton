@@ -99,7 +99,7 @@ hide_description: true
       <a href="https://www.theophile-mouton.com/work%20experience/" style="text-decoration: underline;">My journey</a> has taken me through crown institutes, universities, and international organisations. 
     </p>
     <p>
-      Adept in <strong>scientific writing</strong> and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've consistently transformed data or ideas, into impactful research findings. 
+      Adept in <strong>scientific writing</strong> and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've consistently transformed data or ideas, into <a href="https://www.theophile-mouton.com/portfolio/" style="text-decoration: underline;">impactful research findings</a>. 
     </p>
     <p>
       I'm <strong>currently accepting new consulting projects</strong> and would love to help transform your data challenges into opportunities. <a href="mailto:theophile.mouton92@gmail.com" style="text-decoration: underline;">Reach out</a> to discuss how we can work together to achieve your organization's objectives.
