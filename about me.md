@@ -93,7 +93,7 @@ hide_description: true
 <div class="about-me-container">
   <div class="about-me-text">
     <p>
-      Hi, I'm Theo! I am a data analyst and researcher with a PhD in macroecology.
+      Hi, I'm Theo! I am a freelance data scientist and researcher with a PhD in macroecology.
     </p>
     <p>
       My journey has taken me through crown institutes, universities, and international organisations. 
@@ -109,11 +109,6 @@ hide_description: true
     <img class="profile-picture" src="https://github.com/TheophileMt92/theophile-mouton/raw/gh-pages/assets/img/DSCF7388_cropped.jpg" alt="Theo's profile picture" />
   </div>
 </div>
-
-<h2>Education</h2> 
-<li>Ph.D., Ecology | University Claude Bernard Lyon I, France (<strong>2023</strong>)</li> 
-<li>M.S., Ecology | University of Pau and Pays de l'Adour, France (<strong>2016</strong>)</li> 
-<li>B.S., Ecology | University of Montpellier 2, France (<strong>2014</strong>)</li>
 
 <h2>Consulting Services</h2>
 <div class="services-container">
