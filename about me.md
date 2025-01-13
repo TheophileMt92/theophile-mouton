@@ -102,7 +102,7 @@ hide_description: true
       Adept in scientific writing and utilizing advanced programming and computer modelling tools, I've consistently transformed data or ideas, into impactful research findings. 
     </p>
     <p>
-      I'm enthusiastic about connecting with like-minded professionals and organizations to make a meaningful impact on the world's ecological and social challenges. Let's collaborate for a sustainable and resilient future!
+      I'm currently accepting new consulting projects and would love to help transform your data challenges into opportunities. Reach out to discuss how we can work together to achieve your organization's objectives.
     </p>
   </div>
   <div class="profile-picture-container">
@@ -150,7 +150,6 @@ hide_description: true
       Conducting and supporting research in conservation and ecology, from experimental design to manuscript development, with a focus on biodiversity conservation.
     </div>
   </div>
-
 
   <div class="service-card">
     <div class="service-title">Custom Analytical Solutions</div>
