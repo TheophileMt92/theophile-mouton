@@ -96,13 +96,13 @@ hide_description: true
       Hi, I'm Theo! I am a <strong>freelance data scientist</strong> and researcher with a PhD in macroecology.
     </p>
     <p>
-      My journey has taken me through crown institutes, universities, and international organisations. 
+      <a href="https://www.theophile-mouton.com/work%20experience/" style="text-decoration: underline;">My journey</a> has taken me through crown institutes, universities, and international organisations. 
     </p>
     <p>
       Adept in <strong>scientific writing</strong> and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've consistently transformed data or ideas, into impactful research findings. 
     </p>
     <p>
-      I'm <strong>currently accepting new consulting projects</strong> and would love to help transform your data challenges into opportunities. Reach out to discuss how we can work together to achieve your organization's objectives.
+      I'm <strong>currently accepting new consulting projects</strong> and would love to help transform your data challenges into opportunities. <a href="mailto:theophile.mouton92@gmail.com" style="text-decoration: underline;">Reach out</a> to discuss how we can work together to achieve your organization's objectives.
     </p>
   </div>
   <div class="profile-picture-container">
