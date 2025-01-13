@@ -160,6 +160,14 @@ permalink: /portfolio/
 <body>
     <div id="portfolio-tabs">
         <div class="tab-container">
+        <div class="tab" data-tab="project8">
+                <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Project 8">
+                <div class="tab-overlay">
+                    <span class="short-title">Global fishing effort</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Big data modelling and visualisation</span>
+                </div>
+            </div>
         <div class="tab" data-tab="project7">
                 <img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png" alt="Project 7">
                 <div class="tab-overlay">
@@ -227,6 +235,42 @@ permalink: /portfolio/
             </div>
         </div>
     </div>
+        <template id="project8-template">
+    <div class="project-container">
+        <div class="project-description">
+            <p>I was hired by Dr. Catalina Pimiento from the University of Zurich to compile and analyze global fishing effort datasets for a research project.</p>
+            </div>
+            <div class="project-description">
+             <p> For this, I used Global Fishing Watch’s latest datasets of fishing hours from Automatic Identification System (AIS) detections and fishing vessel detections from Sentinel-1 Synthetic Aperture Radar (SAR) imagery processing. These databases include dozens to hundreds of millions of records and are the best datasets for estimating fishing effort globally.</p>
+            </div>
+            <div class="project-image">
+            <img src="/assets/img/portfolio/AIS_fishing_map.png" alt="Fig. 1">
+            </div>
+            <div class="project-image">
+            <img src="/assets/img/portfolio/SAR_fishing_map.png" alt="Fig. 2">
+            </div>
+            <div class="project-description">
+             <p></p>
+            <p> However, while AIS-based datasets offer unique information on global fishing effort, in some areas of the world (such as the Coral Triangle or the Caribbean Sea), fishing vessels do not broadcast AIS information. Nonetheless, fishing activity is detected in these regions through satellite imagery processing. To convert fishing vessel detections into estimated fishing hours in areas with only SAR detections, I built a machine learning-based predictive model (using random forest modeling) to predict fishing hours in these regions. The model included more than 150,000 records as training data and environmental predictors, such as the distance to ports, to improve performance. I also performed spatially blocked cross-validation and prediction to overcome spatial autocorrelation. As a result, my model explained 80% of the variation in fishing hours, and I was able to confidently predict fishing hours in 60,000 ocean grid cells.</p>
+        </div>
+            <div class="project-image">
+            <img src="/assets/img/portfolio/predicted_plot_SAR_only.png" alt="Fig. 3">
+            </div>
+        <div class="project-description">
+             <p></p>
+            <p> In a second step, I used the same approach to predict estimated fishing hours in every ocean grid cell. I built a random forest model of fishing hours according to a wide range of environmental descriptors, including bathymetry, distance to ports, and marine protected area locations. This generated the map of estimated fishing hours in every ocean cell of the world, with the model explaining more than 75% of the variation in fishing hours.</p>
+        </div>
+        <div class="project-image">
+            <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Fig. 4">
+            </div>
+        <div class="project-description">
+             <p></p>
+            <p>
+                    <a href="https://github.com/TheophileMt92/GFW-Global-fishing-hours" target="_blank">GitHub Repository</a> |
+                </p>
+        </div>
+        </div>
+</template>
     <template id="project7-template">
     <div class="project-container">
         <div class="project-description">
@@ -400,6 +444,10 @@ permalink: /portfolio/
     const modalBody = document.getElementById('modal-body');
     const closeBtn = document.querySelector('.close-btn');
     const projectInfo = {
+         project8: {
+            title: "Global Fishing Effort Analysis",
+            description: "Utilizing Advanced Machine Learning Techniques to Estimate Fishing Hours Across the World's Oceans."
+        },
          project7: {
             title: "Protection of Sharks and Rays",
             description: "Evaluating the governance and protection of sharks and rays in the Central and South American Pacific."
