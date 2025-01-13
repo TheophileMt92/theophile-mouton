@@ -55,7 +55,7 @@ permalink: /portfolio/
     transform: none; /* Disable the general hover transform for this specific tab */
 }
 .tab[data-tab="project8"]:hover img {
-    transform: scale(1.5);
+    transform: scale(2);
 }
 /* Rest of your existing styles */
 .tab-overlay {
