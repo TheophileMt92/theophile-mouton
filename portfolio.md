@@ -41,10 +41,30 @@ permalink: /portfolio/
     height: 100%;
     object-fit: contain;
 }
-/* New styles for project8 */
+/* New styles for specific projects */
 .tab[data-tab="project8"] img {
-    width: 175%; /* Make the image larger than the container */
-    height: 175%; /* Make the image larger than the container */
+    width: 185%; /* Make the image larger than the container */
+    height: 185%; /* Make the image larger than the container */
+    object-fit: cover;
+    /* Center the enlarged image */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tab[data-tab="project4"] img {
+    width: 200%; /* Make the image larger than the container */
+    height: 200%; /* Make the image larger than the container */
+    object-fit: cover;
+    /* Center the enlarged image */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.tab[data-tab="project3"] img {
+    width: 200%; /* Make the image larger than the container */
+    height: 200%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
