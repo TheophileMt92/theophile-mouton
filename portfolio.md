@@ -43,8 +43,8 @@ permalink: /portfolio/
 }
 /* New styles for specific projects */
 .tab[data-tab="project8"] img {
-    width: 185%; /* Make the image larger than the container */
-    height: 185%; /* Make the image larger than the container */
+    width: 190%; /* Make the image larger than the container */
+    height: 190%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
@@ -53,8 +53,8 @@ permalink: /portfolio/
     transform: translate(-50%, -50%);
 }
 .tab[data-tab="project4"] img {
-    width: 125%; /* Make the image larger than the container */
-    height: 125%; /* Make the image larger than the container */
+    width: 120%; /* Make the image larger than the container */
+    height: 120%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
@@ -63,8 +63,8 @@ permalink: /portfolio/
     transform: translate(-50%, -50%);
 }
 .tab[data-tab="project3"] img {
-    width: 125%; /* Make the image larger than the container */
-    height: 125%; /* Make the image larger than the container */
+    width: 120%; /* Make the image larger than the container */
+    height: 120%; /* Make the image larger than the container */
     object-fit: cover;
     /* Center the enlarged image */
     position: relative;
