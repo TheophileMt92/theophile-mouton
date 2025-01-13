@@ -93,10 +93,10 @@ hide_description: true
 <div class="about-me-container">
   <div class="about-me-text">
     <p>
-      Hi, I'm Theo! I am a <strong>freelance data scientist</strong> and researcher with a <strong>PhD in macroecology</strong>.
+      Hi, I'm Theo! I am a <strong>freelance data scientist</strong> and researcher with a PhD in macroecology.
     </p>
     <p>
-      My journey has taken me through <strong>crown institutes</strong>, <strong>universities</strong>, and <strong>international organisations</strong>. 
+      My journey has taken me through crown institutes, universities, and international organisations. 
     </p>
     <p>
       Adept in <strong>scientific writing</strong> and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've consistently transformed data or ideas, into impactful research findings. 
@@ -140,7 +140,7 @@ hide_description: true
   <div class="service-card">
     <div class="service-title">Big Data Modeling and Statistical Analysis</div>
     <div class="service-description">
-      Applying a wide range of statistical approaches—including regression models, machine learning algorithms, and Bayesian methods—to uncover patterns and generate predictions from complex datasets. My expertise also includes handling large-scale data processing, optimization, and model evaluation.
+      Applying a wide range of <strong>statistical approaches</strong>—including regression models, machine learning algorithms, and Bayesian methods—to uncover patterns and generate predictions from complex datasets. My expertise also includes handling large-scale data processing, optimization, and model evaluation.
     </div>
   </div>
 
@@ -154,7 +154,7 @@ hide_description: true
   <div class="service-card">
     <div class="service-title">Custom Analytical Solutions</div>
     <div class="service-description">
-      Developing tailored workflows for data cleaning, formatting, and analysis to meet specific client needs, using <strong>Python</strong>, <strong>R</strong>, and other advanced tools.
+      Developing tailored workflows for data cleaning, formatting, and analysis to meet specific client needs, using <strong>R</strong>, <strong>Python</strong>, and other advanced tools.
     </div>
   </div>
 </div>
