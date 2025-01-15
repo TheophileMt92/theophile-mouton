@@ -138,7 +138,7 @@ hide_description: true
   </div>
 
   <div class="service-card">
-    <div class="service-title">Big Data Modeling and Statistical Analysis</div>
+    <div class="service-title">Modeling and Statistical Analysis</div>
     <div class="service-description">
       Applying a wide range of <strong>statistical approaches</strong>—including regression models, machine learning algorithms, and Bayesian methods—to uncover patterns and generate predictions from complex datasets. My expertise also includes handling large-scale data processing, optimization, and model evaluation.
     </div>
