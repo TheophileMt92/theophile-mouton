@@ -478,7 +478,6 @@ permalink: /portfolio/
         </div>
     </template>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
     const tabContainer = document.querySelector('.tab-container');
     const modalOverlay = document.getElementById('modal-overlay');
     const modalTitle = document.querySelector('.modal-title');
@@ -541,7 +540,6 @@ permalink: /portfolio/
             modalOverlay.style.display = 'none';
         }
     });
-});
     </script>
 </body>
 </html>
