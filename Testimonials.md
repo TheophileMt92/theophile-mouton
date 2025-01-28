@@ -10,7 +10,6 @@ hide_description: true
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script>
-document.addEventListener('DOMContentLoaded', function() {
   console.log("DOM loaded, initializing Swiper");
   var swiper = new Swiper('.js-testimonials-slider', {
     slidesPerView: 1,
@@ -30,5 +29,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
   console.log("Swiper initialized:", swiper);
-});
 </script>
