@@ -93,13 +93,13 @@ hide_description: true
 <div class="about-me-container">
   <div class="about-me-text">
     <p>
-      Hi, I'm Theo! I am a <strong>data scientist</strong> and <strong>researcher</strong> with a PhD in macroecology.
+      Hi, I'm Theo! I am a <strong>data scientist</strong>, <strong>researcher</strong>, and <strong>scientific coordinator</strong> with a PhD in macroecology.
     </p>
     <p>
       <a href="https://www.theophile-mouton.com/work%20experience/" style="text-decoration: underline;">My journey</a> has taken me through crown institutes, universities, and international organisations. 
     </p>
     <p>
-      Adept in <strong>scientific writing</strong> and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've consistently transformed data or ideas, into <a href="https://www.theophile-mouton.com/portfolio/" style="text-decoration: underline;">impactful research findings</a>. 
+      Adept in <strong>scientific writing</strong>, <strong>project coordination</strong>, and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've successfully led international expert networks and transformed data or ideas into <a href="https://www.theophile-mouton.com/portfolio/" style="text-decoration: underline;">impactful research findings</a>. 
     </p>
     <p>
       I'm <strong>currently accepting new consulting projects</strong> and would love to help transform your data challenges into opportunities. <a href="mailto:theophile.mouton92@gmail.com" style="text-decoration: underline;">Reach out</a> to discuss how we can work together to achieve your organization's objectives.
@@ -148,6 +148,13 @@ hide_description: true
     <div class="service-title">Ecological and Biodiversity Research</div>
     <div class="service-description">
       Conducting and supporting research in conservation and ecology, from experimental design to manuscript development, with a focus on biodiversity conservation.
+    </div>
+  </div>
+
+  <div class="service-card">
+    <div class="service-title">Scientific Coordination</div>
+    <div class="service-description">
+      Coordinating large-scale international projects at the interface of <strong>science and policy</strong>, with proven experience managing networks of <strong>60+ experts worldwide</strong>. Expertise in facilitating collaboration between diverse stakeholders, organizing workshops and events, and ensuring effective communication across scientific, policy, and institutional boundaries.
     </div>
   </div>
 
