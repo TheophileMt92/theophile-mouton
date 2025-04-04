@@ -133,7 +133,7 @@ hide_description: true
   <div class="service-card">
     <div class="service-title">Dynamic and Interactive Dashboards</div>
     <div class="service-description">
-      Designing and developing interactive tools and dashboards, such as <strong>Shiny</strong> apps, to make data exploration and insights accessible in real time.
+      Designing and developing interactive tools and dashboards, such as <strong>Streamlit</strong> or <strong>Shiny</strong> apps, to make data exploration and insights accessible in real time.
     </div>
   </div>
 
