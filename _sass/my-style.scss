@@ -44,9 +44,6 @@
     background-color: transparent !important;
 
     .testimonials-slider {
-      // Add padding to make room for the arrows
-      padding: 0 25px;
-      
       .testimonials-item {
         background-color: #fff;
         border-radius: 8px;
@@ -133,23 +130,11 @@
 
     .swiper-button-next,
     .swiper-button-prev {
-      color: #333;
-      opacity: 1;
-      visibility: visible;
+      color: transparent;
       
       &:after {
-        font-size: 16px; // Smaller size
-        font-weight: 900; // Thicker/bolder arrows
+        font-size: 24px;
       }
-    }
-    
-    // Position the arrows on the edges
-    .swiper-button-prev {
-      left: -20px;
-    }
-    
-    .swiper-button-next {
-      right: -20px;
     }
   }
 }
@@ -193,20 +178,9 @@
         }
       }
 
-      // Modified to adjust arrow positioning on mobile
       .swiper-button-next,
       .swiper-button-prev {
-        &:after {
-          font-size: 14px; // Even smaller on mobile
-        }
-      }
-      
-      .swiper-button-prev {
-        left: -10px;
-      }
-      
-      .swiper-button-next {
-        right: -10px;
+        display: none;
       }
     }
   }
