@@ -24,7 +24,7 @@ hide_description: true
       prevEl: '.swiper-button-prev',
     },
     autoplay: {
-      delay: 4000,
+      delay: 12000,
       disableOnInteraction: false
     }
   });
