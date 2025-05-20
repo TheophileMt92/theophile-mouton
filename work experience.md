@@ -3,7 +3,7 @@
 <div>
   <div style="display: flex; align-items: center;">
     <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/UZH_logo.png" alt="University of Zurich logo">
-    <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/PRG_logo.png" alt="Pimiento Research Group logo">
+    <img align="top" width="180" height="60" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/PRG_logo.png" alt="Pimiento Research Group logo">
   </div>
   <h3 style="margin-left: 0px;">University of Zurich, Pimiento Research Group, Montpellier - France (remote)</h3>
 </div>
@@ -17,6 +17,7 @@ _2025 - Present_
 - Leading the design, analysis, and manuscript preparation for a study on global hotspots of shark and ray functional and phylogenetic biodiversity.
 - Utilizing advanced methods, including a reinforcement-learning-based conservation prioritization algorithm developed in Python.
 - Conducting a GAP analysis of the global Marine Protected Area network using R to evaluate conservation coverage and effectiveness.
+
 
 <div>
   <div style="display: flex; align-items: center;">
@@ -37,6 +38,7 @@ _2024 - Present_
 - Conducted advanced analyses of cardiometabolic health markers (University of Santiago, Chile) and genetic networks of Date Palm relationships (IRD & NYU Abu Dhabi) using R packages like igraph and plotly.
 - Designed advanced visualizations for Germany's largest social science survey on discrimination (Citizens for Europe, Germany), with an interactive Shiny app in development.
 - Specialize in creating static and interactive network visualizations, leveraging tools like ggplot2, Quarto, and R to uncover complex data patterns.
+
 
 <div>
   <div style="display: flex; align-items: center;">
