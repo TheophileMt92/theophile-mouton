@@ -2,9 +2,9 @@
 
 <div>
   <div style="display: flex; align-items: center;">
-    <img align="top" width="225" height="100" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
+    <img align="top" width="280" height="125" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
   </div>
-  <h3 style="margin-left: 0px;">DataSphere Analytics, Montpellier, France (remote)</h3>
+  <h3 style="margin-left: 0px;">DataSphere Analytics, Montpellier - France (remote)</h3>
 </div>
 
 [Visit my portfolio page](https://www.theophile-mouton.com/portfolio/)
