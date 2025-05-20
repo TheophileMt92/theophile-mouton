@@ -2,16 +2,16 @@
 
 <div>
   <div style="display: flex; align-items: center;">
-    <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
+    <img align="top" width="225" height="100" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
   </div>
-  <h3 style="margin-left: 0px;">DataSphere Analytics, Remote</h3>
+  <h3 style="margin-left: 0px;">DataSphere Analytics, Montpellier, France (remote)</h3>
 </div>
 
-[https://www.theophile-mouton.com/portfolio/](https://www.theophile-mouton.com/portfolio/)
+[Visit my portfolio page](https://www.theophile-mouton.com/portfolio/)
 
 **Data Visualisation Consultant**
 
-_2024 - PRESENT_
+_2024 - Present_
 
 - Providing consulting services in data science, data visualization, and research, delivering actionable insights and impactful results across multidisciplinary projects.
 - Developing automated and interactive reports on cyclone-related risks to human facilities for the government of Vanuatu, supporting disaster preparedness and risk management.
