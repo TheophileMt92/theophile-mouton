@@ -4,7 +4,6 @@
 <h2> <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/UZH_logo.png" alt="University of Zurich logo"> </h2>
 <h3>University of Zurich, Pimiento Research Group, Montpellier - France (remote)</h3>
 
-
 [https://www.catalinapimiento.com/](https://www.catalinapimiento.com/)
 
 **Postdoctoral Scientist**
@@ -33,13 +32,8 @@ _2024 - Present_
 - Specialize in creating static and interactive network visualizations, leveraging tools like ggplot2, Quarto, and R to uncover complex data patterns.
 
 
-<div>
-  <div style="display: flex; align-items: center;">
-    <img align="top" width="90" height="55" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo_2.png" alt="IUCN logo">
-    <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo">
-  </div>
-  <h3 style="margin-left: 0px;">International Union for the Conservation of Nature Species Survival Commission Shark Specialist Group, Montpellier - France (remote)</h3>
-</div>
+<h2> <img align="top" width="90" height="55" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo_2.png" alt="IUCN logo"> <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo"> </h2>
+<h3>International Union for the Conservation of Nature Species Survival Commission Shark Specialist Group, Montpellier - France (remote)</h3>
 
 [https://sharkrayareas.org](https://sharkrayareas.org)
 
