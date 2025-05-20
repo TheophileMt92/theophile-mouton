@@ -2,6 +2,26 @@
 
 <div>
   <div style="display: flex; align-items: center;">
+    <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
+  </div>
+  <h3 style="margin-left: 0px;">DataSphere Analytics, Remote</h3>
+</div>
+
+[https://www.theophile-mouton.com/portfolio/](https://www.theophile-mouton.com/portfolio/)
+
+**Data Visualisation Consultant**
+
+_2024 - PRESENT_
+
+- Providing consulting services in data science, data visualization, and research, delivering actionable insights and impactful results across multidisciplinary projects.
+- Developing automated and interactive reports on cyclone-related risks to human facilities for the government of Vanuatu, supporting disaster preparedness and risk management.
+- Developed and published data visualization tutorials for The R Graph Gallery, including guides on R packages (e.g., ggsankey) and professional visualizations such as chord diagrams and Sankey diagrams.
+- Conducted advanced analyses of cardiometabolic health markers (University of Santiago, Chile) and genetic networks of Date Palm relationships (IRD & NYU Abu Dhabi) using R packages like igraph and plotly.
+- Designed advanced visualizations for Germany's largest social science survey on discrimination (Citizens for Europe, Germany), with an interactive Shiny app in development.
+- Specialize in creating static and interactive network visualizations, leveraging tools like ggplot2, Quarto, and R to uncover complex data patterns.
+
+<div>
+  <div style="display: flex; align-items: center;">
     <img align="top" width="90" height="55" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo_2.png" alt="IUCN logo">
     <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo">
   </div>
