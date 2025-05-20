@@ -1,12 +1,9 @@
 ## Work Experience
 
-<div>
-  <div style="display: flex; align-items: center;">
-    <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/UZH_logo.png" alt="University of Zurich logo">
-    <img align="top" width="180" height="60" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/PRG_logo.png" alt="Pimiento Research Group logo">
-  </div>
-  <h3 style="margin-left: 0px;">University of Zurich, Pimiento Research Group, Montpellier - France (remote)</h3>
-</div>
+
+<h2> <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/UZH_logo.png" alt="University of Zurich logo"> </h2>
+<h3>University of Zurich, Pimiento Research Group, Montpellier - France (remote)</h3>
+
 
 [https://www.catalinapimiento.com/](https://www.catalinapimiento.com/)
 
@@ -19,12 +16,8 @@ _2025 - Present_
 - Conducting a GAP analysis of the global Marine Protected Area network using R to evaluate conservation coverage and effectiveness.
 
 
-<div>
-  <div style="display: flex; align-items: center;">
-    <img align="top" width="280" height="125" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
-  </div>
-  <h3 style="margin-left: 0px;">DataSphere Analytics, Montpellier - France (remote)</h3>
-</div>
+<h2> <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo"> </h2>
+<h3>DataSphere Analytics, Montpellier - France (remote)</h3>
 
 [Visit my portfolio page](https://www.theophile-mouton.com/portfolio/)
 
@@ -107,7 +100,7 @@ _2021 - 2022_
 
 **Research assistant**
 
-*2017-2019*
+*2017 - 2019*
 
 - Collaborated on research projects, providing assistance with statistical programming.
 - Processed and cleaned large databases to ensure data integrity and usability.
