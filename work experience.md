@@ -11,7 +11,7 @@
 _2025 - Present_
 
 - Leading the design, analysis, and manuscript preparation for a study on global hotspots of shark and ray functional and phylogenetic biodiversity.
-- Utilizing advanced methods, including a reinforcement-learning-based conservation prioritization algorithm developed in Python.
+- Utilising advanced methods, including a reinforcement-learning-based conservation prioritisation algorithm developed in Python.
 - Conducting a GAP analysis of the global Marine Protected Area network using R to evaluate conservation coverage and effectiveness.
 
 
@@ -24,12 +24,12 @@ _2025 - Present_
 
 _2024 - Present_
 
-- Providing consulting services in data science, data visualization, and research, delivering actionable insights and impactful results across multidisciplinary projects.
+- Providing consulting services in data science, data visualisation, and research, delivering actionable insights and impactful results across multidisciplinary projects.
 - Developing automated and interactive reports on cyclone-related risks to human facilities for the government of Vanuatu, supporting disaster preparedness and risk management.
-- Developed and published data visualization tutorials for The R Graph Gallery, including guides on R packages (e.g., ggsankey) and professional visualizations such as chord diagrams and Sankey diagrams.
+- Developed and published data visualisation tutorials for The R Graph Gallery, including guides on R packages (e.g., ggsankey) and professional visualisations such as chord diagrams and Sankey diagrams.
 - Conducted advanced analyses of cardiometabolic health markers (University of Santiago, Chile) and genetic networks of Date Palm relationships (IRD & NYU Abu Dhabi) using R packages like igraph and plotly.
-- Designed advanced visualizations for Germany's largest social science survey on discrimination (Citizens for Europe, Germany), with an interactive Shiny app in development.
-- Specialize in creating static and interactive network visualizations, leveraging tools like ggplot2, Quarto, and R to uncover complex data patterns.
+- Designed advanced visualisations for Germany's largest social science survey on discrimination (Citizens for Europe, Germany), with an interactive Shiny app in development.
+- Specialise in creating static and interactive network visualisations, leveraging tools like ggplot2, Quarto, and R to uncover complex data patterns.
 
 
 <h2> <img align="top" width="90" height="55" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/IUCN_logo_2.png" alt="IUCN logo"> <img align="top" width="180" height="110" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/SSG_logo.jpg" alt="SSG logo"> </h2>
@@ -55,7 +55,7 @@ _2023 - 2024_
 
 _2020 - 2023_
 
-- Designed and executed a PhD research project in macroecology, formulated scientific hypotheses and compiled and analyzed a large database spanning 30 years and >100 variables (national datasets biodiversity, climate, land-use and habitat).
+- Designed and executed a PhD research project in macroecology, formulated scientific hypotheses and compiled and analysed a large database spanning 30 years and >100 variables (national datasets biodiversity, climate, land-use and habitat).
 - Assembled and managed a multinational team of 15 scientists across three continents. 
 - Published 3 scientific manuscripts in Rank A journals see [my research](https://www.theophile-mouton.com/Research/) and [my publications](https://www.theophile-mouton.com/Publications/). 
 
@@ -98,8 +98,8 @@ _2021 - 2022_
 
 - Collaborated on research projects, providing assistance with statistical programming.
 - Processed and cleaned large databases to ensure data integrity and usability.
-- Created data visualizations to effectively communicate complex information.
+- Created data visualisations to effectively communicate complex information.
 - Conducted multivariate statistical analyses to uncover patterns and trends.
-- Utilized machine learning models for predictions and classification tasks.
+- Utilised machine learning models for predictions and classification tasks.
 - Led the development and writing of scientific manuscripts, contributing to peer-reviewed publications.
 - Co-supervised an MSc student on assessing the vulnerability of Marine Protected Areas to land-based impacts. 
