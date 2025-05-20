@@ -2,6 +2,23 @@
 
 <div>
   <div style="display: flex; align-items: center;">
+    <img align="top" width="180" height="80" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/UZH_logo.png" alt="University of Zurich logo">
+  </div>
+  <h3 style="margin-left: 0px;">University of Zurich, Pimiento Research Group, Montpellier - France (remote)</h3>
+</div>
+
+[https://www.catalinapimiento.com/](https://www.catalinapimiento.com/)
+
+**Postdoctoral Scientist**
+
+_2025 - Present_
+
+- Leading the design, analysis, and manuscript preparation for a study on global hotspots of shark and ray functional and phylogenetic biodiversity, building on the group's previous work published in Nature Communications.
+- Utilizing advanced methods, including a reinforcement-learning-based conservation prioritization algorithm developed in Python, aligning with the group's focus on integrating deep-time paleontology in conservation.
+- Conducting a GAP analysis of the global Marine Protected Area network using R to evaluate conservation coverage and effectiveness for shark and ray species.
+
+<div>
+  <div style="display: flex; align-items: center;">
     <img align="top" width="280" height="125" src="https://raw.githubusercontent.com/TheophileMt92/theophile-mouton/gh-pages/assets/img/logos/Grid_of_logos.png" alt="DataSphere Analytics logo">
   </div>
   <h3 style="margin-left: 0px;">DataSphere Analytics, Montpellier - France (remote)</h3>
