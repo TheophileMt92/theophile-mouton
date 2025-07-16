@@ -45,12 +45,17 @@ permalink: /portfolio/
 .tab[data-tab="project9"] img {
     width: 150%; /* Make the image larger than the container */
     height: 150%; /* Make the image larger than the container */
-    object-fit: cover;
+    object-fit: contain;
     /* Center the enlarged image */
     position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    /* Improve image quality */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    image-rendering: high-quality;
 }
 .tab[data-tab="project8"] img {
     width: 190%; /* Make the image larger than the container */
