@@ -42,6 +42,16 @@ permalink: /portfolio/
     object-fit: contain;
 }
 /* New styles for specific projects */
+.tab[data-tab="project10"] img {
+    width: 150%; /* Make the image larger than the container */
+    height: 150%; /* Make the image larger than the container */
+    object-fit: cover;
+    /* Center the enlarged image */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 .tab[data-tab="project9"] img {
     width: 150%; /* Make the image larger than the container */
     height: 150%; /* Make the image larger than the container */
@@ -217,6 +227,14 @@ permalink: /portfolio/
 <body>
     <div id="portfolio-tabs">
         <div class="tab-container">
+            <div class="tab" data-tab="project10">
+                <img src="/assets/img/portfolio/Network_1.png" alt="Project 10">
+                <div class="tab-overlay">
+                    <span class="short-title">Network charts of genetic relationships</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Visualising first and second degree relationships of tree populations</span>
+                </div>
+            </div>
             <div class="tab" data-tab="project9">
                 <img src="/assets/img/portfolio/Stacked_barplot_example.png" alt="Project 9">
                 <div class="tab-overlay">
@@ -300,6 +318,16 @@ permalink: /portfolio/
             </div>
         </div>
     </div>
+    <template id="project10-template">
+        <div class="project-container">
+            <div class="project-description">
+                <p>I was hired by <a href="https://scholar.google.com/citations?user=CS_CzwsAAAAJ&hl=en" target="_blank">Muriel Gros-Balthazard</a> (Institute for Research and Development) to design and develop network visualizations of relationships between populations of trees spanning two continents. The work included creating static and interactive network charts of first and second degree relationships among individual trees or groups of clones. These results being under preparation for publication, they are currently confidential.</p>
+            </div>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Network_2.png" alt="Network Chart 2">
+            </div>
+        </div>
+    </template>
     <template id="project9-template">
         <div class="project-container">
             <div class="project-description">
@@ -524,6 +552,10 @@ permalink: /portfolio/
     const modalBody = document.getElementById('modal-body');
     const closeBtn = document.querySelector('.close-btn');
     const projectInfo = {
+        project10: {
+            title: "Network charts of genetic relationships",
+            description: "Visualising first and second degree relationships of tree populations across two continents."
+        },
         project9: {
             title: "Data Visualisation Dashboard",
             description: "Creation of a comprehensive dashboard for Citizens for Europe to analyze European survey data on social discrimination."
