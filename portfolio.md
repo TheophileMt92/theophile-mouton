@@ -227,6 +227,14 @@ permalink: /portfolio/
 <body>
     <div id="portfolio-tabs">
         <div class="tab-container">
+            <div class="tab" data-tab="project8">
+                <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Project 8">
+                <div class="tab-overlay">
+                    <span class="short-title">Global Fishing Effort</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Machine Learning for Fishing Estimates</span>
+                </div>
+            </div>
             <div class="tab" data-tab="project10">
                 <img src="/assets/img/portfolio/Network_1.png" alt="Project 10">
                 <div class="tab-overlay">
@@ -241,14 +249,6 @@ permalink: /portfolio/
                     <span class="short-title">Data Visualisation Dashboard</span>
                     <hr class="tab-divider">
                     <span class="long-title">Creation of a dashboard for Citizens for Europe</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project8">
-                <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Project 8">
-                <div class="tab-overlay">
-                    <span class="short-title">Global Fishing Effort</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Machine Learning for Fishing Estimates</span>
                 </div>
             </div>
             <div class="tab" data-tab="project7">
