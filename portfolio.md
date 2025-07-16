@@ -203,7 +203,7 @@ permalink: /portfolio/
     <div id="portfolio-tabs">
         <div class="tab-container">
             <div class="tab" data-tab="project9">
-                <img src="/assets/img/portfolio/Shiny_screenshot.png" alt="Project 9">
+                <img src="/assets/img/portfolio/Stacked_barplot_example.png" alt="Project 9">
                 <div class="tab-overlay">
                     <span class="short-title">Data Visualisation Dashboard</span>
                     <hr class="tab-divider">
