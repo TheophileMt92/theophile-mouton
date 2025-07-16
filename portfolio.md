@@ -202,7 +202,15 @@ permalink: /portfolio/
 <body>
     <div id="portfolio-tabs">
         <div class="tab-container">
-        <div class="tab" data-tab="project8">
+            <div class="tab" data-tab="project9">
+                <img src="/assets/img/portfolio/Shiny_screenshot.png" alt="Project 9">
+                <div class="tab-overlay">
+                    <span class="short-title">Data Visualisation Dashboard</span>
+                    <hr class="tab-divider">
+                    <span class="long-title">Creation of a dashboard for Citizens for Europe</span>
+                </div>
+            </div>
+            <div class="tab" data-tab="project8">
                 <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Project 8">
                 <div class="tab-overlay">
                     <span class="short-title">Global Fishing Effort</span>
@@ -210,7 +218,7 @@ permalink: /portfolio/
                     <span class="long-title">Machine Learning for Fishing Estimates</span>
                 </div>
             </div>
-        <div class="tab" data-tab="project7">
+            <div class="tab" data-tab="project7">
                 <img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png" alt="Project 7">
                 <div class="tab-overlay">
                     <span class="short-title">Protection of Shark and Ray Areas</span>
@@ -277,13 +285,29 @@ permalink: /portfolio/
             </div>
         </div>
     </div>
-        <template id="project8-template">
+    <template id="project9-template">
+        <div class="project-container">
+            <div class="project-description">
+                <p>I designed and developed a data visualization dashboard for <strong>Citizens for Europe</strong> to analyze the largest European survey on social discrimination. Built using <strong>Shiny</strong>, the dashboard enables the creation of 14 different chart types, including bar plots, stacked bar plots, circle bar charts, upset charts, bubble charts, dumbbell charts, and Likert scale charts.</p>
+            </div>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Shiny_screenshot.png" alt="Dashboard Screenshot">
+            </div>
+            <div class="project-description">
+                <p>All charts are fully customizable through the app, with options to modify data and layout, labels and text, styles and colors, and chart-specific settings. Users can download the resulting visualizations as high-resolution PNG files or upload them directly to Google Drive. The app also generates corresponding data tables, which are available for download in publication-ready PNG format.</p>
+            </div>
+            <div class="project-image">
+                <img src="/assets/img/portfolio/Shiny_likert_example.png" alt="Likert Chart Example">
+            </div>
+        </div>
+    </template>
+    <template id="project8-template">
     <div class="project-container">
         <div class="project-description">
             <p>I was hired by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> from the University of Zurich to compile and analyze global fishing effort datasets for a research project.</p>
             </div>
             <div class="project-description">
-             <p> For this, I used Global Fishing Watch’s latest datasets of fishing hours from Automatic Identification System (AIS) detections and fishing vessel detections from Sentinel-1 Synthetic Aperture Radar (SAR) imagery processing. These databases include dozens to hundreds of millions of records and are the best datasets for estimating fishing effort globally.</p>
+             <p> For this, I used Global Fishing Watch's latest datasets of fishing hours from Automatic Identification System (AIS) detections and fishing vessel detections from Sentinel-1 Synthetic Aperture Radar (SAR) imagery processing. These databases include dozens to hundreds of millions of records and are the best datasets for estimating fishing effort globally.</p>
             </div>
             <div class="project-image">
             <img src="/assets/img/portfolio/AIS_fishing_map.png" alt="Fig. 1">
@@ -330,7 +354,7 @@ permalink: /portfolio/
             </div>
         <div class="project-description">
              <p></p>
-            <p> There has been a recent rapid increase in the establishment of MPAs with 90 % of current MPAs in the region designated since 2010. Yet, El Salvador, Guatemala, Peru, and Honduras still protect less than 10 % of their waters. We find that ISRAs overlap with all MPAs by only 15.6 % and with no-take MPAs by 7.3 %. Of 182 MPAs identified, 41.8 % do not have a management plan, comprising 39.8 % of the total MPA extent. Mexico, Costa Rica, and Colombia have relatively strong governance frameworks in place and, along with Panama, Honduras, and Ecuador, represent the highest overlap between MPAs and ISRAs. However, the contribution of the remaining six countries to shark protection via MPAs is low based on limited spatial overlap with ISRAs (less than 2 % each).</p>
+            <p> There has been a recent rapid increase in the establishment of MPAs with 90 % of current MPAs in the region designated since 2010. Yet, El Salvador, Guatemala, Peru, and Honduras still protect less than 10 % of their waters. We find that ISRAs overlap with all MPAs by only 15.6 % and with no-take MPAs by 7.3 %. Of 182 MPAs identified, 41.8 % do not have a management plan, comprising 39.8 % of the total MPA extent. Mexico, Costa Rica, and Colombia have relatively strong governance frameworks in place and, along with Panama, Honduras, and Ecuador, represent the highest overlap between MPAs and ISRAs. However, the contribution of the remaining six countries to shark protection via MPAs is low based on limited spatial overlap with ISRAs (less than 2 % each).</p>
         </div>
         <div class="project-image">
             <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 5.jpeg" alt="Fig. 5">
@@ -485,11 +509,15 @@ permalink: /portfolio/
     const modalBody = document.getElementById('modal-body');
     const closeBtn = document.querySelector('.close-btn');
     const projectInfo = {
-         project8: {
+        project9: {
+            title: "Data Visualisation Dashboard",
+            description: "Creation of a comprehensive dashboard for Citizens for Europe to analyze European survey data on social discrimination."
+        },
+        project8: {
             title: "Global Fishing Effort Analysis",
             description: "Utilizing Advanced Machine Learning Techniques to Estimate Fishing Hours Across the World's Oceans."
         },
-         project7: {
+        project7: {
             title: "Protection of Sharks and Rays",
             description: "Evaluating the governance and protection of sharks and rays in the Central and South American Pacific."
         },
