@@ -318,41 +318,10 @@ permalink: /portfolio/
             </div>
         </div>
     </div>
-<<<<<<< HEAD
     
     <template id="project10-template">
         <div class="project-container">
             <div class="project-description">
-=======
-    <template id="project9-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>I was hired by <a href="https://scholar.google.com/citations?user=CS_CzwsAAAAJ&hl=en" target="_blank">Muriel Gros-Balthazard</a> (Institute for Research and Development) to design and develop network visualizations of relationships between populations of trees spanning two continents. The work included creating static and interactive network charts of first and second degree relationships among individual trees or groups of clones. These results being under preparation for publication, they are currently confidential.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Network_2.png" alt="Network Chart 2">
-            </div>
-        </div>
-    </template>
-    <template id="project10-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>I designed and developed a data visualization dashboard for <a href="https://citizensforeurope.org/" target="_blank"><strong>Citizens for Europe</strong></a> to analyze the largest European survey on social discrimination. Built using <strong>Shiny</strong>, the dashboard enables the creation of 14 different chart types, including bar plots, stacked bar plots, circle bar charts, upset charts, bubble charts, dumbbell charts, and Likert scale charts.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Shiny_screenshot.png" alt="Dashboard Screenshot">
-            </div>
-            <div class="project-description">
-                <p>All charts are fully customizable through the app, with options to modify data and layout, labels and text, styles and colors, and chart-specific settings. Users can download the resulting visualizations as high-resolution PNG files or upload them directly to Google Drive. The app also generates corresponding data tables, which are available for download in publication-ready PNG format.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Shiny_likert_example.png" alt="Likert Chart Example">
-            </div>
-        </div>
-    </template>
-        <div class="project-container">
-            <div class="project-description">
->>>>>>> 23cadf5e703c5950c8b1c92762831d112d9bd813
                 <p>I designed and developed a data visualization dashboard for <a href="https://citizensforeurope.org/" target="_blank"><strong>Citizens for Europe</strong></a> to analyze the largest European survey on social discrimination. Built using <strong>Shiny</strong>, the dashboard enables the creation of 14 different chart types, including bar plots, stacked bar plots, circle bar charts, upset charts, bubble charts, dumbbell charts, and Likert scale charts.</p>
             </div>
             <div class="project-image">
@@ -586,22 +555,10 @@ permalink: /portfolio/
     const modalBody = document.getElementById('modal-body');
     const closeBtn = document.querySelector('.close-btn');
     const projectInfo = {
-<<<<<<< HEAD
-=======
-        project8: {
-            title: "Global Fishing Effort Analysis",
-            description: "Utilizing Advanced Machine Learning Techniques to Estimate Fishing Hours Across the World's Oceans."
-        },
-        project9: {
-            title: "Network charts of genetic relationships",
-            description: "Visualising first and second degree relationships of tree populations across two continents."
-        },
->>>>>>> 23cadf5e703c5950c8b1c92762831d112d9bd813
         project10: {
             title: "Data Visualisation Dashboard",
             description: "Creation of a comprehensive dashboard for Citizens for Europe to analyze European survey data on social discrimination."
         },
-<<<<<<< HEAD
         project9: {
             title: "Network charts of genetic relationships",
             description: "Visualising first and second degree relationships of tree populations across two continents."
@@ -610,8 +567,6 @@ permalink: /portfolio/
             title: "Global Fishing Effort Analysis",
             description: "Utilizing Advanced Machine Learning Techniques to Estimate Fishing Hours Across the World's Oceans."
         },
-=======
->>>>>>> 23cadf5e703c5950c8b1c92762831d112d9bd813
         project7: {
             title: "Protection of Sharks and Rays",
             description: "Evaluating the governance and protection of sharks and rays in the Central and South American Pacific."
