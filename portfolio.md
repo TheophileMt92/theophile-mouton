@@ -42,6 +42,16 @@ permalink: /portfolio/
     object-fit: contain;
 }
 /* New styles for specific projects */
+.tab[data-tab="project9"] img {
+    width: 125%; /* Make the image larger than the container */
+    height: 125%; /* Make the image larger than the container */
+    object-fit: cover;
+    /* Center the enlarged image */
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 .tab[data-tab="project8"] img {
     width: 190%; /* Make the image larger than the container */
     height: 190%; /* Make the image larger than the container */
