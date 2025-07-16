@@ -318,7 +318,6 @@ permalink: /portfolio/
             </div>
         </div>
     </div>
-    
     <template id="project10-template">
         <div class="project-container">
             <div class="project-description">
@@ -335,7 +334,6 @@ permalink: /portfolio/
             </div>
         </div>
     </template>
-    
     <template id="project9-template">
         <div class="project-container">
             <div class="project-description">
@@ -346,7 +344,6 @@ permalink: /portfolio/
             </div>
         </div>
     </template>
-    
     <template id="project8-template">
     <div class="project-container">
         <div class="project-description">
