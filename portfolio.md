@@ -337,7 +337,7 @@ permalink: /portfolio/
     <template id="project9-template">
         <div class="project-container">
             <div class="project-description">
-                <p>I was hired by <a href="https://scholar.google.com/citations?user=CS_CzwsAAAAJ&hl=en" target="_blank">Muriel Gros-Balthazard</a> (Institute for Research and Development) to design and develop network visualizations of relationships between populations of trees spanning two continents. The work included creating static and interactive network charts of first and second degree relationships among individual trees or groups of clones. These results being under preparation for publication, they are currently confidential.</p>
+                <p>I was hired by <a href="https://scholar.google.com/citations?user=CS_CzwsAAAAJ&hl=en" target="_blank">Dr. Muriel Gros-Balthazard</a> (Institute for Research and Development) to design and develop network visualizations of relationships between populations of trees spanning two continents. The work included creating static and interactive network charts of first and second degree relationships among individual trees or groups of clones. These results being under preparation for publication, they are currently confidential.</p>
             </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Network_2.png" alt="Network Chart 2">
