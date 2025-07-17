@@ -321,7 +321,7 @@ permalink: /portfolio/
     <template id="project10-template">
         <div class="project-container">
             <div class="project-description">
-                <p>I designed and developed a data visualization dashboard for <a href="https://citizensforeurope.org/" target="_blank"><strong>Citizens for Europe</strong></a> to analyze the largest European survey on social discrimination. Built using <strong>Shiny</strong>, the dashboard enables the creation of 14 different chart types, including bar plots, stacked bar plots, circle bar charts, upset charts, bubble charts, dumbbell charts, and Likert scale charts.</p>
+                <p>I designed and developed a data visualization dashboard for <a href="https://citizensforeurope.org/" target="_blank"><strong>Citizens for Europe</strong></a> to analyze the largest European survey on social discrimination. Built using <strong>Shiny</strong>, the dashboard enables the creation of 14 different chart types, including bar plots, stacked bar plots, circle bar charts, upset charts, bubble charts, dumbbell charts, and Likert scale charts. This comprehensive tool enables the visualization of all survey responses, providing researchers with flexible ways to explore and present the data.</p>
             </div>
             <div class="project-image">
                 <img src="/assets/img/portfolio/Shiny_screenshot.png" alt="Dashboard Screenshot">
