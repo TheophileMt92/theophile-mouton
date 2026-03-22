@@ -93,7 +93,7 @@ hide_description: true
 <div class="about-me-container">
   <div class="about-me-text">
     <p>
-      Hi, I'm Theo! I am a <strong>data scientist</strong>, <strong>researcher</strong>, and <strong>scientific coordinator</strong> with a PhD in macroecology.
+      Hi, I'm Theo! I am a <strong>data analyst</strong>, <strong>researcher</strong>, and <strong>scientific coordinator</strong> with a PhD in macroecology.
     </p>
     <p>
       <a href="https://www.theophile-mouton.com/work%20experience/" style="text-decoration: underline;">My journey</a> has taken me through crown institutes, universities, and international organisations. 
