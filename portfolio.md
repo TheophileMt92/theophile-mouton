@@ -4,617 +4,87 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Tabs</title>
-   <style>
-       #portfolio-tabs {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.tab-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 20px;
-}
-.tab {
-    height: 200px;
-    flex-basis: calc(25% - 20px);
-    position: relative;
-    cursor: pointer;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-    background-color: white;
-    aspect-ratio: 16 / 9;
-    border: 2px solid #D3D3D3;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-.tab:hover {
-    transform: scale(1.05);
-}
-.tab img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-/* New styles for specific projects */
-.tab[data-tab="project10"] img {
-    width: 150%; /* Make the image larger than the container */
-    height: 150%; /* Make the image larger than the container */
-    object-fit: contain;
-    /* Center the enlarged image */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    /* Improve image quality */
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: high-quality;
-}
-.tab[data-tab="project9"] img {
-    width: 150%; /* Make the image larger than the container */
-    height: 150%; /* Make the image larger than the container */
-    object-fit: cover;
-    /* Center the enlarged image */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.tab[data-tab="project8"] img {
-    width: 190%; /* Make the image larger than the container */
-    height: 190%; /* Make the image larger than the container */
-    object-fit: cover;
-    /* Center the enlarged image */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.tab[data-tab="project6"] img {
-    width: 125%; /* Make the image larger than the container */
-    height: 125%; /* Make the image larger than the container */
-    object-fit: cover;
-    /* Center the enlarged image */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.tab[data-tab="project4"] img {
-    width: 125%; /* Make the image larger than the container */
-    height: 125%; /* Make the image larger than the container */
-    object-fit: cover;
-    /* Center the enlarged image */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-.tab[data-tab="project3"] img {
-    width: 100%; /* Make the image larger than the container */
-    height: 100%; /* Make the image larger than the container */
-    object-fit: cover;
-    /* Center the enlarged image */
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-/* Rest of your existing styles */
-.tab-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(6, 79, 141, 0.8);
-    color: white;
-    padding: 10px;
-    text-align: center;
-    transform: translateY(100%);
-    transition: transform 0.3s ease;
-}
-.tab:hover .tab-overlay {
-    transform: translateY(0);
-}
-.short-title {
-    font-size: 16px;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 5px;
-}
-.tab-divider {
-    border: 0;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.5);
-    margin: 5px 0;
-}
-.long-title {
-    font-size: 14px;
-    display: block;
-}
-.modal-overlay {
-    display: none;
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 1000px;
-    position: relative;
-    border-radius: 5px;
-}
-.modal-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-    padding-right: 30px;
-}
-.modal-divider {
-    border: 0;
-    height: 1px;
-    background-color: #ccc;
-    margin: 10px 0;
-}
-.modal-description {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-}
-.close-btn {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.close-btn:hover,
-.close-btn:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-.project-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
-}
-.project-description {
-    width: 100%;
-    text-align: left;
-    margin-bottom: 20px;
-}
-.project-image {
-    width: 100%;
-    text-align: center;
-}
-.project-image img {
-    max-width: 75%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-@media (max-width: 767px) {
-    .tab {
-        flex-basis: calc(50% - 20px);
-    }
-}
-@media (max-width: 480px) {
-    .tab {
-        flex-basis: 100%;
-    }
-}
-    </style>
-</head>
-<body>
-    <div id="portfolio-tabs">
-        <div class="tab-container">
-            <div class="tab" data-tab="project10">
-                <img src="/assets/img/portfolio/Stacked_barplot_example.png" alt="Project 10">
-                <div class="tab-overlay">
-                    <span class="short-title">Data Visualisation Dashboard</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Creation of a dashboard for Citizens for Europe</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project9">
-                <img src="/assets/img/portfolio/Network_1.png" alt="Project 9">
-                <div class="tab-overlay">
-                    <span class="short-title">Network charts of genetic relationships</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Visualising first and second degree relationships of tree populations</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project8">
-                <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Project 8">
-                <div class="tab-overlay">
-                    <span class="short-title">Global Fishing Effort</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Machine Learning for Fishing Estimates</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project7">
-                <img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png" alt="Project 7">
-                <div class="tab-overlay">
-                    <span class="short-title">Protection of Shark and Ray Areas</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Evaluating the governance and protection of sharks and rays</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project6">
-                <img src="/assets/img/portfolio/ISRAs e-atlas.png" alt="Project 6">
-                <div class="tab-overlay">
-                    <span class="short-title">Important Shark and Ray Areas</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Mapping critical shark habitat accross the world</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project5">
-                <img src="/assets/img/portfolio/HEB_2G_males_clusters.png" alt="Project 5">
-                <div class="tab-overlay">
-                    <span class="short-title">Hierarchical Edge Bundling</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Analyses of cardiometabolic biomarkers</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project4">
-                <img src="/assets/img/portfolio/Pimiento et al. 2024.png" alt="Project 4">
-                <div class="tab-overlay">
-                    <span class="short-title">Global shark biodiversity</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Assessing elasmobranch functional diversity at the global scale</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project3">
-                <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 3">
-                <div class="tab-overlay">
-                    <span class="short-title">Cetacean biodiversity modelling</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Modelling cetacean biodiversity in New Zealand waters</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project2">
-                <img src="/assets/img/portfolio/Mouton et al. 2020 map.png" alt="Project 2">
-                <div class="tab-overlay">
-                    <span class="short-title">Climate change and river biodiversity</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Time series analyses of biodiversity change</span>
-                </div>
-            </div>
-            <div class="tab" data-tab="project1">
-                <img src="/assets/img/portfolio/Mouton et al. 2018 GAbs.png" alt="Project 1">
-                <div class="tab-overlay">
-                    <span class="short-title">Functional diversity of stream macrophytes</span>
-                    <hr class="tab-divider">
-                    <span class="long-title">Evaluating macrophyte functional responses to anthropogenic disturbances</span>
-                </div>
-            </div>
-        </div>
-        <div id="modal-overlay" class="modal-overlay">
-            <div class="modal-content">
-                <span class="close-btn">&times;</span>
-                <h2 class="modal-title"></h2>
-                <hr class="modal-divider">
-                <p class="modal-description"></p>
-                <div id="modal-body"></div>
-            </div>
-        </div>
-    </div>
-    <template id="project10-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>I designed and developed a data visualization dashboard for <a href="https://citizensforeurope.org/" target="_blank"><strong>Citizens for Europe</strong></a> to analyze the largest European survey on social discrimination. Built using <strong>Shiny</strong>, the dashboard enables the creation of 14 different chart types, including bar plots, stacked bar plots, circle bar charts, upset charts, bubble charts, dumbbell charts, and Likert scale charts. This comprehensive tool enables the visualization of all survey responses, providing researchers with flexible ways to explore and present the data.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Shiny_screenshot.png" alt="Dashboard Screenshot">
-            </div>
-            <div class="project-description">
-                <p>All charts are fully customizable through the app, with options to modify data and layout, labels and text, styles and colors, and chart-specific settings. Users can download the resulting visualizations as high-resolution PNG files or upload them directly to Google Drive. The app also generates corresponding data tables, which are available for download in publication-ready PNG format.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Shiny_likert_example.png" alt="Likert Chart Example">
-            </div>
-        </div>
-    </template>
-    <template id="project9-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>I was hired by <a href="https://scholar.google.com/citations?user=CS_CzwsAAAAJ&hl=en" target="_blank">Dr. Muriel Gros-Balthazard</a> (Institute for Research and Development) to design and develop network visualizations of relationships between populations of trees spanning two continents. The work included creating static and interactive network charts of first and second degree relationships among individual trees or groups of clones. These results being under preparation for publication, they are currently confidential.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Network_2.png" alt="Network Chart 2">
-            </div>
-        </div>
-    </template>
-    <template id="project8-template">
-    <div class="project-container">
-        <div class="project-description">
-            <p>I was hired by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> from the University of Zurich to compile and analyze global fishing effort datasets for a research project.</p>
-            </div>
-            <div class="project-description">
-             <p> For this, I used Global Fishing Watch's latest datasets of fishing hours from Automatic Identification System (AIS) detections and fishing vessel detections from Sentinel-1 Synthetic Aperture Radar (SAR) imagery processing. These databases include dozens to hundreds of millions of records and are the best datasets for estimating fishing effort globally.</p>
-            </div>
-            <div class="project-image">
-            <img src="/assets/img/portfolio/AIS_fishing_map.png" alt="Fig. 1">
-            </div>
-            <div class="project-image">
-            <img src="/assets/img/portfolio/SAR_fishing_map.png" alt="Fig. 2">
-            </div>
-            <div class="project-description">
-             <p></p>
-            <p> However, while AIS-based datasets offer unique information on global fishing effort, in some areas of the world (such as the Coral Triangle or the Caribbean Sea), fishing vessels do not broadcast AIS information. Nonetheless, fishing activity is detected in these regions through satellite imagery processing. To convert fishing vessel detections into estimated fishing hours in areas with only SAR detections, I built a machine learning-based predictive model (using random forest modeling) to predict fishing hours in these regions. The model included more than 150,000 records as training data and environmental predictors, such as the distance to ports, to improve performance. I also performed spatially blocked cross-validation and prediction to overcome spatial autocorrelation. As a result, my model explained 80% of the variation in fishing hours, and I was able to confidently predict fishing hours in 60,000 ocean grid cells.</p>
-        </div>
-            <div class="project-image">
-            <img src="/assets/img/portfolio/predicted_plot_SAR_only.png" alt="Fig. 3">
-            </div>
-        <div class="project-description">
-             <p></p>
-            <p> In a second step, I used the same approach to predict estimated fishing hours in every ocean grid cell. I built a random forest model of fishing hours according to a wide range of environmental descriptors, including bathymetry, distance to ports, and marine protected area locations. This generated the map of estimated fishing hours in every ocean cell of the world, with the model explaining more than 75% of the variation in fishing hours.</p>
-        </div>
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Global_fishing_map.png" alt="Fig. 4">
-            </div>
-        <div class="project-description">
-             <p></p>
-            <p>
-                    <a href="https://github.com/TheophileMt92/GFW-Global-fishing-hours" target="_blank">GitHub Repository</a> 
-                </p>
-        </div>
-        </div>
-</template>
-    <template id="project7-template">
-    <div class="project-container">
-        <div class="project-description">
-            <p>I led and published <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">an article in Marine Policy</a> with 45 co-authors from Academia, Governments and NGOs under the supervision of <a href="https://www.linkedin.com/in/rima-jabado-93656a6b/?originalSubdomain=ae" target="_blank">Dr. Rima Jabado</a>, the Chair of the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a>. The article is titled: <i>"Shortfalls in the protection of Important Shark and Ray Areas undermine shark conservation efforts in the Central and South American Pacific"</i>. </p>
-            </div>
-            <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 1.jpeg" alt="Fig. 1">
-            </div>
-            <div class="project-description">
-             <p></p>
-            <p> The project consisted of (i) assessing trends in Marine Protected Area (MPA) expansion and extent across the 12 nations of the region; (ii) quantifying the spatial overlap between MPAs and Important Shark and Ray Areas (ISRAs); and (iii) evaluating the effectiveness of the current MPA governance structure at protecting sharks and their critical habitat. We did this by utilising a combination of text analyses, statistical modelling (GLMM, PCA, Clustering) and GIS tools (sf, ArcGis).</p>
-        </div>
-            <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 2.jpeg" alt="Fig. 2">
-            </div>
-        <div class="project-description">
-             <p></p>
-            <p> There has been a recent rapid increase in the establishment of MPAs with 90 % of current MPAs in the region designated since 2010. Yet, El Salvador, Guatemala, Peru, and Honduras still protect less than 10 % of their waters. We find that ISRAs overlap with all MPAs by only 15.6 % and with no-take MPAs by 7.3 %. Of 182 MPAs identified, 41.8 % do not have a management plan, comprising 39.8 % of the total MPA extent. Mexico, Costa Rica, and Colombia have relatively strong governance frameworks in place and, along with Panama, Honduras, and Ecuador, represent the highest overlap between MPAs and ISRAs. However, the contribution of the remaining six countries to shark protection via MPAs is low based on limited spatial overlap with ISRAs (less than 2 % each).</p>
-        </div>
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2024_Fig. 5.jpeg" alt="Fig. 5">
-            </div>
-        <div class="project-description">
-             <p></p>
-            <p> As countries mobilise to meet the 30×30 target, we propose considering ISRAs as a key component of spatial planning when designing new MPAs, designating existing partially protected areas as no-take zones, or reshaping the boundaries of existing MPAs.</p>
-            <p>
-                    <a href="https://github.com/TheophileMt92/ISRA_R12_MPA_overlaps" target="_blank">GitHub Repository</a> |
-                    <a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482?via%3Dihub" target="_blank">Mouton et al. 2024 (Marine Policy)</a>
-                </p>
-        </div>
-        </div>
-</template>
-<template id="project6-template">
-    <div class="project-container">
-        <div class="project-description">
-            <p>I was a postdoctoral researcher and scientific coordinator for the <a href="https://www.iucnssg.org/" target="_blank">IUCN SSC Shark Specialist Group</a> during a year, working on the <a href="https://sharkrayareas.org/" target="_blank">Important Shark and Ray Areas project</a>. </p>
-            <p>As I started the job, we tackled the Mediterranean and Black Seas Region and I was responsible for coordinating research in France, Monaco and Italy. The project resulted in the publication of 65 ISRAs, read the report <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Thessaloniki, Greece is accessible below.</p>
-        </div>
-        <div class="project-video">
-            <a href="https://www.youtube.com/watch?v=vghKtCjsP-g" target="_blank">
-                <img src="https://img.youtube.com/vi/vghKtCjsP-g/0.jpg" alt="ISRA MED Workshop video">
-            </a>
-        </div>
-        <div class="project-description">
-             <p></p>
-            <p>We later tackled the Western Indian Ocean Region and I was responsible for coordinating research in Seychelles, the Chagos Archipelago, La Réunion, Mauritius and the United Arab Emirates. The project resulted in the publication of 125 ISRAs, read the report <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/" target="_blank">here</a>. A video of the workshop held in Durban, South Africa is accessible below.</p>
-        </div>
-        <div class="project-video">
-            <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E" target="_blank">
-                <img src="https://img.youtube.com/vi/T5jFvc3bX4E/0.jpg" alt="ISRA WIO Workshop video">
-            </a>
-        </div>
-    </div>
-</template>
-    <template id="project5-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>I was hired by <a href="https://uchile.cl/portafolio-academico/portafolio-academico/academico/49064" target="_blank">Prof. María Paulina Correa Burrows</a> from the Universidad de Chile to apply Hierchical Edge Bundling (HEB) to cardiometabolic health markers for a study on the effects of obesity on the health of teenagers. I produced ten different HEBs, a quarto document and publication ready charts for this consultancy. The project is publicly accessible on my <a href="https://github.com/TheophileMt92/Hierarchal-Edge-Bundling" target="_blank">GitHub Repository</a> </p>
-                <div class="project-image">
-                <img src="/assets/img/portfolio/HEB_2G_males_clusters.png" alt="Project 2">
-            </div>
-            </div>
-        </div>
-    </template>
-    <template id="project4-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>A group of researchers led by <a href="https://www.catalinapimiento.com/" target="_blank">Dr. Catalina Pimiento</a> and <a href="https://fableprieur.weebly.com/" target="_blank">Prof. Fabien Leprieur</a>, and including myself, investigated the functional diversity of sharks and rays in the world.</p>
-                <p>The group created a trait dataset of > 1000 species to assess elasmobranch functional diversity and compare it against previously studied facets (taxonomic and phylogenetic), to identify species- and spatial- conservation priorities. This consisted of using global spatial datasets of shark and ray distributions and macroecological statistical analyses (generalised modelling, ordination methods, spatial mapping methods etc.). </p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Pimiento et al. 2024_2maps.png" alt="Project 3">
-            </div>
-            <div class="project-description">
-                <p>The spatial analyses showed that elasmobranch functional richness is concentrated along continental shelves and around oceanic islands, with 18 distinguishable hotspots. These hotspots only marginally overlap with those of other biodiversity facets, reflecting a distinct spatial fingerprint of functional diversity. </p> 
-                <p> Elasmobranch biodiversity facets converge with fishing pressure along the coast of China, which emerged as a critical frontier in conservation. Meanwhile, several components of elasmobranch functional diversity fall in high seas and/or outside the global network of marine protected areas.</p>
-                <p>These results highlight acute vulnerability of the world's elasmobranchs' functional diversity and reveal global priorities for elasmobranch functional biodiversity previously overlooked.</p>
-                <p>
-                    <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global" target="_blank">GitHub Repository</a> |
-                    <a href="https://www.nature.com/articles/s41467-023-43212-3" target="_blank">Pimiento et al. 2024 (Nature communications)</a>
-                </p>
-            </div>
-        </div>
-    </template>
-    <template id="project3-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>A group of researchers led by <a href="https://www.ncl.ac.uk/nuact/fellows/profile/fabricestephenson.html" target="_blank">Dr. Fabrice Stephenson</a> and myself, and involving internationally renowned cetacean ecologists, such as <a href="https://mmi.oregonstate.edu/people/leigh-g-torres">Leigh G. Torres</a> and <a href="https://usys.ethz.ch/en/people/profile.MjIyODg5.TGlzdC82MzcsMzIwMTk3MjIy.html">Camille Albouy</a> investigated the spatial distribution of cetacean biodiversity in New Zealand waters. This project led to three research papers published in Rank A journals.</p>
-                <p><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">The first publication</a> involved modelling the spatial distribution of cetaceans in New Zealand. For this, we curated a national database of cetacean sightings at sea (>7000 sightings) and used Boosted Regression Tree and Relative Environmental Suitability modelling to predict the distribution of 30 species and species richness within New Zealand's EEZ. <a href="https://docs.niwa.co.nz/library/public/NZAEBR-240.pdf" target="_blank">A report</a> was also published and prepared for Fisheries New Zealand (Ministry for Primary Industries). </p>
-            </div>  
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Project 4">
-            </div>
-            <div class="project-description">
-                <p><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">The second publication</a> used the prioritisation software <a href="https://zonationteam.github.io/Zonation5/" target="_blank">Zonation</a> to identify cetacean richness hotspots for conservation management. We investigated how varying levels of uncertainty in predictions of the taxa' occurrence layers would affect our interpretation of cetacean hotspots.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Project 4">
-            </div>
-            <div class="project-description">
-                <p>In <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">the third publication</a> we modelled spatial patterns of taxonomic, functional, and phylogenetic diversity of cetaceans. We examined areas of congruence among hotspots of richness and uniqueness components of biodiversity and measured the contribution of species to biodiversity. </p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Project 4">
-            </div>
-            <p>
-                    <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035" target="_blank">Stephenson et al. 2020 (Diversity and Distributions)</a> |
-                    <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633" target="_blank">Stephenson et al. 2021 (Ecosphere)</a> |
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374" target="_blank">Mouton et al. 2022 (Biological Conservation)</a> 
-                </p>
-        </div>
-    </template>
-    <template id="project2-template">
-    <div class="project-container">
-        <div class="project-description">
-            <p>This project constituted the core of my PhD project. I designed and led studies on temporal changes in biodiversity under climate and land-use change using databases from New Zealand's national network monitoring programs. I collaborated with scientists during this research, mostly <a href="https://tonkinlab.org/" target="_blank">Assoc. Prof. Jonathan Tonkin</a> and <a href="https://glowabio.org/authors/mathieu-floury/" target="_blank">Dr. Mathieu Floury</a>. </p>
-        </div>
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2020 map.png" alt="Project 5" style="width: 60%; height: auto;">
-        </div>
-        <div class="project-description">
-            <p>In <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">the first publication</a>, I assessed temporal changes in taxonomic and functional spatial beta-diversity of river macroinvertebrates and possible drivers of these changes using Hierarchical Generalised Additive Modelling. We observed long-term, mostly climate-induced, temporal trends towards taxonomic homogenization but functional differentiation among macroinvertebrate assemblages.</p>
-        </div>
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2020 GCB Fig 1.png" alt="Project 5">
-        </div> 
-        <div class="project-description">
-            <p>In <a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148" target="_blank">the second publication</a> I examined changes in population size and range shifts of species pools, and related these to taxonomy and functional traits. We found that increases in population and species range size were more prevalent than decreases in population and range size. Species shifted their ranges towards higher latitudes on average by 50 km per decade. Despite little to no relationship with taxonomy, we uncovered distinct relationships between functional traits and population trends and latitudinal species range shifts.</p>
-        </div>
-        <div class="project-image">
-            <img src="/assets/img/portfolio/Mouton et al. 2022 FD spaces.jpg" alt="Project 5">
-        </div>
-        <div class="project-description">
-            <p>This work was also showcased in <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve" target="_blank">Issue 12</a> of the science magasine NatureVolve, page 32.</p>
-        </div>
-        <p>
-                    <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389" target="_blank">Mouton et al. 2020 (Global Change Biology)</a> |
-                    <a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148" target="_blank">Mouton et al. 2022 (Ecography)</a> |
-                    <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve" target="_blank">NatureVolve (Issue 12)</a> 
-                </p>
-    </div>
-</template>
-    <template id="project1-template">
-        <div class="project-container">
-            <div class="project-description">
-                <p>This was my first project while working at the <a href="https://niwa.co.nz/" target="_blank">National Institute for Water and Atmospheric Reseach</a>. It led to my <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">first scientific publication</a>. I compiled a database of native and non-native macrophyte abundance in Waikato Region (New Zealand) streams, a matrix of 11 functional traits and data on associated natural and human-driven processes.</p>
-            </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Project 5" style="width: 40%; height: auto;">
-            </div>
-            <div class="project-description">
-                <p>I used a three-way ordination technic (RLQ analysis), multidimentional functional diversity indices and a model-averaging procedure to determine the functional response of macrophytes to anthropogenic disturbances. This demonstrated that stream reach-scale habitat disturbances were associated to a dominance of more productive species, equating to a greater abundance of non-native species. </p>
-                </div>
-            <div class="project-image">
-                <img src="/assets/img/portfolio/Mouton et al. 2018 diverging barplot.png" alt="Project 5" style="width: 60%; height: auto;">
-            </div>
-            <div class="project-description">
-                <p>These results suggest that the conservation and restoration of riparian vegetation that provides substantial shading and hydromorphologically diverse in-stream habitat, would have beneficial direct and indirect effects on ecosystem functioning, and contribute to the mitigation of land-use impacts.</p>
-            </div>
-            <p>
-                    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507" target="_blank">Mouton et al. 2019 (Science of the Total Environment)</a> 
-                </p>
-        </div>
-    </template>
-    <script>
-    const tabContainer = document.querySelector('.tab-container');
-    const modalOverlay = document.getElementById('modal-overlay');
-    const modalTitle = document.querySelector('.modal-title');
-    const modalDescription = document.querySelector('.modal-description');
-    const modalBody = document.getElementById('modal-body');
-    const closeBtn = document.querySelector('.close-btn');
-    const projectInfo = {
-        project10: {
-            title: "Data Visualisation Dashboard",
-            description: "Creation of a comprehensive dashboard for Citizens for Europe to analyze European survey data on social discrimination."
-        },
-        project9: {
-            title: "Network charts of genetic relationships",
-            description: "Visualising first and second degree relationships of tree populations across two continents."
-        },
-        project8: {
-            title: "Global Fishing Effort Analysis",
-            description: "Utilizing Advanced Machine Learning Techniques to Estimate Fishing Hours Across the World's Oceans."
-        },
-        project7: {
-            title: "Protection of Sharks and Rays",
-            description: "Evaluating the governance and protection of sharks and rays in the Central and South American Pacific."
-        },
-        project6: {
-            title: "Important Shark and Ray Areas",
-            description: "Mapping critical habitat of Sharks, Rays and Chimaeras across the globe."
-        },
-        project5: {
-            title: "Hierarchical Edge Bundling",
-            description: "Applying Hierarchical Edge Bundling to cardiometabolic health markers"
-        },
-        project4: {
-            title: "Functional diversity of sharks and rays",
-            description: "Macroecological analyses of shark biodiversity, overlaps with industrial fishing pressure and with marine protected areas."
-        },
-        project3: {
-            title: "Cetacean Biodiversity Modelling in New Zealand Waters",
-            description: "A comprehensive study on the distribution and diversity of cetacean species in New Zealand waters."
-        },
-        project2: {
-            title: "Macroecological analyses of biodiversity change",
-            description: "Time-series analyses of biodiversity facing climate and land-use change: New Zealand's Rivers as case study"
-        },
-        project1: {
-            title: "Functional diversity response to habitat disturbances",
-            description: "Analysing native and non-native stream macrophyte assemblage response to habitat disturbances in an agricultural landscape."
-        }
-    };
-    tabContainer.addEventListener('click', function(event) {
-        const tab = event.target.closest('.tab');
-        if (tab) {
-            const tabId = tab.getAttribute('data-tab');
-            const template = document.getElementById(`${tabId}-template`);
-            if (template) {
-                modalTitle.textContent = projectInfo[tabId].title;
-                modalDescription.textContent = projectInfo[tabId].description;
-                modalBody.innerHTML = '';
-                modalBody.appendChild(template.content.cloneNode(true));
-                modalOverlay.style.display = 'block';
-            }
-        }
-    });
-    closeBtn.addEventListener('click', () => {
-        modalOverlay.style.display = 'none';
-    });
-    window.addEventListener('click', (event) => {
-        if (event.target == modalOverlay) {
-            modalOverlay.style.display = 'none';
-        }
-    });
-    </script>
-</body>
-</html>
+<style>
+.pf { max-width: 1100px; margin: 0 auto; }
+.pf-lede { font-size: 1.05rem; line-height: 1.6; margin: 0 0 1.2rem; }
+.pf-avail { border-left: 4px solid #193747; background: #f4f7f9; padding: 0.9rem 1.1rem; margin: 0 0 2.4rem; font-size: 0.97rem; line-height: 1.55; }
+.pf-avail strong { color: #193747; }
+.pf h2.pf-sec { margin: 2.8rem 0 0.3rem; font-size: 1.45rem; color: #193747; border-bottom: 2px solid #193747; padding-bottom: 0.35rem; }
+.pf .pf-sub { margin: 0 0 1.4rem; font-size: 0.95rem; color: #5a6a74; }
+.pf h3.pf-grp { margin: 2.2rem 0 1rem; font-size: 1rem; color: #193747; text-transform: uppercase; letter-spacing: 0.06em; }
+.pf-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.6rem; }
+.pf-card { border: 1px solid #dfe5e9; border-radius: 4px; overflow: hidden; background: #fff; display: flex; flex-direction: column; transition: box-shadow .2s ease, transform .2s ease; }
+.pf-card:hover { box-shadow: 0 6px 18px rgba(25,55,71,.13); transform: translateY(-2px); }
+.pf-thumb { width: 100%; aspect-ratio: 16/10; object-fit: cover; object-position: center; background: #eef2f4; display: block; }
+.pf-body { padding: 0.9rem 1rem 1.1rem; flex: 1; display: flex; flex-direction: column; }
+.pf-body h4 { margin: 0 0 .45rem; font-size: 1.02rem; line-height: 1.3; color: #193747; }
+.pf-body p { margin: 0 0 .8rem; font-size: .9rem; line-height: 1.5; color: #44535c; flex: 1; }
+.pf-meta { font-size: .78rem; text-transform: uppercase; letter-spacing: .05em; color: #7d8d96; margin: 0 0 .4rem; }
+.pf-links a { font-size: .85rem; margin-right: .85rem; white-space: nowrap; }
+@media (max-width: 760px) { .pf-grid { grid-template-columns: 1fr; } }
+
+.pf-paper { display: grid; grid-template-columns: 320px 1fr; gap: 1.4rem; align-items: start; border: 1px solid #dfe5e9; border-radius: 4px; padding: 1.2rem; margin-bottom: 1.4rem; background: #fff; }
+.pf-paper.noimg { grid-template-columns: 1fr; }
+.pf-paper img { width: 100%; border: 1px solid #e6ebee; border-radius: 3px; display: block; background: #f7f9fa; }
+.pf-paper h4 { margin: 0 0 .4rem; font-size: 1.06rem; line-height: 1.35; color: #193747; }
+.pf-cite { font-size: .85rem; color: #6b7a83; margin: 0 0 .7rem; }
+.pf-cite em { color: #44535c; }
+.pf-paper p.pf-note { font-size: .92rem; line-height: 1.55; color: #44535c; margin: 0 0 .8rem; }
+.pf-reports { font-size: .92rem; line-height: 1.7; color: #44535c; }
+@media (max-width: 760px) { .pf-paper { grid-template-columns: 1fr; } }
+</style>
+
+<div class="pf" markdown="0">
+
+<p class="pf-lede">I build the things people use to make sense of data: reporting systems, interactive applications, and analyses that turn large environmental datasets into something a non-specialist can read and act on. Mostly in R, Python and Quarto, mostly about the ocean.</p>
+
+<div class="pf-avail"><strong>Available now.</strong> I am open to roles at the science-policy interface, remote or hybrid, and I take on freelance data visualisation and data science work through DataSphere Analytics. <a href="mailto:theophile.mouton92@gmail.com">theophile.mouton92@gmail.com</a></div>
+
+<h2 class="pf-sec">Tools and systems</h2>
+<p class="pf-sub">Built for other people to use.</p>
+<div class="pf-grid">
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/Shiny_screenshot.png" alt="Survey visualisation dashboard"><div class="pf-body"><p class="pf-meta">Client work &middot; Citizens for Europe</p><h4>Survey visualisation dashboard</h4><p>A Shiny application that lets researchers build 14 chart types from Germany&rsquo;s largest survey on discrimination: bar, stacked bar, circular bar, upset, bubble, dumbbell and Likert. Every chart is configurable from the interface, covering data and layout, labels and text, styles and colours, and chart-specific settings, and exports as a high-resolution PNG or straight to Google Drive, with matching publication-ready data tables.</p><p class="pf-links"><a href="https://citizensforeurope.org/">Citizens for Europe</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_quarto_template.png" alt="Reproducible reporting with Quarto"><div class="pf-body"><p class="pf-meta">System &middot; DataSphere Analytics</p><h4>Reproducible reporting with Quarto</h4><p>The report template I build for research groups and public agencies. A single .qmd file produces a self-contained HTML report with a custom visual identity, a filterable plotly chart, a leaflet map with switchable basemaps and grouped layers, and a sortable reactable table with in-cell bars. No Bootstrap theme, nothing to install.</p><p class="pf-links"><a href="https://theophilemt92.github.io/quarto-report-template/">Live report</a> <a href="https://github.com/TheophileMt92/quarto-report-template">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_gfw_seasonality.png" alt="Fishing fleet seasonality"><div class="pf-body"><p class="pf-meta">Application &middot; Global Fishing Watch data</p><h4>Fishing fleet seasonality</h4><p>An interactive look at when national fleets fish, and where. Pick an FAO major fishing area and a set of flag states: the chart gives weekly or cumulative fishing hours per fleet across 2020, with the legend ordered by each fleet&rsquo;s peak week, and the map shows where that effort falls month by month.</p><p class="pf-links"><a href="https://theophile-mouton.shinyapps.io/gfw-seasonality/">Open the app</a> <a href="https://github.com/TheophileMt92/gfw-seasonality">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_vanuatu.png" alt="Disaster damage and response estimation"><div class="pf-body"><p class="pf-meta">Consultancy &middot; Government of Vanuatu</p><h4>Disaster damage and response estimation</h4><p>An automated pipeline turning a cyclone scenario into a costed, sector-by-sector damage and response assessment for every area council in the country. Built in R and Quarto with Yan Holtz. Every figure in the public demonstration is simulated.</p><p class="pf-links"><a href="https://theophilemt92.github.io/vanuatu-disaster-report-demo/">Live demo</a> <a href="https://github.com/TheophileMt92/vanuatu-disaster-report-demo">Repo</a></p></div></div>
+<div class="pf-card"><div class="pf-body"><p class="pf-meta">Teaching &middot; The R Graph Gallery</p><h4>Data visualisation tutorials</h4><p>Published tutorials on advanced chart types for the R Graph Gallery: chord diagrams, Sankey diagrams, bump charts and beeswarm plots, written for people building these for the first time.</p><p class="pf-links"><a href="https://r-graph-gallery.com/">R Graph Gallery</a></p></div></div>
+</div>
+
+<h2 class="pf-sec">Analysis and visual explanation</h2>
+<p class="pf-sub">Large environmental datasets turned into a readable answer.</p>
+<div class="pf-grid">
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_fleet_comparison.png" alt="What &ldquo;largest fishing fleet&rdquo; actually means"><div class="pf-body"><p class="pf-meta">Global Fishing Watch, 2020</p><h4>What &ldquo;largest fishing fleet&rdquo; actually means</h4><p>China operates the largest industrial fleet by total hours. Largest changes meaning depending on what you divide by, and dividing by area puts the Mediterranean fleets far above everyone else: Italy applies roughly 3,800 fishing hours to the average 0.5 degree cell it fishes, against about 660 for China across all the world&rsquo;s oceans. The piece is really about which normalisation tells you something.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/gfw-fleet-comparison">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_chinese_fleet.png" alt="A year of Chinese fleet effort"><div class="pf-body"><p class="pf-meta">Animation &middot; AIS 2017-2020</p><h4>A year of Chinese fleet effort</h4><p>An animated global map accumulating Chinese-flagged fishing hours per 0.25 degree cell from the first week of January, ending on the full annual footprint. A panel above tracks weekly effort across all waters, one to the side breaks the current week down by FAO major fishing area.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/gfw-chinese-fleet">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_fishing_effort_beyond_ais.png" alt="Mapping fishing effort beyond AIS"><div class="pf-body"><p class="pf-meta">AIS and Sentinel-1 radar</p><h4>Mapping fishing effort beyond AIS</h4><p>Public monitoring of industrial fishing leans on AIS, and its coverage is uneven: not every vessel carries it, not every vessel keeps it switched on. Radar sees vessels regardless of what they broadcast, but a detection tells you only that something was there. A random forest trained on paired AIS and radar detections converts detections into estimated fishing hours where AIS goes quiet.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/fishing-effort-beyond-ais">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_mpa_oil_slicks.png" alt="Oil slicks and marine protected areas"><div class="pf-body"><p class="pf-meta">SkyTruth Cerulean and the WDPA</p><h4>Oil slicks and marine protected areas</h4><p>Which countries, and which marine protected areas, are exposed to oil. Satellite-detected slicks from SkyTruth&rsquo;s Cerulean platform, Sentinel-1 radar with machine-learning detection for 2023 to 2025, intersected with every marine protected area in the World Database on Protected Areas.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/mpa-oil-slicks">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_us_settlement.png" alt="Two centuries of American settlement"><div class="pf-body"><p class="pf-meta">Animation &middot; HISDAC-US</p><h4>Two centuries of American settlement</h4><p>HISDAC-US records, for every 250 m cell of the conterminous United States, the year its first structure appears in the property record. The dataset is cumulative, so the whole 1810 to 2020 animation comes from one raster layer and a moving threshold rather than from 43 separate rasters.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/us-settlement-age">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_hawaii_cetaceans.png" alt="Cetaceans in the Hawaiian Islands EEZ"><div class="pf-body"><p class="pf-meta">NOAA PIFSC survey data</p><h4>Cetaceans in the Hawaiian Islands EEZ</h4><p>Two analyses of cetacean survey data from the NOAA Pacific Islands Fisheries Science Center, written in R and wrapped as Quarto reports: an animated map of seasonal sighting records, and a density surface model for humpback whales.</p><p class="pf-links"><a href="https://theophilemt92.github.io/hawaii-cetacean-surveys/">Read the reports</a> <a href="https://github.com/TheophileMt92/hawaii-cetacean-surveys">Repo</a></p></div></div>
+<div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_protection_gaps.png" alt="Protection gaps for sharks and rays"><div class="pf-body"><p class="pf-meta">WDPA and global range maps</p><h4>Protection gaps for sharks and rays</h4><p>Marine protected area coverage is not the same as protection of the right things. How much of each shark and ray species range falls inside no-take protected areas, and whether that is more than random placement would achieve.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/shark-ray-protection-gaps">Repo</a></p></div></div>
+</div>
+
+
+<h2 class="pf-sec">Research</h2>
+<p class="pf-sub">Twelve peer-reviewed articles. Full list on <a href="https://scholar.google.com/citations?user=iiZ0klkAAAAJ&hl=en">Google Scholar</a>.</p>
+<h3 class="pf-grp">First author</h3>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/pap_sciadv_captain.png" alt="Global gaps and priorities for shark and ray conservation"></div><div><h4>Global gaps and priorities for shark and ray conservation</h4><p class="pf-cite">Mouton T.L., Silvestro D., Kocáková K., Spitznagel D., Leprieur F., Pimiento C. (2025). <em>bioRxiv</em> 2025.11.28.691085. In revision at <em>Science Advances</em>.</p><p class="pf-note">A global prioritisation of 1,192 shark and ray species integrating threat status, functional distinctiveness and evolutionary distinctiveness. Species range overlap with the no-take marine protected area network is compared against null models of random placement, and a reinforcement learning algorithm (CAPTAIN) identifies spatial priorities at a 10% protection budget aligned with Target 3 of the Global Biodiversity Framework.</p><p class="pf-links"><a href="https://www.biorxiv.org/content/10.1101/2025.11.28.691085">Preprint</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Mouton et al. 2024_MPAs.png" alt="Shortfalls in the protection of Important Shark and Ray Areas"></div><div><h4>Shortfalls in the protection of Important Shark and Ray Areas</h4><p class="pf-cite">Mouton T.L., Gonzalez-Pestana A., Rohner C.A., Charles R., <em>et al.</em> (2025). <em>Marine Policy</em> 171, 106448.</p><p class="pf-note">Led with 45 co-authors from academia, governments and NGOs under Rima Jabado, Chair of the IUCN SSC Shark Specialist Group. Trends in marine protected area expansion across 12 nations of the Central and South American Pacific, the spatial overlap between those areas and Important Shark and Ray Areas, and whether the governance in place actually protects critical habitat. Important Areas overlap all protected areas by 15.6% and no-take areas by 7.3%; 41.8% of the 182 protected areas have no management plan.</p><p class="pf-links"><a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482">Paper</a> <a href="https://github.com/TheophileMt92/ISRA_R12_MPA_overlaps">Repo</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Spatial mismatch in diversity facets and New Zealand's cetacean biodiversity"></div><div><h4>Spatial mismatch in diversity facets and New Zealand's cetacean biodiversity</h4><p class="pf-cite">Mouton T.L., Stephenson F., Torres L.G., Rayment W., Brough T., McLean M., Tonkin J.D., Albouy C., Leprieur F. (2022). <em>Biological Conservation</em> 267, 109484.</p><p class="pf-note">Taxonomic, functional and phylogenetic diversity of cetaceans modelled across New Zealand waters, testing where hotspots of richness and of uniqueness agree and where they do not, and measuring how much individual species contribute to each facet.</p><p class="pf-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374">Paper</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Mouton et al. 2022 FD spaces.jpg" alt="Climate and land-use driven reorganisation of river communities"></div><div><h4>Climate and land-use driven reorganisation of river communities</h4><p class="pf-cite">Mouton T.L., Leprieur F., Floury M., Stephenson F., Verburg P., Tonkin J.D. (2022). <em>Ecography</em> 2022(3), e06148.</p><p class="pf-note">Changes in population size and range shifts across a national macroinvertebrate species pool, related to taxonomy and functional traits. Increases in population and range size were more common than decreases, and species shifted towards higher latitudes by around 50 km per decade, with distinct trait signatures but little taxonomic signal.</p><p class="pf-links"><a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148">Paper</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Mouton et al. 2020 GCB Fig 1.png" alt="Taxonomic homogenization but functional differentiation in rivers"></div><div><h4>Taxonomic homogenization but functional differentiation in rivers</h4><p class="pf-cite">Mouton T.L., Tonkin J.D., Stephenson F., Verburg P., Floury M. (2020). <em>Global Change Biology</em> 26(12), 6904-6915.</p><p class="pf-note">Thirty years of New Zealand national monitoring data analysed with hierarchical generalised additive models to test for temporal change in taxonomic and functional beta-diversity. The long-term trend is towards taxonomic homogenization and, at the same time, functional differentiation, mostly climate-driven.</p><p class="pf-links"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389">Paper</a> <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve">NatureVolve</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Environmental filtering of stream macrophytes by habitat disturbance"></div><div><h4>Environmental filtering of stream macrophytes by habitat disturbance</h4><p class="pf-cite">Mouton T.L., Matheson F.E., Stephenson F., Champion P.D., Wadhwa S., Hamer M.P., Catlin A., Riis T. (2019). <em>Science of the Total Environment</em> 659, 1370-1381.</p><p class="pf-note">First paper, written at NIWA. A database of native and non-native macrophyte abundance across Waikato streams, an 11-trait matrix and associated natural and human-driven processes, analysed with RLQ ordination, multidimensional functional diversity indices and model averaging. Reach-scale habitat disturbance favours more productive species and, with them, non-native abundance.</p><p class="pf-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507">Paper</a></p></div></div>
+<h3 class="pf-grp">Co-author</h3>
+<div class="pf-paper noimg"><div><h4>Only one percent of Important Shark and Ray Areas in the Western Indian Ocean are fully protected from fishing pressure</h4><p class="pf-cite">Cochran J.E.M., Charles R., Temple A.J., Kyne P.M., García-Rodríguez E., <em>et al.</em> (2026). <em>Ecology and Evolution</em> 16(1), e72690.</p><p class="pf-note"></p><p class="pf-links"></p></div></div>
+<div class="pf-paper noimg"><div><h4>Important Shark and Ray Areas can inform conservation planning in the Mediterranean and Black Seas</h4><p class="pf-cite">Rohner C.A., Richardson A.J., García-Rodríguez E., Charles R., <em>et al.</em> (2025). <em>iScience</em> 113192.</p><p class="pf-note">Pairs the Important Shark and Ray Areas of the Mediterranean and Black Seas with a basin-scale spatial prioritisation, with fishing pressure derived from Global Fishing Watch AIS data supplemented by satellite detections where AIS coverage is absent.</p><p class="pf-links"><a href="https://www.cell.com/iscience/fulltext/S2589-0042(25)01453-1">Paper</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Pimiento et al. 2024_2maps.png" alt="Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide"></div><div><h4>Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide</h4><p class="pf-cite">Pimiento C., Albouy C., Silvestro D., Mouton T.L., Velez L., Mouillot D., Judah A.B., Griffin J.N., Leprieur F. (2023). <em>Nature Communications</em> 14(1), 7691.</p><p class="pf-note">A trait dataset of more than 1,000 species used to map elasmobranch functional diversity against taxonomic and phylogenetic facets. Functional richness concentrates on continental shelves and around oceanic islands in 18 hotspots that barely overlap the other facets, and converges with fishing pressure along the coast of China.</p><p class="pf-links"><a href="https://www.nature.com/articles/s41467-023-43212-3">Paper</a> <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global">Repo</a></p></div></div>
+<div class="pf-paper noimg"><div><h4>Disentangling the effects of eutrophication and natural variability on macrobenthic communities across French coastal lagoons</h4><p class="pf-cite">Jones A.G., Schaal G., Boyé A., Creemers M., Derolez V., Desroy N., <em>et al.</em> (2024). <em>Peer Community Journal</em> 4.</p><p class="pf-note"></p><p class="pf-links"></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Cetacean conservation planning in a global diversity hotspot"></div><div><h4>Cetacean conservation planning in a global diversity hotspot</h4><p class="pf-cite">Stephenson F., Hewitt J.E., Torres L.G., Mouton T.L., Brough T., Goetz K.T., <em>et al.</em> (2021). <em>Ecosphere</em> 12(7), e03633.</p><p class="pf-note">Spatial prioritisation with Zonation to identify cetacean richness hotspots, testing how different levels of uncertainty in the underlying occurrence layers change which areas come out as priorities.</p><p class="pf-links"><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633">Paper</a></p></div></div>
+<div class="pf-paper"><div><img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Modelling the spatial distribution of cetaceans in New Zealand waters"></div><div><h4>Modelling the spatial distribution of cetaceans in New Zealand waters</h4><p class="pf-cite">Stephenson F., Goetz K., Sharp B.R., Mouton T.L., Beets F.L., Roberts J., <em>et al.</em> (2020). <em>Diversity and Distributions</em> 26(4), 495-516.</p><p class="pf-note">A national database of more than 7,000 at-sea cetacean sightings, with boosted regression trees and relative environmental suitability models predicting the distribution of 30 species and species richness across the New Zealand EEZ. A companion report was prepared for Fisheries New Zealand.</p><p class="pf-links"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035">Paper</a> <a href="https://docs.niwa.co.nz/library/public/NZAEBR-240.pdf">Fisheries NZ report</a></p></div></div>
+<div class="pf-paper noimg"><div><h4>Development of a seafloor community classification for the New Zealand region using a gradient forest approach</h4><p class="pf-cite">Stephenson F., Rowden A.A., Brough T., Petersen G., Bulmer R.H., <em>et al.</em> (2022). <em>Frontiers in Marine Science</em> 8, 792712.</p><p class="pf-note"></p><p class="pf-links"></p></div></div>
+<h3 class="pf-grp">Reports and theses</h3>
+<p class="pf-reports">
+<strong>Jabado R.W., Kyne P.M., García-Rodríguez E., Charles R., Armstrong A.O., Mouton T.L., <em>et al.</em> (2024).</strong> Western Indian Ocean: a regional compendium of Important Shark and Ray Areas. IUCN SSC Shark Specialist Group and IUCN Ocean Team. <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/">Report</a> &middot; <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E">Durban workshop</a><br>
+<strong>Jabado R.W., García-Rodríguez E., Kyne P.M., Charles R., Armstrong A.H., Mouton T.L., <em>et al.</em> (2023).</strong> Mediterranean and Black Seas: a regional compendium of Important Shark and Ray Areas. IUCN SSC Shark Specialist Group and IUCN Ocean Team. <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/">Report</a> &middot; <a href="https://www.youtube.com/watch?v=vghKtCjsP-g">Thessaloniki workshop</a><br>
+<strong>Mouton T.L. (2023).</strong> La biodiversité dulcicole sous influence du changement global. PhD thesis, Université Claude Bernard Lyon I. <a href="https://theses.fr/275299554">theses.fr</a>
+</p>
+
+</div>
