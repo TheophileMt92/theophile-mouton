@@ -7,7 +7,8 @@ hide_description: true
 ---
 
 <h2>Journal Articles</h2>
-<ol start="12" reversed>
+<ol start="13" reversed>
+<li>Kocáková K., J. A. Villafaña, A. Gardiner, G. H. Mathes, <strong>T. L. Mouton</strong> and C. Pimiento (2026). <a href="https://doi.org/10.1111/geb.70315">"FINS: A Global Occurrence Dataset of Fossil Neoselachians From the Cretaceous to the Quaternary."</a> <em>Global Ecology and Biogeography</em> 35(10): e70315.</li>
 <li>Cochran J. E. M., R. Charles, A. J. Temple, P. M. Kyne, E. García-Rodríguez, A. Gonzalez-Pestana, A. Batlle-Morera, <strong>T. L. Mouton</strong>, A. O. Armstrong, C. A. Rohner, R. W. Jabado et al. (2026). <a href="https://doi.org/10.1002/ece3.72690">"Only One Percent of Important Shark and Ray Areas in the Western Indian Ocean Are Fully Protected From Fishing Pressure."</a> <em>Ecology and Evolution</em> 16: e72690.</li>
 <li>Rohner C. A., A. J. Richardson, E. García-Rodríguez, R. Charles, A. Batlle-Morera, J. R. Bortoluzzi, <strong>T. L. Mouton</strong>, G. Notarbartolo di Sciara, A. O. Armstrong, J. D. Everett et al. (2025). <a href="https://doi.org/10.1016/j.isci.2025.113192">"Important Shark and Ray Areas can inform conservation planning in the Mediterranean and Black Seas."</a> <em>iScience</em> 113192.</li>
 <li>Jones A. G., G. Schaal, A. Boyé, M. Creemers, V. Derolez, N. Desroy, A. Fiandrino, <strong>T. L. Mouton</strong>, M. Simier, N. Smith and V. Ouisse (2024). <a href="https://peercommunityjournal.org/articles/10.24072/pcjournal.499/">"Disentangling the effects of eutrophication and natural variability on macrobenthic communities across French coastal lagoons."</a> <em>Peer Community Journal</em> 4: e112.</li>
