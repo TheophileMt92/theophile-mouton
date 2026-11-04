@@ -25,13 +25,13 @@ title:                  Théophile L. Mouton
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hi, I'm Theo! I am a data analyst and researcher with a PhD in macroecology. 
+  Hi, I'm Theo! Data scientist with a PhD in macroecology: interactive apps, reproducible reporting, statistical modelling and data visualisation.
 
 # A shorter description for the sidebar.
-tagline:               Consultant, Researcher, Coordinator
+tagline:               Data Scientist · Data Visualisation · Consultant
 
 # A list of keywords for your blog
-keywords:              [Ecologist, Ecology, Conservation Science, R stats, Data Visualisation, Biodiversity]
+keywords:              [Data Science, Data Visualisation, R stats, Shiny, Quarto, Python, Machine Learning, Geospatial, Ecology, Conservation Science]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
