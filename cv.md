@@ -18,6 +18,7 @@ permalink: /cv/
 .cv-btn:hover { background: #2a5a74; }
 .cv-btn.ghost { background: transparent; color: #193747 !important; border: 1px solid #193747; }
 .cv-btn.ghost:hover { background: #f4f7f9; }
+.cv-actions { display: block; margin: 0 0 .2rem; }
 .cv-frame { width: 100%; height: 1100px; border: 1px solid #d6dde2; border-radius: 4px; background: #f4f7f9; }
 @media (max-width: 640px) {
   .cv-switch { display: flex; }
@@ -37,15 +38,19 @@ permalink: /cv/
 
 <div class="cv-panel is-active" id="panel-ds" role="tabpanel" aria-labelledby="tab-ds">
   <p>For data science, analytics and consultancy roles: R and Python, Shiny apps, Quarto reporting, machine learning, LLM pipelines and client delivery. Two pages.</p>
-  <a class="cv-btn" href="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" download>Download PDF</a>
-  <a class="cv-btn ghost" href="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  <div class="cv-actions">
+    <a class="cv-btn" href="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" download>Download PDF</a>
+    <a class="cv-btn ghost" href="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
   <iframe class="cv-frame" data-src="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" title="Commercial data science CV"></iframe>
 </div>
 
 <div class="cv-panel" id="panel-ac" role="tabpanel" aria-labelledby="tab-ac">
   <p>For research, academic and science-policy roles: full publication list, appointments, grants, presentations, mentorship and technical skills.</p>
-  <a class="cv-btn" href="/assets/files/Theophile_Mouton_CV_Academic.pdf" download>Download PDF</a>
-  <a class="cv-btn ghost" href="/assets/files/Theophile_Mouton_CV_Academic.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  <div class="cv-actions">
+    <a class="cv-btn" href="/assets/files/Theophile_Mouton_CV_Academic.pdf" download>Download PDF</a>
+    <a class="cv-btn ghost" href="/assets/files/Theophile_Mouton_CV_Academic.pdf" target="_blank" rel="noopener">Open in new tab</a>
+  </div>
   <iframe class="cv-frame" data-src="/assets/files/Theophile_Mouton_CV_Academic.pdf" title="Academic CV"></iframe>
 </div>
 
