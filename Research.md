@@ -22,11 +22,12 @@ hide_description: true
 .rs .rs-btn.ghost:hover { background: #f4f7f9; }
 .rs-methods { display: flex; flex-wrap: wrap; gap: .4rem; margin: 0 0 2.2rem; }
 .rs-methods span { background: #eef3f6; color: #193747; border-radius: 999px; padding: .26rem .72rem; font-size: .83rem; }
-.rs-theme { display: grid; grid-template-columns: 2fr 3fr; gap: 1.5rem; align-items: start; border: 1px solid #dfe5e9; border-radius: 4px; background: #fff; padding: 1.2rem; margin: 0 0 1.4rem; }
-.rs-theme.flip { grid-template-columns: 3fr 2fr; }
-.rs-theme.flip .rs-fig { order: 2; }
+.rs-theme { display: grid; grid-template-columns: 9fr 11fr; gap: 1.5rem; align-items: start; border: 1px solid #dfe5e9; border-radius: 4px; background: #fff; padding: 1.2rem; margin: 0 0 1.4rem; }
+.rs-theme.flip { grid-template-columns: 11fr 9fr; }
+.rs-theme.flip .rs-figs { order: 2; }
+.rs-figs { display: flex; flex-direction: column; gap: .9rem; }
 .rs-fig { margin: 0; }
-.rs-fig img { width: 100%; max-height: 300px; object-fit: contain; background: #f7f9fa; border-radius: 3px; }
+.rs-fig img { display: block; width: 100%; height: auto; border-radius: 3px; }
 .rs-fig figcaption { font-size: .78rem; color: #5a6a74; margin: .35rem 0 0; line-height: 1.4; }
 .rs-kicker { margin: 0 0 .2rem; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: #5a6a74; }
 .rs-theme h3 { margin: 0 0 .5rem; font-size: 1.2rem; color: #193747; }
@@ -39,7 +40,7 @@ hide_description: true
 @media (max-width: 760px) {
   .rs-stats { grid-template-columns: repeat(2, 1fr); }
   .rs-theme, .rs-theme.flip { grid-template-columns: 1fr; }
-  .rs-theme.flip .rs-fig { order: 0; }
+  .rs-theme.flip .rs-figs { order: 0; }
 }
 </style>
 
@@ -67,11 +68,16 @@ hide_description: true
 <p class="rs-note">In each list, a dark bar marks a first-author paper.</p>
 
 <div class="rs-theme">
-  <figure class="rs-fig"><img src="/assets/img/portfolio/pap_sciadv_bivar.png" alt="Bivariate map of shark and ray conservation priority against industrial fishing effort"><figcaption>Conservation priority against industrial fishing effort, from the <em>Science Advances</em> manuscript.</figcaption></figure>
+  <div class="rs-figs">
+    <figure class="rs-fig"><img src="/assets/img/portfolio/pap_sciadv_ses.png" alt="Global map of standardised effect sizes of species range coverage by no-take marine protected areas"><figcaption>Gap analysis: how well no-take protected areas cover species ranges compared with a null model of random placement (blue better, red worse than chance).</figcaption></figure>
+    <figure class="rs-fig"><img src="/assets/img/portfolio/res_gap_iucn.png" alt="Percentage of range protected by no-take MPAs for each IUCN Red List category"><figcaption>Share of each species' range inside no-take protected areas, by IUCN Red List category: threatened species are no better covered.</figcaption></figure>
+    <figure class="rs-fig"><img src="/assets/img/portfolio/pap_sciadv_bivar.png" alt="Bivariate map of conservation priority against industrial fishing effort"><figcaption>Conservation priorities from reinforcement learning, set against industrial fishing effort.</figcaption></figure>
+  </div>
   <div>
-    <p class="rs-kicker">Global scale</p>
-    <h3>Where to protect sharks and rays</h3>
-    <p>Sharks and rays are among the most threatened animals in the ocean. With the Pimiento Research Group, I mapped which species and places carry unique functions and evolutionary history, measured how little of it no-take protected areas cover, and used reinforcement learning to find where new protection would do the most good, set against where industrial fishing concentrates.</p>
+    <p class="rs-kicker">Global macroecology</p>
+    <h3>Area-based management and conservation prioritisation</h3>
+    <p>How well does the global network of marine protected areas cover biodiversity, and where should new protection go? With the Pimiento Research Group, I combined range maps for about 1,000 species with measures of extinction risk, ecological function and evolutionary history. I ran a gap analysis against a spatially explicit null model, then used reinforcement learning to optimise where a 10% protection target would do the most good, set against where industrial fishing concentrates.</p>
+    <p>The study system is sharks and rays, one of the most threatened groups in the ocean; the methods apply to any taxon or region.</p>
     <ul class="rs-papers">
       <li class="first"><strong>Mouton T.L.</strong> et al. Global gaps and priorities for shark and ray conservation. <em>Science Advances</em>, in revision (<a href="https://doi.org/10.1101/2025.11.28.691085">preprint</a>, <a href="https://github.com/TheophileMt92/CAPTAIN_elasmo_manuscript">code</a>)</li>
       <li>Pimiento C. et al. <a href="https://doi.org/10.1038/s41467-023-43212-3">Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide.</a> <em>Nature Communications</em> <span class="yr">2023</span></li>
@@ -81,7 +87,10 @@ hide_description: true
 </div>
 
 <div class="rs-theme flip">
-  <figure class="rs-fig"><img src="/assets/img/portfolio/Mouton%20et%20al.%202024_MPAs.png" alt="Overlap between Important Shark and Ray Areas and marine protected areas in the Central and South American Pacific"><figcaption>Important Shark and Ray Areas against marine protected areas, Central and South American Pacific.</figcaption></figure>
+  <div class="rs-figs">
+    <figure class="rs-fig"><img src="/assets/img/portfolio/res_mpa_cumulative.jpg" alt="Cumulative number and area of marine protected areas by IUCN category, 1940 to 2023"><figcaption>Cumulative number (A) and area (B) of marine protected areas by IUCN category in the Central and South American Pacific, 1940 to 2023.</figcaption></figure>
+    <figure class="rs-fig"><img src="/assets/img/portfolio/res_mpa_lollipop.png" alt="Lollipop charts of EEZ coverage by no-take and all MPAs for 11 countries"><figcaption>Share of each country's exclusive economic zone under protection: expansion since 2010 (A) and extent in 2023 (B), no-take against all MPAs.</figcaption></figure>
+  </div>
   <div>
     <p class="rs-kicker">Science to policy</p>
     <h3>Protection gaps in critical habitat</h3>
@@ -96,12 +105,15 @@ hide_description: true
 </div>
 
 <div class="rs-theme">
-  <figure class="rs-fig"><img src="/assets/img/portfolio/new_fishing_effort_beyond_ais.png" alt="Estimated fishing effort beyond AIS coverage from Sentinel-1 radar detections"><figcaption>Fishing effort estimated from radar where AIS goes quiet.</figcaption></figure>
+  <div class="rs-figs">
+    <figure class="rs-fig"><img src="/assets/img/portfolio/new_chinese_fleet.png" alt="Animated map of Chinese industrial fishing effort accumulating through the year"><figcaption>A year of Chinese industrial fishing effort accumulating week by week, from AIS data (frame from the animation).</figcaption></figure>
+  </div>
   <div>
     <p class="rs-kicker">Open analyses</p>
-    <h3>Fishing pressure seen from space</h3>
-    <p>Much of my recent work uses public satellite data to measure human pressure at sea: vessel tracking (AIS), Sentinel-1 radar and slick detections. These are open, reproducible analyses, each with its code.</p>
+    <h3>Human pressure at sea, seen from space</h3>
+    <p>Much of my recent work uses public satellite data to measure human activity at sea: industrial fishing from vessel tracking (AIS) and Sentinel-1 radar, and oil pollution from radar slick detections. These are open, reproducible analyses, each with its code.</p>
     <ul class="rs-papers">
+      <li><a href="https://github.com/TheophileMt92/gfw-chinese-fleet">A year of Chinese fleet effort</a>, animated</li>
       <li><a href="https://github.com/TheophileMt92/fishing-effort-beyond-ais">Mapping fishing effort beyond AIS</a>: a random forest on paired AIS and radar detections</li>
       <li><a href="https://theophilemt92.github.io/gfw-fleet-comparison/">How the world's industrial fishing fleets compare</a>, and how much the answer depends on what you divide by</li>
       <li><a href="https://theophilemt92.github.io/mpa-oil-slicks/">Oil slicks inside marine protected areas</a>, 2023 to 2025</li>
@@ -110,7 +122,10 @@ hide_description: true
 </div>
 
 <div class="rs-theme flip">
-  <figure class="rs-fig"><img src="/assets/img/portfolio/Mouton%20et%20al.%202020%20GCB%20Fig%201.png" alt="Temporal trends in taxonomic and functional diversity of river macroinvertebrates"><figcaption>Taxonomic homogenisation and functional differentiation in New Zealand rivers.</figcaption></figure>
+  <div class="rs-figs">
+    <figure class="rs-fig"><img src="/assets/img/portfolio/Mouton%20et%20al.%202020%20GCB%20Fig%201.png" alt="Temporal trends in taxonomic and functional diversity of river macroinvertebrates"><figcaption>Taxonomic homogenisation and functional differentiation in New Zealand rivers.</figcaption></figure>
+    <figure class="rs-fig"><img src="/assets/img/portfolio/Mouton%20et%20al.%202020%20map.png" alt="Map of New Zealand river monitoring sites"><figcaption>The national river monitoring sites behind the <em>Global Change Biology</em> study.</figcaption></figure>
+  </div>
   <div>
     <p class="rs-kicker">Global change</p>
     <h3>Biodiversity change under climate and land use</h3>
@@ -125,7 +140,10 @@ hide_description: true
 </div>
 
 <div class="rs-theme">
-  <figure class="rs-fig"><img src="/assets/img/portfolio/Mouton%20et%20al.%202022%20Biocons.png" alt="Spatial mismatch between taxonomic, functional and phylogenetic diversity of New Zealand cetaceans"><figcaption>Mismatch between diversity facets of New Zealand cetaceans.</figcaption></figure>
+  <div class="rs-figs">
+    <figure class="rs-fig"><img src="/assets/img/portfolio/Mouton%20et%20al.%202022%20Biocons.png" alt="Spatial mismatch between taxonomic, functional and phylogenetic diversity of New Zealand cetaceans"><figcaption>Mismatch between diversity facets of New Zealand cetaceans.</figcaption></figure>
+    <figure class="rs-fig"><img src="/assets/img/portfolio/Stephenson%20et%20al.%202020.png" alt="Modelled probability of occurrence of a cetacean species in New Zealand waters with zoomed insets"><figcaption>Modelled probability of occurrence of a cetacean species across New Zealand's waters, with zoomed insets (Stephenson et al. 2020).</figcaption></figure>
+  </div>
   <div>
     <p class="rs-kicker">National scale</p>
     <h3>Mapping and protecting marine life in New Zealand</h3>
