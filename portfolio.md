@@ -41,15 +41,37 @@ permalink: /portfolio/
 .pf-paper p.pf-note { font-size: .92rem; line-height: 1.55; color: #44535c; margin: 0 0 .8rem; }
 .pf-reports { font-size: .92rem; line-height: 1.7; color: #44535c; }
 @media (max-width: 760px) { .pf-paper, .pf-paper.narrow, .pf-paper.wide { grid-template-columns: 1fr; } }
+.pf-nav { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); backdrop-filter: blur(4px); border-bottom: 1px solid #dfe5e9; margin: 0 0 1rem; padding: .55rem 0; display: flex; flex-wrap: wrap; gap: .35rem .5rem; align-items: center; }
+.pf-nav a { color: #193747; text-decoration: none; font-size: .88rem; padding: .28rem .75rem; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
+.pf-nav a:hover { background: #f4f7f9; }
+.pf-nav a.is-active { background: #193747; color: #fff; }
+.pf-nav a.sub { font-size: .8rem; color: #5a6a74; padding: .22rem .6rem; }
+.pf-nav a.sub.is-active { background: #eef3f6; color: #193747; border-color: #c9d5dc; }
+.pf-nav .sep { width: 1px; height: 1.2rem; background: #dfe5e9; margin: 0 .2rem; }
+.pf [id] { scroll-margin-top: 4.5rem; }
+.pf .pf-hide { display: none !important; }
+.pf-more { display: block; margin: .2rem auto 0; background: #fff; color: #193747; border: 1px solid #193747; border-radius: 999px; padding: .45rem 1.2rem; font: inherit; font-size: .88rem; cursor: pointer; }
+.pf-more:hover { background: #f4f7f9; }
+@media (max-width: 760px) { .pf-nav { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; } .pf-nav .sep { display: none; } }
 </style>
 
 <div class="pf" markdown="0">
 
 <p class="pf-lede">I build what other people use to make sense of data: reporting systems, interactive applications, and analyses that turn large environmental datasets into something a non-specialist can read and act on. Mostly in R, Python and Quarto, mostly about the ocean.</p>
 
-<div class="pf-avail"><strong>Available now.</strong> I am open to roles at the science-policy interface, remote or hybrid, and I take on freelance data visualisation and data science work through DataSphere Analytics.<br><a class="pf-btn" href="mailto:theophile.mouton92@gmail.com?subject=Enquiry%20via%20theophile-mouton.com">Email me</a></div>
+<div class="pf-avail"><strong>Available now.</strong> I'm looking for data scientist, data analyst or data visualisation roles, remote or hybrid from Montpellier or Barcelona, and I take on freelance data science and data visualisation work through DataSphere Analytics.<br><a class="pf-btn" href="mailto:theophile.mouton92@gmail.com?subject=Enquiry%20via%20theophile-mouton.com">Email me</a></div>
 
-<h2 class="pf-sec">Tools and systems</h2>
+<nav class="pf-nav" aria-label="Portfolio sections">
+  <a href="#tools" data-sec="tools">Tools and systems</a>
+  <a href="#analysis" data-sec="analysis">Analysis</a>
+  <a href="#research" data-sec="research">Research</a>
+  <span class="sep" aria-hidden="true"></span>
+  <a class="sub" href="#first-author" data-sec="first-author">First author</a>
+  <a class="sub" href="#co-author" data-sec="co-author">Co-author</a>
+  <a class="sub" href="#reports" data-sec="reports">Reports</a>
+</nav>
+
+<h2 class="pf-sec" id="tools">Tools and systems</h2>
 <p class="pf-sub">Built for other people to use.</p>
 <div class="pf-grid">
 <div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_quarto_map.png" alt="Reproducible reporting with Quarto: Leaflet map of marine protected areas from the demonstration report"><div class="pf-body"><p class="pf-meta">System &middot; DataSphere Analytics</p><h4>Reproducible reporting with Quarto</h4><p>The report template I build for research groups and public agencies. A single .qmd file produces a self-contained HTML report with a custom visual identity, a filterable plotly chart, a leaflet map with switchable basemaps and grouped layers, and a sortable reactable table with in-cell bars. No Bootstrap theme, nothing to install.</p><p class="pf-links"><a href="https://theophilemt92.github.io/quarto-report-template/">Live report</a> <a href="https://github.com/TheophileMt92/quarto-report-template">Repo</a></p></div></div>
@@ -61,7 +83,7 @@ permalink: /portfolio/
 <div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_rgraphgallery.png" alt="Data visualisation tutorials for the R Graph Gallery"><div class="pf-body"><p class="pf-meta">Teaching &middot; The R Graph Gallery</p><h4>Data visualisation tutorials</h4><p>Tutorials written for the R Graph Gallery, each one building a finished, publishable graphic from raw data and explaining the choices along the way: a chord diagram of who speaks about whom across nine seasons of a television series, a Sankey diagram with highlighting, and a Sankey of refugee flows into Europe.</p><p class="pf-links"><a href="https://r-graph-gallery.com/character-interaction-analysis.html">Chord diagram</a> <a href="https://r-graph-gallery.com/web-sankey-diagram-with-highlight.html">Sankey with highlight</a> <a href="https://r-graph-gallery.com/web-sankey-refugees.html">Refugee flows</a></p></div></div>
 </div>
 
-<h2 class="pf-sec">Analysis and visual explanation</h2>
+<h2 class="pf-sec" id="analysis">Analysis and visual explanation</h2>
 <p class="pf-sub">Large environmental datasets turned into a readable answer.</p>
 <div class="pf-grid">
 <div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_mpa_oil_slicks.png" alt="Oil slicks and marine protected areas"><div class="pf-body"><p class="pf-meta">SkyTruth Cerulean and the WDPA</p><h4>Oil slicks and marine protected areas</h4><p>Which countries, and which marine protected areas, are exposed to oil. Satellite-detected slicks from SkyTruth&rsquo;s Cerulean platform, Sentinel-1 radar with machine-learning detection for 2023 to 2025, intersected with every marine protected area in the World Database on Protected Areas.</p><p class="pf-links"><a href="https://github.com/TheophileMt92/mpa-oil-slicks">Repo</a></p></div></div>
@@ -73,16 +95,16 @@ permalink: /portfolio/
 </div>
 
 
-<h2 class="pf-sec">Research</h2>
+<h2 class="pf-sec" id="research">Research</h2>
 <p class="pf-sub">Twelve peer-reviewed articles. Full list on <a href="https://scholar.google.com/citations?user=iiZ0klkAAAAJ&hl=en">Google Scholar</a>.</p>
-<h3 class="pf-grp">First author</h3>
+<h3 class="pf-grp" id="first-author">First author</h3>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/pap_sciadv_bivar.png" alt="Fishing effort against conservation priority for functionally unique, specialised and endangered species"><img src="/assets/img/portfolio/pap_sciadv_ses.png" alt="Standardised effect size of no-take protection across shark and ray ranges"></div><div><h4>Global gaps and priorities for shark and ray conservation</h4><p class="pf-cite">Mouton T.L., Silvestro D., Kocáková K., Spitznagel D., Leprieur F., Pimiento C. (2025). <em>bioRxiv</em> 2025.11.28.691085. In revision at <em>Science Advances</em>.</p><p class="pf-note">A global prioritisation of 1,192 shark and ray species integrating threat status, functional distinctiveness and evolutionary distinctiveness. Species range overlap with the no-take marine protected area network is compared against null models of random placement, and a reinforcement learning algorithm (CAPTAIN) identifies spatial priorities at a 10% protection budget aligned with Target 3 of the Global Biodiversity Framework.</p><p class="pf-links"><a href="https://www.biorxiv.org/content/10.1101/2025.11.28.691085">Preprint</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/res_mpa_cumulative.jpg" alt="Cumulative number and area of marine protected areas by IUCN category in the Central and South American Pacific, 1940 to 2023"><img src="/assets/img/portfolio/mouton2024_mpa_expansion.png" alt="Marine protected area expansion from 2010 to 2023 as a share of each country&rsquo;s EEZ, no-take against all protected areas"></div><div><h4>Shortfalls in the protection of Important Shark and Ray Areas</h4><p class="pf-cite">Mouton T.L., Gonzalez-Pestana A., Rohner C.A., Charles R., <em>et al.</em> (2025). <em>Marine Policy</em> 171, 106448.</p><p class="pf-note">Led with 45 co-authors from academia, governments and NGOs under Rima Jabado, Chair of the IUCN SSC Shark Specialist Group. Trends in marine protected area expansion across 12 nations of the Central and South American Pacific, the spatial overlap between those areas and Important Shark and Ray Areas, and whether the governance in place actually protects critical habitat. Important Areas overlap all protected areas by 15.6% and no-take areas by 7.3%; 41.8% of the 182 protected areas have no management plan.</p><p class="pf-links"><a href="https://www.sciencedirect.com/science/article/pii/S0308597X24004482">Paper</a> <a href="https://github.com/TheophileMt92/ISRA_R12_MPA_overlaps">Repo</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Mouton et al. 2022 Biocons.png" alt="Functional spaces of New Zealand cetaceans"><img src="/assets/img/portfolio/res_biocons_maps.png" alt="Maps of cetacean species richness, phylogenetic diversity and evolutionary distinctiveness across New Zealand waters"></div><div><h4>Spatial mismatch in diversity facets and New Zealand's cetacean biodiversity</h4><p class="pf-cite">Mouton T.L., Stephenson F., Torres L.G., Rayment W., Brough T., McLean M., Tonkin J.D., Albouy C., Leprieur F. (2022). <em>Biological Conservation</em> 267, 109484.</p><p class="pf-note">Taxonomic, functional and phylogenetic diversity of cetaceans modelled across New Zealand waters, testing where hotspots of richness and of uniqueness agree and where they do not, and measuring how much individual species contribute to each facet.</p><p class="pf-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0006320722000374">Paper</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Mouton et al. 2022 FD spaces.jpg" alt="Functional spaces of New Zealand river macroinvertebrates"><img src="/assets/img/portfolio/Mouton et al. 2022 Fig. 3.jpg" alt="Population trends, range size change and latitudinal shifts mapped on the taxonomic tree"></div><div><h4>Climate and land-use driven reorganisation of river communities</h4><p class="pf-cite">Mouton T.L., Leprieur F., Floury M., Stephenson F., Verburg P., Tonkin J.D. (2022). <em>Ecography</em> 2022(3), e06148.</p><p class="pf-note">Changes in population size and range shifts across a national macroinvertebrate species pool, related to taxonomy and functional traits. Increases in population and range size were more common than decreases, and species shifted towards higher latitudes by around 50 km per decade, with distinct trait signatures but little taxonomic signal.</p><p class="pf-links"><a href="https://nsojournals.onlinelibrary.wiley.com/doi/10.1111/ecog.06148">Paper</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Mouton et al. 2020 GCB Fig 1.png" alt="Temporal change in taxonomic and functional beta-diversity"><img class="pf-half" src="/assets/img/portfolio/Mouton et al. 2020 map.png" alt="New Zealand river monitoring sites"></div><div><h4>Taxonomic homogenization but functional differentiation in rivers</h4><p class="pf-cite">Mouton T.L., Tonkin J.D., Stephenson F., Verburg P., Floury M. (2020). <em>Global Change Biology</em> 26(12), 6904-6915.</p><p class="pf-note">Thirty years of New Zealand national monitoring data analysed with hierarchical generalised additive models to test for temporal change in taxonomic and functional beta-diversity. The long-term trend is towards taxonomic homogenization and, at the same time, functional differentiation, mostly climate-driven.</p><p class="pf-links"><a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15389">Paper</a> <a href="https://issuu.com/naturevolve/docs/issue_12_naturevolve">NatureVolve</a></p></div></div>
 <div class="pf-paper narrow"><div class="pf-figs"><img src="/assets/img/portfolio/Mouton et al. 2018 map.png" alt="Waikato stream survey sites"></div><div><h4>Environmental filtering of stream macrophytes by habitat disturbance</h4><p class="pf-cite">Mouton T.L., Matheson F.E., Stephenson F., Champion P.D., Wadhwa S., Hamer M.P., Catlin A., Riis T. (2019). <em>Science of the Total Environment</em> 659, 1370-1381.</p><p class="pf-note">First paper, written at NIWA. A database of native and non-native macrophyte abundance across Waikato streams, an 11-trait matrix and associated natural and human-driven processes, analysed with RLQ ordination, multidimensional functional diversity indices and model averaging. Reach-scale habitat disturbance favours more productive species and, with them, non-native abundance.</p><p class="pf-links"><a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969718351507">Paper</a></p></div></div>
-<h3 class="pf-grp">Co-author</h3>
+<h3 class="pf-grp" id="co-author">Co-author</h3>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/pap_cochran_head.png" alt="Only one percent of Important Shark and Ray Areas in the Western Indian Ocean are fully protected from fishing pressure"><img src="/assets/img/portfolio/pap_cochran_map.png" alt="Important Shark and Ray Areas of the Western Indian Ocean"></div><div><h4>Only one percent of Important Shark and Ray Areas in the Western Indian Ocean are fully protected from fishing pressure</h4><p class="pf-cite">Cochran J.E.M., Charles R., Temple A.J., Kyne P.M., García-Rodríguez E., <em>et al.</em> (2026). <em>Ecology and Evolution</em> 16, e72690.</p><p class="pf-note">The Important Shark and Ray Areas delineated for the Western Indian Ocean set against jurisdictions, the protected area network and the evidence base behind them. The areas hold 104 of the region&rsquo;s 270 chondrichthyan species, 76% of them threatened with extinction, yet only 7.1% of their extent falls within designated marine protected areas and 1.2% within fully protected no-take areas. The supporting evidence leans on inexpensive methods, visual census, landing site surveys and citizen science, and carries the same biases as the published record towards large, wide-ranging, shallow species.</p><p class="pf-links"><a href="https://doi.org/10.1002/ece3.72690">Paper</a></p></div></div>
 <div class="pf-paper noimg"><div><h4>Important Shark and Ray Areas can inform conservation planning in the Mediterranean and Black Seas</h4><p class="pf-cite">Rohner C.A., Richardson A.J., García-Rodríguez E., Charles R., <em>et al.</em> (2025). <em>iScience</em> 113192.</p><p class="pf-note">Pairs the Important Shark and Ray Areas of the Mediterranean and Black Seas with a basin-scale spatial prioritisation, with fishing pressure derived from Global Fishing Watch AIS data supplemented by satellite detections where AIS coverage is absent.</p><p class="pf-links"><a href="https://www.cell.com/iscience/fulltext/S2589-0042(25)01453-1">Paper</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Pimiento et al. 2024_6maps.png" alt="Global maps of elasmobranch functional, taxonomic and phylogenetic diversity"><img src="/assets/img/portfolio/Pimiento%20et%20al.%202024_2maps.png" alt="Global maps of shark and ray functional diversity"></div><div><h4>Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide</h4><p class="pf-cite">Pimiento C., Albouy C., Silvestro D., Mouton T.L., Velez L., Mouillot D., Judah A.B., Griffin J.N., Leprieur F. (2023). <em>Nature Communications</em> 14(1), 7691.</p><p class="pf-note">A trait dataset of more than 1,000 species used to map elasmobranch functional diversity against taxonomic and phylogenetic facets. Functional richness concentrates on continental shelves and around oceanic islands in 18 hotspots that barely overlap the other facets, and converges with fishing pressure along the coast of China. The maps here show, for each facet, where diversity is concentrated and where it is uniquely supported by a handful of species. Because those species carry traits nothing else in the assemblage replaces, losing them removes function from the system faster than a count of species would suggest, which is the argument the paper makes for weighting conservation towards functional distinctiveness rather than richness alone.</p><p class="pf-links"><a href="https://www.nature.com/articles/s41467-023-43212-3">Paper</a> <a href="https://github.com/Pimiento-Research-Group/sharks-FD_biodiv_global">Repo</a></p></div></div>
@@ -90,7 +112,7 @@ permalink: /portfolio/
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Cetacean conservation planning in a global diversity hotspot"></div><div><h4>Cetacean conservation planning in a global diversity hotspot</h4><p class="pf-cite">Stephenson F., Hewitt J.E., Torres L.G., Mouton T.L., Brough T., Goetz K.T., <em>et al.</em> (2021). <em>Ecosphere</em> 12(7), e03633.</p><p class="pf-note">Spatial prioritisation with Zonation to identify cetacean richness hotspots, testing how different levels of uncertainty in the underlying occurrence layers change which areas come out as priorities.</p><p class="pf-links"><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633">Paper</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Modelling the spatial distribution of cetaceans in New Zealand waters"></div><div><h4>Modelling the spatial distribution of cetaceans in New Zealand waters</h4><p class="pf-cite">Stephenson F., Goetz K., Sharp B.R., Mouton T.L., Beets F.L., Roberts J., <em>et al.</em> (2020). <em>Diversity and Distributions</em> 26(4), 495-516.</p><p class="pf-note">A national database of more than 7,000 at-sea cetacean sightings, with boosted regression trees and relative environmental suitability models predicting the distribution of 30 species and species richness across the New Zealand EEZ. A companion report was prepared for Fisheries New Zealand.</p><p class="pf-links"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035">Paper</a> <a href="https://docs.niwa.co.nz/library/public/NZAEBR-240.pdf">Fisheries NZ report</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/pap_stephenson_head.png" alt="Development of a seafloor community classification for the New Zealand region using a gradient forest approach"><img class="pf-mid" src="/assets/img/portfolio/pap_stephenson_scc.png" alt="Geographic distribution of the 75-group seafloor community classification"></div><div><h4>Development of a seafloor community classification for the New Zealand region using a gradient forest approach</h4><p class="pf-cite">Stephenson F., Rowden A.A., Brough T., Petersen G., Bulmer R.H., <em>et al.</em> (2022). <em>Frontiers in Marine Science</em> 8, 792712.</p><p class="pf-note">Gradient forest models of compositional turnover for demersal fish, reef fish, benthic invertebrates and macroalgae across the New Zealand region, combined into a single classification of the seafloor at 75 groups, with a spatially explicit estimate of uncertainty and of environmental coverage alongside it. The classification underpins marine spatial planning and ecosystem-based management advice for New Zealand waters.</p><p class="pf-links"><a href="https://www.frontiersin.org/articles/10.3389/fmars.2021.792712/full">Paper</a></p></div></div>
-<h3 class="pf-grp">Reports and theses</h3>
+<h3 class="pf-grp" id="reports">Reports and theses</h3>
 <p class="pf-reports">
 <strong>Jabado R.W., Kyne P.M., García-Rodríguez E., Charles R., Armstrong A.O., Mouton T.L., <em>et al.</em> (2024).</strong> Western Indian Ocean: a regional compendium of Important Shark and Ray Areas. IUCN SSC Shark Specialist Group and IUCN Ocean Team. <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/">Report</a> &middot; <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E">Durban workshop</a><br>
 <strong>Jabado R.W., García-Rodríguez E., Kyne P.M., Charles R., Armstrong A.H., Mouton T.L., <em>et al.</em> (2023).</strong> Mediterranean and Black Seas: a regional compendium of Important Shark and Ray Areas. IUCN SSC Shark Specialist Group and IUCN Ocean Team. <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/">Report</a> &middot; <a href="https://www.youtube.com/watch?v=vghKtCjsP-g">Thessaloniki workshop</a><br>
@@ -98,3 +120,76 @@ permalink: /portfolio/
 </p>
 
 </div>
+
+<script>
+(function () {
+  var root = document.querySelector('.pf');
+  if (!root || root.dataset.pfInit) return;
+  root.dataset.pfInit = '1';
+  var SHOW = 4;
+  var secs = [];
+  root.querySelectorAll('h2.pf-sec').forEach(function (h2) {
+    var nodes = [], n = h2.nextElementSibling;
+    while (n && !(n.matches && n.matches('h2.pf-sec'))) { nodes.push(n); n = n.nextElementSibling; }
+    var items = [];
+    nodes.forEach(function (x) {
+      if (x.classList.contains('pf-grid')) items = items.concat([].slice.call(x.children));
+      else if (x.classList.contains('pf-paper') || x.classList.contains('pf-reports')) items.push(x);
+    });
+    if (items.length <= SHOW) return;
+    var heads = nodes.filter(function (x) { return x.matches('h3.pf-grp'); });
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'pf-more';
+    var label = h2.id === 'research' ? 'publications' : 'projects';
+    var count = items.filter(function (x) { return !x.classList.contains('pf-reports'); }).length;
+    var sec = { h2: h2, items: items, heads: heads, btn: btn, open: false };
+    sec.set = function (open) {
+      sec.open = open;
+      items.forEach(function (x, i) { x.classList.toggle('pf-hide', !open && i >= SHOW); });
+      heads.forEach(function (h) {
+        var k = h.nextElementSibling, any = false;
+        while (k && !k.matches('h3.pf-grp, h2.pf-sec, .pf-more')) { if (!k.classList.contains('pf-hide')) any = true; k = k.nextElementSibling; }
+        h.classList.toggle('pf-hide', !any);
+      });
+      btn.textContent = open ? 'Show fewer' : 'Show all ' + count + ' ' + label + (h2.id === 'research' ? ' and reports' : '');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    };
+    btn.addEventListener('click', function () {
+      var wasOpen = sec.open; sec.set(!sec.open);
+      if (wasOpen) h2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    nodes[nodes.length - 1].after(btn);
+    sec.set(false);
+    secs.push(sec);
+  });
+  function openFor(el) {
+    secs.forEach(function (s) { if (!s.open && (s.items.indexOf(el) > -1 || s.heads.indexOf(el) > -1 || s.h2 === el)) { if (el !== s.h2) s.set(true); } });
+  }
+  var links = [].slice.call(root.querySelectorAll('.pf-nav a'));
+  links.forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var t = document.getElementById(a.dataset.sec);
+      if (!t) return;
+      e.preventDefault();
+      openFor(t);
+      t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      try { history.replaceState(null, '', '#' + a.dataset.sec); } catch (err) {}
+    });
+  });
+  if (location.hash) { var t0 = document.getElementById(location.hash.slice(1)); if (t0) { openFor(t0); setTimeout(function () { t0.scrollIntoView(); }, 50); } }
+  var targets = links.map(function (a) { return document.getElementById(a.dataset.sec); }).filter(Boolean);
+  function spy() {
+    var y = window.scrollY + 120, main = null, sub = null;
+    targets.forEach(function (t) {
+      if (t.classList.contains('pf-hide')) return;
+      if (t.getBoundingClientRect().top + window.scrollY <= y) { if (t.tagName === 'H2') { main = t.id; sub = null; } else sub = t.id; }
+    });
+    links.forEach(function (a) {
+      var on = a.classList.contains('sub') ? a.dataset.sec === sub : a.dataset.sec === main;
+      a.classList.toggle('is-active', on);
+    });
+  }
+  window.addEventListener('scroll', spy, { passive: true });
+  spy();
+})();
+</script>
