@@ -1,167 +1,176 @@
 ---
 layout: about
-title: About me  
+title: About me
 description: >
-  An about me paragraph 
+  Data scientist with a PhD in macroecology: Shiny apps, Quarto reporting, statistical modelling and data visualisation.
 hide_description: true
 ---
+
 <style>
-  .about-me-container {
-    display: flex;
-    align-items: center;
-    max-width: 100%;
-    padding: 20px 0;
-  }
-
-  .about-me-text {
-    flex-grow: 1;
-    padding-right: 30px;
-  }
-
-  .about-me-text p {
-    margin: 0 0 15px 0;
-  }
-
-  .profile-picture-container {
-    flex-shrink: 0;
-    width: 200px;
-    height: 200px;
-    position: relative;
-    margin-right: 30px;
-  }
-
-  .profile-picture {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    position: sticky;
-    top: 20px;
-  }
-
-  .services-container {
-    margin-top: 2rem;
-  }
-
-  .service-card {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    padding: 1.5rem;
-    margin-bottom: 1.5rem;
-    transition: transform 0.2s;
-  }
-
-  .service-card:hover {
-    transform: translateY(-3px);
-  }
-
-  .service-title {
-    color: #2c3e50;
-    font-size: 1.25rem;
-    font-weight: bold;
-    margin-bottom: 0.75rem;
-  }
-
-  .service-description {
-    color: #495057;
-    line-height: 1.6;
-  }
-
-  @media (max-width: 600px) {
-    .about-me-container {
-      flex-direction: column-reverse;
-      padding: 20px;
-    }
-
-    .about-me-text {
-      padding-right: 0;
-      padding-top: 20px;
-    }
-
-    .profile-picture-container {
-      width: 150px;
-      height: 150px;
-      margin-right: 0;
-    }
-
-    .profile-picture {
-      position: static;
-    }
-  }
+.ab { max-width: 1000px; margin: 0 auto; color: #24323b; }
+.ab a { color: #193747; text-decoration: underline; text-underline-offset: 2px; }
+.ab a:hover { color: #2a5a74; }
+.ab-hero { display: flex; gap: 2rem; align-items: center; margin: .5rem 0 1.6rem; }
+.ab-photo { flex: 0 0 190px; width: 190px; height: 190px; border-radius: 50%; object-fit: cover; box-shadow: 0 4px 16px rgba(25,55,71,.18); }
+.ab-intro h2 { margin: 0 0 .4rem; font-size: 1.55rem; color: #193747; border: 0; }
+.ab-intro p { margin: 0 0 .75rem; line-height: 1.6; font-size: 1.02rem; }
+.ab-avail { border-left: 4px solid #193747; background: #f4f7f9; padding: .9rem 1.1rem; margin: 0 0 1.2rem; line-height: 1.55; font-size: .97rem; }
+.ab-btns { margin: .2rem 0 0; }
+.ab .ab-btn { display: inline-block; background: #193747; color: #fff; padding: .45rem 1.05rem; border-radius: 3px; font-size: .88rem; text-decoration: none; margin: .4rem .45rem 0 0; }
+.ab .ab-btn:hover { background: #2a5a74; color: #fff; }
+.ab .ab-btn.ghost { background: transparent; color: #193747; border: 1px solid #193747; }
+.ab .ab-btn.ghost:hover { background: #f4f7f9; }
+.ab-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: .8rem; margin: 0 0 2.4rem; }
+.ab-stat { border: 1px solid #dfe5e9; border-radius: 4px; padding: .9rem .8rem; text-align: center; background: #fff; }
+.ab-stat b { display: block; font-size: 1.6rem; color: #193747; line-height: 1.1; }
+.ab-stat span { font-size: .85rem; color: #5a6a74; }
+.ab h2.ab-sec { margin: 2.4rem 0 .3rem; font-size: 1.4rem; color: #193747; border-bottom: 2px solid #193747; padding-bottom: .35rem; }
+.ab .ab-sub { margin: 0 0 1.2rem; font-size: .95rem; color: #5a6a74; }
+.ab-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.ab-card { border: 1px solid #dfe5e9; border-radius: 4px; padding: 1.1rem 1.2rem; background: #fff; transition: box-shadow .2s ease, transform .2s ease; }
+.ab-card:hover { box-shadow: 0 6px 18px rgba(25,55,71,.13); transform: translateY(-2px); }
+.ab-card h3 { margin: 0 0 .45rem; font-size: 1.08rem; color: #193747; }
+.ab-card p { margin: 0 0 .6rem; font-size: .93rem; line-height: 1.55; }
+.ab-card ul { margin: 0; padding-left: 1.1rem; font-size: .9rem; line-height: 1.6; }
+.ab-chips { display: flex; flex-wrap: wrap; gap: .45rem; margin: .3rem 0 0; }
+.ab-chips span { background: #eef3f6; color: #193747; border-radius: 999px; padding: .28rem .75rem; font-size: .85rem; }
+.ab-path { font-size: .95rem; line-height: 1.7; margin: 0; }
+.ab-cta { margin: 2.6rem 0 1rem; padding: 1.3rem 1.4rem; background: #193747; color: #fff; border-radius: 4px; }
+.ab-cta p { margin: 0 0 .5rem; line-height: 1.55; }
+.ab-cta a { color: #fff; }
+.ab .ab-cta .ab-btn { background: #fff; color: #193747; }
+.ab .ab-cta .ab-btn:hover { background: #e4ecf0; }
+@media (max-width: 720px) {
+  .ab-hero { flex-direction: column; text-align: center; gap: 1rem; }
+  .ab-photo { flex-basis: 150px; width: 150px; height: 150px; }
+  .ab-avail { text-align: left; }
+  .ab-stats { grid-template-columns: repeat(2, 1fr); }
+  .ab-grid { grid-template-columns: 1fr; }
+}
 </style>
 
-<div class="about-me-container">
-  <div class="about-me-text">
-    <p>
-      Hi, I'm Theo! I am a <strong>data analyst</strong>, <strong>researcher</strong>, and <strong>scientific coordinator</strong> with a PhD in macroecology.
-    </p>
-    <p>
-      <a href="https://www.theophile-mouton.com/work%20experience/" style="text-decoration: underline;">My journey</a> has taken me through crown institutes, universities, and international organisations. 
-    </p>
-    <p>
-      Adept in <strong>scientific writing</strong>, <strong>project coordination</strong>, and utilizing <strong>advanced programming</strong> and <strong>computer modelling</strong> tools, I've successfully led international expert networks and transformed data or ideas into <a href="https://www.theophile-mouton.com/portfolio/" style="text-decoration: underline;">impactful research findings</a>. 
-    </p>
-    <p>
-      I'm <strong>currently accepting new consulting projects</strong> and would love to help transform your data challenges into opportunities. <a href="mailto:theophile.mouton92@gmail.com" style="text-decoration: underline;">Reach out</a> to discuss how we can work together to achieve your organization's objectives.
-    </p>
-  </div>
-  <div class="profile-picture-container">
-    <img class="profile-picture" src="https://github.com/TheophileMt92/theophile-mouton/raw/gh-pages/assets/img/DSCF7388_cropped.jpg" alt="Theo's profile picture" />
+<div class="ab">
+
+<div class="ab-hero">
+  <img class="ab-photo" src="/assets/img/DSCF7388_cropped.jpg" alt="Théophile Mouton">
+  <div class="ab-intro">
+    <h2>Hi, I'm Théophile (Theo)</h2>
+    <p>I'm a <strong>data scientist</strong> with a PhD in macroecology and ten years of turning large, messy data into things people can use: interactive apps, reports that update themselves, statistical models and clear visualisations.</p>
+    <p>My <a href="/work experience/">path</a> runs through research institutes, universities and international organisations in New Zealand, France and Switzerland. Today I work independently through <strong>DataSphere Analytics</strong>, for governments, research institutes, universities and NGOs.</p>
   </div>
 </div>
 
-<h2>Consulting Services</h2>
-<div class="services-container">
-  <p class="services-intro" style="margin-bottom: 2rem; line-height: 1.6;">
-    As a consultant, I provide a wide range of analytical solutions and technical services tailored to the needs of my clients. My expertise includes:
-  </p>
-  
-  <div class="service-card">
-    <div class="service-title">Data Analysis and Visualization</div>
-    <div class="service-description">
-      Transforming complex datasets into actionable insights and creating clear, publication-ready visualizations using tools like <strong>R</strong>, <strong>ggplot2</strong>, and <strong>Quarto</strong>.
-    </div>
+<div class="ab-avail">
+  <strong>Open to new roles and projects.</strong> I'm looking for data scientist, data analyst or data visualisation roles, remote or hybrid from Montpellier or Barcelona, and I take on freelance projects through DataSphere Analytics.
+  <div class="ab-btns">
+    <a class="ab-btn" href="mailto:theophile.mouton92@gmail.com?subject=Enquiry%20via%20theophile-mouton.com">Email me</a>
+    <a class="ab-btn ghost" href="/cv/">CV</a>
+    <a class="ab-btn ghost" href="/portfolio/">Portfolio</a>
+  </div>
+</div>
+
+<div class="ab-stats">
+  <div class="ab-stat"><b>10+</b><span>years in data science</span></div>
+  <div class="ab-stat"><b>12+</b><span>peer-reviewed papers</span></div>
+  <div class="ab-stat"><b>60+</b><span>experts coordinated</span></div>
+  <div class="ab-stat"><b>3</b><span>languages: EN, FR, ES</span></div>
+</div>
+
+<h2 class="ab-sec">What I do</h2>
+<p class="ab-sub">Each area links to work you can open, run or read.</p>
+
+<div class="ab-grid">
+
+  <div class="ab-card">
+    <h3>Interactive web apps</h3>
+    <p>Shiny applications that let non-analysts explore, filter, map and export data on their own.</p>
+    <ul>
+      <li><a href="https://fins-app.shinyapps.io/FINS_App/">FINS Explorer</a>: 30,000 fossil shark and ray records (<a href="https://doi.org/10.1111/geb.70315">paper</a>)</li>
+      <li><a href="https://cloudapps.france-bioinformatique.fr/dateback/">DateBack</a>: archaeobotany platform for IRD and CNRS</li>
+      <li><a href="https://theophile-mouton.shinyapps.io/gfw-seasonality/">Fishing fleet seasonality</a>: Global Fishing Watch data</li>
+      <li>Survey dashboard for <a href="https://citizensforeurope.org/">Citizens for Europe</a>, with continuous integration</li>
+    </ul>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Geospatial Analysis</div>
-    <div class="service-description">
-      Performing advanced geographic information system (GIS) analyses, including spatial modeling, mapping, and large-scale data integration, using tools such as <strong>ArcGIS</strong>, <strong>QGIS</strong>, <strong>R</strong>, and <strong>Python</strong>.
-    </div>
+  <div class="ab-card">
+    <h3>Reproducible reporting</h3>
+    <p>Quarto reports and slides generated straight from code, so every number traces back to the analysis.</p>
+    <ul>
+      <li><a href="https://theophilemt92.github.io/vanuatu-disaster-report-demo/">Disaster damage pipeline</a> for the Government of Vanuatu, with Yan Holtz</li>
+      <li><a href="https://theophilemt92.github.io/gfw-med-data-lab/climate-env-ais/Quarto_report_CLIMATE-ENV-AIS.html">Live workshop report</a> and <a href="https://theophilemt92.github.io/gfw-med-data-lab/climate-env-ais/Quarto_slides_CLIMATE-ENV-AIS.html">self-updating slides</a>, Global Fishing Watch Data Lab, Rome 2026</li>
+      <li><a href="https://theophilemt92.github.io/quarto-report-template/">Branded Quarto report template</a></li>
+    </ul>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Dynamic and Interactive Dashboards</div>
-    <div class="service-description">
-      Designing and developing interactive tools and dashboards, such as <strong>Streamlit</strong> or <strong>Shiny</strong> apps, to make data exploration and insights accessible in real time.
-    </div>
+  <div class="ab-card">
+    <h3>Statistics, modelling and machine learning</h3>
+    <p>From regression and null models to random forests, reinforcement learning and density surface models.</p>
+    <ul>
+      <li><a href="https://github.com/TheophileMt92/fishing-effort-beyond-ais">Fishing effort beyond AIS</a>: random forest on satellite radar</li>
+      <li><a href="https://github.com/TheophileMt92/CAPTAIN_elasmo_manuscript">Global conservation priorities</a> with reinforcement learning (<a href="https://doi.org/10.1101/2025.11.28.691085">preprint</a>, in revision at <em>Science Advances</em>)</li>
+      <li><a href="https://theophilemt92.github.io/hawaii-cetacean-surveys/">Humpback whale density surface model</a>, NOAA survey data</li>
+    </ul>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Modeling and Statistical Analysis</div>
-    <div class="service-description">
-      Applying a wide range of <strong>statistical approaches</strong>, including regression models, machine learning algorithms, and Bayesian methods, to uncover patterns and generate predictions from complex datasets. My expertise also includes handling large-scale data processing, optimization, and model evaluation.
-    </div>
+  <div class="ab-card">
+    <h3>Geospatial and satellite data</h3>
+    <p>Large raster and vector datasets, vessel tracking and radar detections, turned into clear comparisons.</p>
+    <ul>
+      <li><a href="https://theophilemt92.github.io/mpa-oil-slicks/">Oil slicks inside marine protected areas</a></li>
+      <li><a href="https://theophilemt92.github.io/gfw-fleet-comparison/">How the world's fishing fleets compare</a></li>
+      <li><a href="https://theophilemt92.github.io/us-settlement-age/">Two centuries of US settlement</a>, animated</li>
+    </ul>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Ecological and Biodiversity Research</div>
-    <div class="service-description">
-      Conducting and supporting research in conservation and ecology, from experimental design to manuscript development, with a focus on biodiversity conservation.
-    </div>
+  <div class="ab-card">
+    <h3>LLMs and automation</h3>
+    <p>Pipelines that use large language models for structured extraction, with the statistics to check they're right.</p>
+    <ul>
+      <li><a href="https://github.com/TheophileMt92/BRIDGES_litterature">LLM-assisted literature extraction</a> with the Claude API, validated against blind manual coding</li>
+      <li>Automated reports that rebuild from a single configuration file</li>
+    </ul>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Scientific Coordination</div>
-    <div class="service-description">
-      Coordinating large-scale international projects at the interface of <strong>science and policy</strong>, with proven experience managing networks of <strong>60+ experts worldwide</strong>. Expertise in facilitating collaboration between diverse stakeholders, organizing workshops and events, and ensuring effective communication across scientific, policy, and institutional boundaries.
-    </div>
+  <div class="ab-card">
+    <h3>Data visualisation and teaching</h3>
+    <p>A frequent collaborator of Yan Holtz, founder of the R Graph Gallery, the Python Graph Gallery and Data-to-Viz.</p>
+    <ul>
+      <li>Tutorials: <a href="https://r-graph-gallery.com/character-interaction-analysis.html">chord diagram</a>, <a href="https://r-graph-gallery.com/web-sankey-diagram-with-highlight.html">Sankey with highlight</a>, <a href="https://r-graph-gallery.com/web-sankey-refugees.html">refugee flows</a></li>
+      <li>Two international training workshops for 250+ participants, in Greece and South Africa</li>
+    </ul>
   </div>
 
-  <div class="service-card">
-    <div class="service-title">Custom Analytical Solutions</div>
-    <div class="service-description">
-      Developing tailored workflows for data cleaning, formatting, and analysis to meet specific client needs, using <strong>R</strong>, <strong>Python</strong>, and other advanced tools.
-    </div>
+  <div class="ab-card">
+    <h3>Coordination and stakeholders</h3>
+    <p>Running international expert networks and translating analysis for decision-makers.</p>
+    <ul>
+      <li>Coordinated 60+ experts for the IUCN SSC Shark Specialist Group</li>
+      <li>Regional compendia: <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/">Mediterranean and Black Seas</a>, <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/">Western Indian Ocean</a></li>
+    </ul>
   </div>
+
+  <div class="ab-card">
+    <h3>Web development</h3>
+    <p>Modern front-end tools when a project needs more than a dashboard.</p>
+    <ul>
+      <li>A multilingual international events directory: Astro, Tailwind CSS, MapLibre maps, a Python data pipeline, deployed on Cloudflare Pages</li>
+      <li>This website, built with Jekyll and GitHub Pages</li>
+    </ul>
+  </div>
+
+</div>
+
+<h2 class="ab-sec">Toolkit</h2>
+<div class="ab-chips">
+  <span>R</span><span>tidyverse</span><span>ggplot2</span><span>data.table</span><span>sf</span><span>terra</span><span>Shiny</span><span>Quarto</span><span>plotly</span><span>leaflet</span><span>reactable</span><span>Python</span><span>Claude API</span><span>Git and GitHub</span><span>Positron</span><span>Astro</span><span>Tailwind CSS</span><span>HTML, CSS, JavaScript</span><span>MapLibre</span><span>Cloudflare Pages</span><span>QGIS</span><span>Google Earth Engine</span>
+</div>
+
+<h2 class="ab-sec">Where I've worked</h2>
+<p class="ab-path">NIWA (New Zealand) &middot; Ifremer &middot; CESAB, French Foundation for Research on Biodiversity &middot; University of Montpellier (PhD) &middot; IUCN SSC Shark Specialist Group &middot; University of Zurich &middot; IRD &middot; DataSphere Analytics. Full details on the <a href="/work experience/">work experience</a> page, and papers on the <a href="/Publications/">publications</a> page.</p>
+
+<div class="ab-cta">
+  <p><strong>Have data that should be doing more for you?</strong> I'd be glad to hear about it, whether it's a role, a short project or a training session for your team.</p>
+  <a class="ab-btn" href="mailto:theophile.mouton92@gmail.com?subject=Enquiry%20via%20theophile-mouton.com">Get in touch</a>
+</div>
+
 </div>
