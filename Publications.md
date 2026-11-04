@@ -32,4 +32,7 @@ hide_description: true
   <li>de Winton, M., <strong>Mouton T.L.</strong> (2018) Technical Report on Vegetation Status in Waituna Lagoon: 2009–2018. Prepared for Department of Conservation.</li>
 </ol>
 
-
+<h2>Thesis</h2>
+<ol>
+  <li><strong>Mouton T. L.</strong> (2023). <a href="https://theses.fr/275299554">La biodiversité dulcicole sous influence du changement global.</a> PhD thesis, Université Claude Bernard Lyon I.</li>
+</ol>

@@ -41,18 +41,20 @@ permalink: /portfolio/
 .pf-paper p.pf-note { font-size: .92rem; line-height: 1.55; color: #44535c; margin: 0 0 .8rem; }
 .pf-reports { font-size: .92rem; line-height: 1.7; color: #44535c; }
 @media (max-width: 760px) { .pf-paper, .pf-paper.narrow, .pf-paper.wide { grid-template-columns: 1fr; } }
-.pf-nav { position: sticky; top: 0; z-index: 20; background: rgba(255,255,255,.96); backdrop-filter: blur(4px); border-bottom: 1px solid #dfe5e9; margin: 0 0 1rem; padding: .55rem 0; display: flex; flex-wrap: wrap; gap: .35rem .5rem; align-items: center; }
-.pf-nav a { color: #193747; text-decoration: none; font-size: .88rem; padding: .28rem .75rem; border-radius: 999px; border: 1px solid transparent; white-space: nowrap; }
-.pf-nav a:hover { background: #f4f7f9; }
-.pf-nav a.is-active { background: #193747; color: #fff; }
-.pf-nav a.sub { font-size: .8rem; color: #5a6a74; padding: .22rem .6rem; }
-.pf-nav a.sub.is-active { background: #eef3f6; color: #193747; border-color: #c9d5dc; }
-.pf-nav .sep { width: 1px; height: 1.2rem; background: #dfe5e9; margin: 0 .2rem; }
-.pf [id] { scroll-margin-top: 4.5rem; }
+.pf-nav-slot { margin: 0 0 1.2rem; }
+.pf-nav { box-sizing: border-box; display: flex; flex-wrap: wrap; align-items: center; gap: .45rem; background: #193747; border-radius: 999px; padding: .4rem .45rem .4rem 1rem; box-shadow: 0 4px 14px rgba(25,55,71,.18); z-index: 60; }
+.pf-nav.is-fixed { position: fixed; top: 10px; box-shadow: 0 8px 22px rgba(25,55,71,.30); }
+.pf-nav-label { color: #9cb7c9; font-size: .74rem; letter-spacing: .08em; text-transform: uppercase; margin-right: .2rem; }
+.pf-nav a { color: #fff; text-decoration: none; font-size: .9rem; font-weight: 600; padding: .38rem .9rem; border-radius: 999px; white-space: nowrap; transition: background .2s, color .2s; }
+.pf-nav a b { display: inline-block; min-width: 1.4rem; margin-left: .35rem; padding: 0 .35rem; border-radius: 999px; background: rgba(255,255,255,.16); font-size: .74rem; text-align: center; }
+.pf-nav a:hover { background: rgba(255,255,255,.12); }
+.pf-nav a.is-active { background: #fff; color: #193747; }
+.pf-nav a.is-active b { background: #e4ecf0; }
+.pf [id] { scroll-margin-top: 5rem; }
 .pf .pf-hide { display: none !important; }
 .pf-more { display: block; margin: .2rem auto 0; background: #fff; color: #193747; border: 1px solid #193747; border-radius: 999px; padding: .45rem 1.2rem; font: inherit; font-size: .88rem; cursor: pointer; }
 .pf-more:hover { background: #f4f7f9; }
-@media (max-width: 760px) { .pf-nav { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; } .pf-nav .sep { display: none; } }
+@media (max-width: 760px) { .pf-nav { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 12px; } .pf-nav-label { display: none; } }
 </style>
 
 <div class="pf" markdown="0">
@@ -61,15 +63,12 @@ permalink: /portfolio/
 
 <div class="pf-avail"><strong>Available now.</strong> I'm looking for data scientist, data analyst or data visualisation roles, remote or hybrid from Montpellier or Barcelona, and I take on freelance data science and data visualisation work through DataSphere Analytics.<br><a class="pf-btn" href="mailto:theophile.mouton92@gmail.com?subject=Enquiry%20via%20theophile-mouton.com">Email me</a></div>
 
-<nav class="pf-nav" aria-label="Portfolio sections">
-  <a href="#tools" data-sec="tools">Tools and systems</a>
-  <a href="#analysis" data-sec="analysis">Analysis</a>
-  <a href="#research" data-sec="research">Research</a>
-  <span class="sep" aria-hidden="true"></span>
-  <a class="sub" href="#first-author" data-sec="first-author">First author</a>
-  <a class="sub" href="#co-author" data-sec="co-author">Co-author</a>
-  <a class="sub" href="#reports" data-sec="reports">Reports</a>
-</nav>
+<div class="pf-nav-slot"><nav class="pf-nav" aria-label="Portfolio sections">
+  <span class="pf-nav-label">Jump to</span>
+  <a href="#tools" data-sec="tools">Tools and systems <b>7</b></a>
+  <a href="#analysis" data-sec="analysis">Analysis <b>6</b></a>
+  <a href="#research" data-sec="research">Research <b>13</b></a>
+</nav></div>
 
 <h2 class="pf-sec" id="tools">Tools and systems</h2>
 <p class="pf-sub">Built for other people to use.</p>
@@ -112,13 +111,6 @@ permalink: /portfolio/
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Stephenson et al. 2021.png" alt="Cetacean conservation planning in a global diversity hotspot"></div><div><h4>Cetacean conservation planning in a global diversity hotspot</h4><p class="pf-cite">Stephenson F., Hewitt J.E., Torres L.G., Mouton T.L., Brough T., Goetz K.T., <em>et al.</em> (2021). <em>Ecosphere</em> 12(7), e03633.</p><p class="pf-note">Spatial prioritisation with Zonation to identify cetacean richness hotspots, testing how different levels of uncertainty in the underlying occurrence layers change which areas come out as priorities.</p><p class="pf-links"><a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.3633">Paper</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/Stephenson et al. 2020.png" alt="Modelling the spatial distribution of cetaceans in New Zealand waters"></div><div><h4>Modelling the spatial distribution of cetaceans in New Zealand waters</h4><p class="pf-cite">Stephenson F., Goetz K., Sharp B.R., Mouton T.L., Beets F.L., Roberts J., <em>et al.</em> (2020). <em>Diversity and Distributions</em> 26(4), 495-516.</p><p class="pf-note">A national database of more than 7,000 at-sea cetacean sightings, with boosted regression trees and relative environmental suitability models predicting the distribution of 30 species and species richness across the New Zealand EEZ. A companion report was prepared for Fisheries New Zealand.</p><p class="pf-links"><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/ddi.13035">Paper</a> <a href="https://docs.niwa.co.nz/library/public/NZAEBR-240.pdf">Fisheries NZ report</a></p></div></div>
 <div class="pf-paper"><div class="pf-figs"><img src="/assets/img/portfolio/pap_stephenson_head.png" alt="Development of a seafloor community classification for the New Zealand region using a gradient forest approach"><img class="pf-mid" src="/assets/img/portfolio/pap_stephenson_scc.png" alt="Geographic distribution of the 75-group seafloor community classification"></div><div><h4>Development of a seafloor community classification for the New Zealand region using a gradient forest approach</h4><p class="pf-cite">Stephenson F., Rowden A.A., Brough T., Petersen G., Bulmer R.H., <em>et al.</em> (2022). <em>Frontiers in Marine Science</em> 8, 792712.</p><p class="pf-note">Gradient forest models of compositional turnover for demersal fish, reef fish, benthic invertebrates and macroalgae across the New Zealand region, combined into a single classification of the seafloor at 75 groups, with a spatially explicit estimate of uncertainty and of environmental coverage alongside it. The classification underpins marine spatial planning and ecosystem-based management advice for New Zealand waters.</p><p class="pf-links"><a href="https://www.frontiersin.org/articles/10.3389/fmars.2021.792712/full">Paper</a></p></div></div>
-<h3 class="pf-grp" id="reports">Reports and theses</h3>
-<p class="pf-reports">
-<strong>Jabado R.W., Kyne P.M., García-Rodríguez E., Charles R., Armstrong A.O., Mouton T.L., <em>et al.</em> (2024).</strong> Western Indian Ocean: a regional compendium of Important Shark and Ray Areas. IUCN SSC Shark Specialist Group and IUCN Ocean Team. <a href="https://sharkrayareas.org/download/western-indian-ocean-regional-compendium-of-important-shark-and-ray-areas/">Report</a> &middot; <a href="https://www.youtube.com/watch?v=T5jFvc3bX4E">Durban workshop</a><br>
-<strong>Jabado R.W., García-Rodríguez E., Kyne P.M., Charles R., Armstrong A.H., Mouton T.L., <em>et al.</em> (2023).</strong> Mediterranean and Black Seas: a regional compendium of Important Shark and Ray Areas. IUCN SSC Shark Specialist Group and IUCN Ocean Team. <a href="https://sharkrayareas.org/download/mediterranean-and-black-seas-regional-compendium-of-important-shark-and-ray-areas/">Report</a> &middot; <a href="https://www.youtube.com/watch?v=vghKtCjsP-g">Thessaloniki workshop</a><br>
-<strong>Mouton T.L. (2023).</strong> La biodiversité dulcicole sous influence du changement global. PhD thesis, Université Claude Bernard Lyon I. <a href="https://theses.fr/275299554">theses.fr</a>
-</p>
-
 </div>
 
 <script>
@@ -151,7 +143,7 @@ permalink: /portfolio/
         while (k && !k.matches('h3.pf-grp, h2.pf-sec, .pf-more')) { if (!k.classList.contains('pf-hide')) any = true; k = k.nextElementSibling; }
         h.classList.toggle('pf-hide', !any);
       });
-      btn.textContent = open ? 'Show fewer' : 'Show all ' + count + ' ' + label + (h2.id === 'research' ? ' and reports' : '');
+      btn.textContent = open ? 'Show fewer' : 'Show all ' + count + ' ' + label;
       btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     };
     btn.addEventListener('click', function () {
@@ -178,18 +170,25 @@ permalink: /portfolio/
   });
   if (location.hash) { var t0 = document.getElementById(location.hash.slice(1)); if (t0) { openFor(t0); setTimeout(function () { t0.scrollIntoView(); }, 50); } }
   var targets = links.map(function (a) { return document.getElementById(a.dataset.sec); }).filter(Boolean);
-  function spy() {
-    var y = window.scrollY + 120, main = null, sub = null;
-    targets.forEach(function (t) {
-      if (t.classList.contains('pf-hide')) return;
-      if (t.getBoundingClientRect().top + window.scrollY <= y) { if (t.tagName === 'H2') { main = t.id; sub = null; } else sub = t.id; }
-    });
-    links.forEach(function (a) {
-      var on = a.classList.contains('sub') ? a.dataset.sec === sub : a.dataset.sec === main;
-      a.classList.toggle('is-active', on);
-    });
+  var nav = root.querySelector('.pf-nav'), slot = root.querySelector('.pf-nav-slot');
+  function pin() {
+    var r = slot.getBoundingClientRect();
+    if (r.top < 10) {
+      if (!nav.classList.contains('is-fixed')) { slot.style.height = nav.offsetHeight + 'px'; nav.classList.add('is-fixed'); }
+      nav.style.left = r.left + 'px'; nav.style.width = r.width + 'px';
+    } else if (nav.classList.contains('is-fixed')) {
+      nav.classList.remove('is-fixed'); nav.style.left = nav.style.width = ''; slot.style.height = '';
+    }
   }
-  window.addEventListener('scroll', spy, { passive: true });
-  spy();
+  function spy() {
+    var main = null;
+    targets.forEach(function (t) { if (t.getBoundingClientRect().top <= 140) main = t.id; });
+    links.forEach(function (a) { a.classList.toggle('is-active', a.dataset.sec === main); });
+  }
+  function onScroll() { pin(); spy(); }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  document.addEventListener('scroll', onScroll, { passive: true, capture: true });
+  window.addEventListener('resize', onScroll);
+  onScroll();
 })();
 </script>
