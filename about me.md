@@ -71,7 +71,7 @@ hide_description: true
 
 <div class="ab-stats">
   <div class="ab-stat"><b>10+</b><span>years in data science</span></div>
-  <div class="ab-stat"><b>12+</b><span>peer-reviewed papers</span></div>
+  <div class="ab-stat"><b>13</b><span>peer-reviewed papers</span></div>
   <div class="ab-stat"><b>60+</b><span>experts coordinated</span></div>
   <div class="ab-stat"><b>3</b><span>languages: EN, FR, ES</span></div>
 </div>
