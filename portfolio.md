@@ -55,6 +55,14 @@ permalink: /portfolio/
 .pf-more { display: block; margin: .2rem auto 0; background: #fff; color: #193747; border: 1px solid #193747; border-radius: 999px; padding: .45rem 1.2rem; font: inherit; font-size: .88rem; cursor: pointer; }
 .pf-more:hover { background: #f4f7f9; }
 @media (max-width: 760px) { .pf-nav { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; border-radius: 12px; } .pf-nav-label { display: none; } }
+.pf-feature { display: grid; grid-template-columns: 300px 1fr; gap: 1.5rem; align-items: start; border: 1px solid #c9d5dc; border-left: 4px solid #193747; border-radius: 4px; background: #fff; padding: 1.2rem; margin: 0 0 1.6rem; }
+.pf-feature > img { width: 100%; align-self: start; border-radius: 4px; display: block; }
+.pf-feature .pf-meta { margin: 0 0 .3rem; font-size: .76rem; letter-spacing: .06em; text-transform: uppercase; color: #5a6a74; }
+.pf-feature h4 { margin: 0 0 .55rem; font-size: 1.18rem; line-height: 1.3; color: #193747; }
+.pf-feature p { margin: 0 0 .7rem; font-size: .95rem; line-height: 1.6; }
+.pf-feature .pf-shots { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; margin: 0; }
+.pf-feature .pf-shots img { width: 100%; border: 1px solid #e6ebee; border-radius: 3px; display: block; }
+@media (max-width: 760px) { .pf-feature { grid-template-columns: 1fr; } .pf-feature > img { max-width: 360px; margin: 0 auto; } }
 </style>
 
 <div class="pf" markdown="0">
@@ -72,6 +80,21 @@ permalink: /portfolio/
 
 <h2 class="pf-sec" id="tools">Tools and systems</h2>
 <p class="pf-sub">Built for other people to use.</p>
+<div class="pf-feature">
+  <img src="/assets/img/portfolio/gfw_datalab_cards.gif" alt="Animated cards: from a shared Google Drive to a live, reproducible report, via Claude, GitHub and Quarto">
+  <div>
+    <p class="pf-meta">Project leadership &middot; Global Fishing Watch Mediterranean Data Lab, Rome, October 2026</p>
+    <h4>From a shared Drive to a live, reproducible report</h4>
+    <p>Project leader for a working group of ten scientists linking climate, the marine environment and trawling effort in the Mediterranean. Over three days I coordinated and facilitated the group, shared good practice in reproducible analysis, contributed to the science, and gave the workshop's closing presentation.</p>
+    <p>Behind it, a pipeline kept the work organised while it happened: scripts and data curated with AI assistance, every change versioned in one GitHub repository, a live Quarto report the whole group followed, and Quarto slides that updated themselves from it.</p>
+    <p class="pf-links"><a href="https://theophilemt92.github.io/gfw-med-data-lab/climate-env-ais/Quarto_report_CLIMATE-ENV-AIS.html">Live report</a> <a href="https://theophilemt92.github.io/gfw-med-data-lab/climate-env-ais/Quarto_slides_CLIMATE-ENV-AIS.html">Slides</a> <a href="https://github.com/TheophileMt92/gfw-med-data-lab/tree/main/climate-env-ais">Code</a> <a href="https://www.linkedin.com/feed/update/urn:li:activity:7523353061461835776/">LinkedIn post</a></p>
+  </div>
+  <div class="pf-shots">
+    <img src="/assets/img/portfolio/gfw_datalab_how_we_worked.png" alt="Slide: how we worked, from working group to published report">
+    <img src="/assets/img/portfolio/gfw_datalab_study.png" alt="Slide: the study in one picture, climate, red mullet and trawling">
+  </div>
+</div>
+
 <div class="pf-grid">
 <div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_quarto_map.png" alt="Reproducible reporting with Quarto: Leaflet map of marine protected areas from the demonstration report"><div class="pf-body"><p class="pf-meta">System &middot; DataSphere Analytics</p><h4>Reproducible reporting with Quarto</h4><p>The report template I build for research groups and public agencies. A single .qmd file produces a self-contained HTML report with a custom visual identity, a filterable plotly chart, a leaflet map with switchable basemaps and grouped layers, and a sortable reactable table with in-cell bars. No Bootstrap theme, nothing to install.</p><p class="pf-links"><a href="https://theophilemt92.github.io/quarto-report-template/">Live report</a> <a href="https://github.com/TheophileMt92/quarto-report-template">Repo</a></p></div></div>
 <div class="pf-card"><img class="pf-thumb" src="/assets/img/portfolio/new_gfw_seasonality.png" alt="Fishing fleet seasonality"><div class="pf-body"><p class="pf-meta">Application &middot; Global Fishing Watch data</p><h4>Fishing fleet seasonality</h4><p>An interactive look at when national fleets fish, and where. Pick an FAO major fishing area and a set of flag states: the chart gives weekly or cumulative fishing hours per fleet across 2020, with the legend ordered by each fleet&rsquo;s peak week, and the map shows where that effort falls month by month.</p><p class="pf-links"><a href="https://theophile-mouton.shinyapps.io/gfw-seasonality/">Open the app</a> <a href="https://github.com/TheophileMt92/gfw-seasonality">Repo</a></p></div></div>
