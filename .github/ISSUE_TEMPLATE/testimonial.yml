@@ -1,0 +1,54 @@
+name: Leave a testimonial
+description: Share a few words about working with Théophile. Testimonials are reviewed before they appear on theophile-mouton.com.
+title: "Testimonial from "
+labels: ["testimonial"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Your testimonial will be reviewed and added to [theophile-mouton.com/Testimonials](https://www.theophile-mouton.com/Testimonials/). Note that GitHub issues are public. If you prefer to send it privately, email theophile.mouton92@gmail.com instead.
+  - type: input
+    id: name
+    attributes:
+      label: Your name, as it should appear
+      placeholder: "Dr. Jane Smith"
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Your role and organisation
+      placeholder: "Head of Data, Example Foundation"
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: How did we work together?
+      options:
+        - Client or freelance project
+        - Colleague or collaborator
+        - Supervisor or manager
+        - Workshop or training participant
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: testimonial
+    attributes:
+      label: Your testimonial
+      description: A few sentences is perfect. What did we work on, and what was it like?
+    validations:
+      required: true
+  - type: input
+    id: photo
+    attributes:
+      label: Photo (optional)
+      description: A link to a profile photo, for example your LinkedIn or institutional page. Leave blank to show initials.
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Permission
+      options:
+        - label: I agree to my name, role, photo (if given) and testimonial being published on theophile-mouton.com.
+          required: true

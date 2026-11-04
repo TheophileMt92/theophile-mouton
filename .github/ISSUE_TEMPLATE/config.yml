@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Send a testimonial privately by email
+    url: mailto:theophile.mouton92@gmail.com?subject=Testimonial
+    about: Prefer not to post on GitHub? Email it instead.

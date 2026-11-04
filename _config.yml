@@ -48,7 +48,7 @@ author:
   name:                Théophile L. Mouton
   email:               theophile.mouton92@gmail.com
   # # Used by `jekyll-seo-tag`:
-  twitter:             Theophile_Mt
+  # twitter:           Theophile_Mt   # X account no longer used
 
 # Add links to the sidebar.
 menu:
