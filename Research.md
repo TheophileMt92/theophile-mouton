@@ -107,6 +107,7 @@ hide_description: true
 <div class="rs-theme">
   <div class="rs-figs">
     <figure class="rs-fig"><img src="/assets/img/portfolio/new_chinese_fleet.png" alt="Animated map of Chinese industrial fishing effort accumulating through the year"><figcaption>A year of Chinese industrial fishing effort accumulating week by week, from AIS data (frame from the animation).</figcaption></figure>
+    <figure class="rs-fig"><img src="/assets/img/portfolio/res_oil_slick_grid.png" alt="Grid of marine protected areas by country coloured by detected oil-slick area"><figcaption>Oil slicks inside marine protected areas, 2023 to 2025: each square is one MPA, coloured by the oil detected inside it, for the five most exposed countries.</figcaption></figure>
   </div>
   <div>
     <p class="rs-kicker">Open analyses</p>
