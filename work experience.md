@@ -67,7 +67,7 @@ hide_description: true
 
   <div class="wx-item now"><div class="wx-card">
     <div class="wx-head">
-      <div class="wx-logo"><div class="wx-mono">DSA</div></div>
+      <div class="wx-logo"><img src="/assets/img/logos/DataSphere_logo.png" alt="DataSphere Analytics logo"></div>
       <div class="wx-title"><h3>Founder and Data Consultant</h3><p class="wx-org">DataSphere Analytics &middot; Montpellier, remote</p></div>
       <span class="wx-when">2024 - present</span>
     </div>
