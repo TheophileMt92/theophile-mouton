@@ -103,7 +103,7 @@ hide_description: true
       <span class="wx-when">2025</span>
     </div>
     <ul>
-      <li>Led a global conservation prioritisation of sharks and rays with CAPTAIN, a reinforcement learning algorithm in Python, optimising across about 1,000 species and three conservation criteria. Manuscript in revision at <em>Science Advances</em> (<a href="https://doi.org/10.1101/2025.11.28.691085">preprint</a>, <a href="https://github.com/TheophileMt92/CAPTAIN_elasmo_manuscript">code</a>).</li>
+      <li>Led a global conservation prioritisation of sharks and rays with CAPTAIN, a reinforcement learning algorithm in Python, optimising across about 1,000 species and three conservation criteria. Available as a <a href="https://doi.org/10.1101/2025.11.28.691085">preprint</a>.</li>
       <li>Trained a random forest on paired AIS and Sentinel-1 radar data to estimate fishing effort where vessels stop broadcasting (<a href="https://github.com/TheophileMt92/fishing-effort-beyond-ais">repo</a>).</li>
       <li>Ran a gap analysis of the global marine protected area network against a spatially explicit null model, with quantile and beta regression.</li>
       <li>Built the <a href="https://fins-app.shinyapps.io/FINS_App/">FINS</a> and SAFE Shiny applications for the group's open datasets (<a href="https://doi.org/10.1111/geb.70315">FINS paper</a>).</li>

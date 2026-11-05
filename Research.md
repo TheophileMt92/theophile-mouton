@@ -51,7 +51,7 @@ hide_description: true
 <div class="rs-stats">
   <div class="rs-stat"><b>13</b><span>peer-reviewed papers</span></div>
   <div class="rs-stat"><b>5</b><span>as first author</span></div>
-  <div class="rs-stat"><b>1</b><span>more in revision, <em>Science Advances</em></span></div>
+  <div class="rs-stat"><b>1</b><span>more as a preprint</span></div>
   <div class="rs-stat"><b>5</b><span>scientific reports</span></div>
 </div>
 
@@ -79,7 +79,7 @@ hide_description: true
     <p>How well does the global network of marine protected areas cover biodiversity, and where should new protection go? With the Pimiento Research Group, I combined range maps for about 1,000 species with measures of extinction risk, ecological function and evolutionary history. I ran a gap analysis against a spatially explicit null model, then used reinforcement learning to optimise where a 10% protection target would do the most good, set against where industrial fishing concentrates.</p>
     <p>The study system is sharks and rays, one of the most threatened groups in the ocean; the methods apply to any taxon or region.</p>
     <ul class="rs-papers">
-      <li class="first"><strong>Mouton T.L.</strong> et al. Global gaps and priorities for shark and ray conservation. <em>Science Advances</em>, in revision (<a href="https://doi.org/10.1101/2025.11.28.691085">preprint</a>, <a href="https://github.com/TheophileMt92/CAPTAIN_elasmo_manuscript">code</a>)</li>
+      <li class="first"><strong>Mouton T.L.</strong> et al. <a href="https://doi.org/10.1101/2025.11.28.691085">Global gaps and priorities for shark and ray conservation.</a> <em>bioRxiv</em> preprint <span class="yr">2025</span></li>
       <li>Pimiento C. et al. <a href="https://doi.org/10.1038/s41467-023-43212-3">Functional diversity of sharks and rays is highly vulnerable and supported by unique species and locations worldwide.</a> <em>Nature Communications</em> <span class="yr">2023</span></li>
       <li>Kocáková K. et al. <a href="https://doi.org/10.1111/geb.70315">FINS: a global occurrence dataset of fossil neoselachians.</a> <em>Global Ecology and Biogeography</em> <span class="yr">2026</span> (<a href="https://fins-app.shinyapps.io/FINS_App/">app</a>)</li>
     </ul>
