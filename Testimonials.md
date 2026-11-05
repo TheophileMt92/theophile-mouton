@@ -65,14 +65,14 @@ a.tm-btn.ghost { background: transparent; color: #193747 !important; }
     <footer><img src="/assets/img/testimonials/jharris_f.jpg" alt="Dr. Joanna Harris"><span><b>Dr. Joanna Harris</b>University of Plymouth</span></footer>
   </blockquote>
   <blockquote class="tm-card">
-    <div class="tm-text"><p>I was Theo's main collaborator while working as a marine scientist at the National Institute of Water and Atmospheric Research in New Zealand.</p><p>I truly enjoyed working with Theo, as he demonstrated a strong eagerness to deliver innovative and impactful work. His work was crucial in the preparation, analyses and delivery of important scientific reports and publications.</p><p>I was particularly impressed by his rapid understanding of machine learning models and GIS tools, by his ability to work independently in a foreign country and to quickly develop strong professional skills.</p><p>I can highly recommend working with Theo!</p></div>
-    <button class="tm-toggle" type="button" hidden>Read more</button>
-    <footer><img src="/assets/img/testimonials/fstephenson_3.png" alt="Dr. Fabrice Stephenson"><span><b>Dr. Fabrice Stephenson</b>Newcastle University</span></footer>
-  </blockquote>
-  <blockquote class="tm-card tm-extra">
     <div class="tm-text"><p>I had the pleasure of being Theo's PhD co-supervisor at the University of Montpellier.</p><p>Throughout his PhD journey, Theo demonstrated exceptional leadership and self-motivation, driving his research program with remarkable independence.</p><p>I was consistently impressed by Theo's ability to assemble a team of international experts, develop sophisticated programming pipelines, and by his outstanding writing skills. His clear communication in both French and English was evident throughout his work.</p><p>His efforts culminated in the publication of four manuscripts in highly regarded journals, a remarkable achievement that far exceeds the expectations for an early-career scientist and is a true testament to his productivity.</p><p>On the day of his defense, I expressed my gratitude to Theo for allowing me to supervise his research, as the experience was enriching for me as well.</p><p>I highly recommend working with him!</p></div>
     <button class="tm-toggle" type="button" hidden>Read more</button>
     <footer><img src="/assets/img/testimonials/fleprieur.jpeg" alt="Prof. Fabien Leprieur"><span><b>Prof. Fabien Leprieur</b>University of Montpellier</span></footer>
+  </blockquote>
+  <blockquote class="tm-card tm-extra">
+    <div class="tm-text"><p>I was Theo's main collaborator while working as a marine scientist at the National Institute of Water and Atmospheric Research in New Zealand.</p><p>I truly enjoyed working with Theo, as he demonstrated a strong eagerness to deliver innovative and impactful work. His work was crucial in the preparation, analyses and delivery of important scientific reports and publications.</p><p>I was particularly impressed by his rapid understanding of machine learning models and GIS tools, by his ability to work independently in a foreign country and to quickly develop strong professional skills.</p><p>I can highly recommend working with Theo!</p></div>
+    <button class="tm-toggle" type="button" hidden>Read more</button>
+    <footer><img src="/assets/img/testimonials/fstephenson_3.png" alt="Dr. Fabrice Stephenson"><span><b>Dr. Fabrice Stephenson</b>Newcastle University</span></footer>
   </blockquote>
   <blockquote class="tm-card tm-extra">
     <div class="tm-text"><p>I hired Theo as a research assistant at the National Institute of Water and Atmospheric Research in New Zealand. Theo provided remarkable leadership in the research program I entrusted him with and demonstrated an impressive capacity to quickly learn and apply modern programming and statistical skills.</p></div>
