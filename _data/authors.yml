@@ -28,6 +28,10 @@ author1:
   social:
     # twitter:       Theophile_Mt   # X account no longer used
     github:          TheophileMt92
+    linkedin:          théophile-l-mouton-2b25822a3
+    google_scholar:    https://scholar.google.com/citations?user=iiZ0klkAAAAJ
+    orcid:             https://orcid.org/0000-0003-2571-5777
+    malt:              https://www.malt.com/profile/theophilemouton
     email:           theophile.mouton92@gmail.com
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
@@ -57,7 +61,7 @@ author1:
     # npm:             <username>
     # hackernews:      <username>
     # trello:          <firstnamelastname>
-    linkedin:          théophile-l-mouton-2b25822a3
+    # linkedin moved up
     # xing:            <firstname_lastname_counter>
     # blogger:         <number>
     # delicious:       <username>

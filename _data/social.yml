@@ -206,3 +206,13 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+
+google_scholar:
+  name: Google Scholar
+  icon: fa-solid fa-graduation-cap
+orcid:
+  name: ORCID
+  icon: fa-brands fa-orcid
+malt:
+  name: Malt
+  icon: fa-solid fa-briefcase
