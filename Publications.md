@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Publications 
-description: >
-  A list of all my scientific publications with doi links
 hide_description: true
+description: >
+  Peer-reviewed publications by Théophile L. Mouton on marine biodiversity, conservation prioritisation, fishing pressure and macroecology, with DOI links.
 ---
 
 <h2>Journal Articles</h2>

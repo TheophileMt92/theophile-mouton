@@ -2,6 +2,9 @@
 layout: page
 title: CV
 permalink: /cv/
+hide_description: true
+description: >
+  Download the CV of Théophile Mouton: a data science CV for analytics and consultancy roles, and an academic CV for research positions.
 ---
 
 <style>

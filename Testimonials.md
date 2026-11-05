@@ -1,9 +1,9 @@
 ---
 layout: about
 title: Testimonials  
-description: >
-  Testimonials 
 hide_description: true
+description: >
+  What clients and collaborators say about working with Théophile Mouton, data scientist and data visualisation consultant.
 ---
 
 {% include testimonial-slider.html %}

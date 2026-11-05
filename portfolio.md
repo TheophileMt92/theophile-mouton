@@ -2,6 +2,9 @@
 layout: page
 title: Portfolio
 permalink: /portfolio/
+hide_description: true
+description: >
+  Portfolio of Théophile Mouton: Shiny dashboards and web apps, Quarto reports, geospatial and fishing-effort analyses, and research on shark and ray conservation.
 ---
 
 <style>
