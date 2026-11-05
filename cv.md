@@ -37,7 +37,7 @@ permalink: /cv/
 </div>
 
 <div class="cv-panel is-active" id="panel-ds" role="tabpanel" aria-labelledby="tab-ds">
-  <p>For data science, analytics and consultancy roles: R and Python, Shiny apps, Quarto reporting, machine learning, LLM pipelines and client delivery. Two pages.</p>
+  <p>For data science, analytics and consultancy roles: R and Python, web apps and dashboards (Shiny, React), Quarto reporting, machine learning, LLM pipelines and client delivery. Two pages.</p>
   <div class="cv-actions">
     <a class="cv-btn" href="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" download>Download PDF</a>
     <a class="cv-btn ghost" href="/assets/files/Theophile_Mouton_CV_Data_Science.pdf" target="_blank" rel="noopener">Open in new tab</a>
