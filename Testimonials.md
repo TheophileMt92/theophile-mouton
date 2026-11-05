@@ -14,7 +14,7 @@ description: >
 a.tm-btn { display: inline-block; background: #193747; color: #fff !important; padding: .4rem .95rem; border-radius: 3px; font-size: .85rem; text-decoration: none; border: 1px solid #193747; white-space: nowrap; }
 a.tm-btn:hover { background: #2a5a74; }
 a.tm-btn.ghost { background: transparent; color: #193747 !important; }
-.tm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; align-items: start; }
+.tm-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; align-items: stretch; }
 .tm-card { position: relative; border: 1px solid #dfe5e9; border-radius: 4px; background: #fff; padding: 1.6rem 1.1rem 1rem; margin: 0; display: flex; flex-direction: column; }
 .tm-card::before { content: "\201C"; position: absolute; top: -.35rem; left: .8rem; font-size: 3.2rem; line-height: 1; color: #193747; font-family: Georgia, serif; }
 .tm-text { font-size: .92rem; line-height: 1.55; font-style: italic; overflow: hidden; }
