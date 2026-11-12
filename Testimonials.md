@@ -23,6 +23,7 @@ a.tm-btn.ghost { background: transparent; color: #193747 !important; }
 .tm-toggle { align-self: flex-start; background: none; border: 0; padding: 0; margin: 0 0 .8rem; color: #193747; font-size: .82rem; font-weight: 600; cursor: pointer; text-decoration: underline; }
 .tm-card footer { display: flex; gap: .6rem; align-items: center; font-size: .82rem; color: #5a6a74; line-height: 1.35; margin-top: auto; }
 .tm-card footer img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; flex: 0 0 40px; }
+.tm-card footer .tm-ini { width: 40px; height: 40px; border-radius: 50%; flex: 0 0 40px; background: #193747; color: #fff; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .85rem; }
 .tm-card footer b { color: #193747; display: block; font-size: .88rem; }
 .tm-extra { display: none; }
 .tm-grid.all .tm-extra { display: flex; }
@@ -58,6 +59,11 @@ a.tm-btn.ghost { background: transparent; color: #193747 !important; }
     <div class="tm-text"><p>I had the pleasure of working with Théo on a 10-day freelance project involving R coding and data visualization. Théo is not only highly skilled but also very approachable and easy to communicate with. He quickly understood the project's requirements and delivered high-quality results.</p><p>He is exceptionally organized, and his outputs, including Quarto scripts, were impeccable and well-documented. His professionalism and efficiency made the entire process smooth and enjoyable. I would highly recommend Théo for any project requiring expertise in data analysis and visualization.</p></div>
     <button class="tm-toggle" type="button" hidden>Read more</button>
     <footer><img src="/assets/img/testimonials/Muriel_Gros-Balthazard.jpeg" alt="Dr. Muriel Gros-Balthazard"><span><b>Dr. Muriel Gros-Balthazard</b>French National Research Institute for Sustainable Development</span></footer>
+  </blockquote>
+  <blockquote class="tm-card">
+    <div class="tm-text"><p>I’ve had the pleasure of working with Théo on two projects, one on the conservation of living sharks and the other on the shark fossil record, which let me see him both as a project leader and as a collaborator. In both roles he was professional, pragmatic and punctual, and communicating with him was smooth and efficient, even though we worked entirely remotely.</p><p>Together we developed a Shiny application that accompanies a large dataset of fossil shark occurrences. Théo brought excellent ideas and solutions that made the application efficient, user-friendly and visually appealing. I look forward to collaborating with him again in the future!</p></div>
+    <button class="tm-toggle" type="button" hidden>Read more</button>
+    <footer><span class="tm-ini" aria-hidden="true">KK</span><span><b>Dr. Kristína Kocáková</b>Postdoctoral Researcher, University of São Paulo</span></footer>
   </blockquote>
   <blockquote class="tm-card">
     <div class="tm-text"><p>During Theo's time as a postdoctoral researcher with the IUCN Species Survival Commission's Shark Specialist Group and the Important Shark and Ray Areas (ISRA) initiative, he played a crucial role in coordinating ISRA proposals for the Western Indian Ocean.</p><p>As the coordinator for Mauritius, Theo's leadership was instrumental in our successful collaboration, resulting in the designation of Egmont Atoll in the Chagos Archipelago, a vital habitat for reef manta rays.</p><p>His expertise and guidance were key to this achievement, marking a significant milestone for reef manta ray conservation efforts in the Indian Ocean.</p></div>
