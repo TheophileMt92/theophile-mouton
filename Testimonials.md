@@ -41,6 +41,11 @@ a.tm-btn.ghost { background: transparent; color: #193747 !important; }
 
 <div class="tm-grid" id="tm-grid">
   <blockquote class="tm-card">
+    <div class="tm-text"><p>Théophile worked with me on a scientific project on the global conservation priorities of sharks. He led the project and worked independently while coordinating effectively with all collaborators, and consistently delivered on time.</p><p>He is a highly talented, rigorous scientist with outstanding data science skills and deep domain knowledge in biology and ecology. I’d happily work with him again.</p></div>
+    <button class="tm-toggle" type="button" hidden>Read more</button>
+    <footer><span class="tm-ini" aria-hidden="true">DS</span><span><b>Dr. Daniele Silvestro</b>Computational biologist, ETH Zurich</span></footer>
+  </blockquote>
+  <blockquote class="tm-card">
     <div class="tm-text"><p>Théophile and I have teamed up on several data science projects, and it’s always a pleasure. He’s productive, solution-oriented, curious, and delivers top-quality work every time. I can’t recommend him highly enough.</p></div>
     <button class="tm-toggle" type="button" hidden>Read more</button>
     <footer><img src="/assets/img/testimonials/Yan_Holtz.jpg" alt="Yan Holtz"><span><b>Yan Holtz</b>Creator of the R, Python and React Graph Galleries and Data-to-Viz</span></footer>
